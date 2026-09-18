@@ -255,6 +255,7 @@ http://kinowalk.hopto.org/nostal77_live
 http://kinowalk.hopto.org/channel36774366_live
 #EXTINF:-1 group-title="Kinowalk" tvg-logo="https://i.ibb.co/FqLwshg8/avatar-2-20.jpg", RetroMus
 http://kinowalk.hopto.org/retromus_live
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/2na2.png", 2x2
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/5minuttishiny.png", 5 minut tishiny
@@ -263,12 +264,11 @@ https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/balabol.png", Balabol
 https://cdn-dvr.ntv.ru/Balabol/index.m3u8
-
-#EXTINF:-1 group-title="IPTV-ORG", Channel 10
+#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://i.ibb.co/ZRrNbNmS/channels4-profile.jpg", Channel 10
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/pervy.png", Channel One HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 group-title="IPTV-ORG", Groznyj
+#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://i.ibb.co/WNTtyVc0/58fa70234a04d7e1.jpg", Groznyj
 https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/horoshee-kino.png", Horoshee Kino
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8

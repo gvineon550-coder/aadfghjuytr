@@ -258,84 +258,124 @@ http://kinowalk.hopto.org/retromus_live
 
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/2na2.png", 2x2
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/5minuttishiny.png", 5 minut tishiny
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/Mk04jGHm/images-3.jpg", 5 minut tishiny
 https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/360-podmoskovie.png", 360°
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/balabol.png", Balabol
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/LDF28ByF/images-4.jpg", Balabol
 https://cdn-dvr.ntv.ru/Balabol/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://i.ibb.co/ZRrNbNmS/channels4-profile.jpg", Channel 10
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/pervy.png", Channel One HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://i.ibb.co/WNTtyVc0/58fa70234a04d7e1.jpg", Groznyj
 https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/horoshee-kino.png", Horoshee Kino
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/mir.png", Mir HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/moskva-24.png", Moskva 24
 https://stream.smotrim.ru/hls2/moscow_24/playlist_3.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/moskva-doverie.png", Moskva. Doveriye
 https://stream.smotrim.ru/hls2/doverie/playlist_3.m3u8
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/nevskiy.png", Nevskiy
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/bcKTXfD/image.jpg", Nevskiy
 https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/ntv.png", NTV HD
 https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/ntv.png", NTV HD (flussonic)
 http://flussonic.linkintel.ru/ntv/index.m3u8
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/perviy-otdel.png", Perviy otdel
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/V087T3sd/136813.jpg", Perviy otdel
 https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/pes.png", Pes
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/vvmfYkCJ/images-5.jpg", Pes
 https://cdn-dvr.ntv.ru/Pes/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/radio-rossii.png", Radio Rossii
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/rossia1.png", Russia-1 HD
 https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/rossia-24.png", Russia-24
 https://stream.smotrim.ru/hls2/russia24nl_smotrim/playlist_5.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/kultura.png", Russia-K HD
 https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/shef.png", Shef
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/jvhFgSg1/images-6.jpg", Shef
 https://cdn-dvr.ntv.ru/Shef/index.m3u8
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/skoraya-pomoshch.png", Skoraya pomoshch
+
+#EXTINF:-1 group-title="НТВ Сериалы" tvg-logo="https://i.ibb.co/C5bHCkrF/images-7.jpg", Skoraya pomoshch
 https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/solovjinypomiot.png", Solovyov Live
 https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/super.png", Subbota!
 https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?e=2070278263&s=is_mLq_kjPYLsOJ4qj85tw&scheme=https
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/yu.png", U
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/vesti-fm.png", Vesti FM
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/zvezda.png", Zvezda HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG", Большая Азия
 http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/izvestia.png", Известия
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/mir24.png", Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/muz-soyuz.png", Муз союз
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/rbk.png", РБК-ТВ
 http://online-video.rbc.ru/online2/rbctv.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG", Страна FM
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/tvcentr.png", ТВ Центр
 https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/shanson-tv.png", Шансон ТВ
 http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/kino-tv.png", Kino TV
 http://flussonic.linkintel.ru/kino-tv/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/tvoyo-tv-hd.png", Твое TV HD
 http://tvoetv.space:8080/tvoetv/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/tvoetv-humor.png", Твое ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG", Star Cinema
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
+
 #EXTINF:-1 group-title="IPTV-ORG", Star Family
 https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.one/img/1031.png" group-title="Кино",Fox HD
 https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=DJkonOQqp8dVDkghULZx7w&e=2089066052&scheme=https
 #EXTINF:-1 tvg-logo="http://epg.one/img/615.png" group-title="Кино",Fox Life HD

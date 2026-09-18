@@ -497,3 +497,24 @@ https://bl.rutube.ru/livestream/e08e513c4e33f52fce3a975b5cb6932c/index.m3u8?s=CD
 https://bl.rutube.ru/livestream/dcd36c7833f9431e6e6c902515c6c3ac/index.m3u8?s=V6xxaC-8NJNujIneTTwOQQ&e=2088894152&scheme=https
 #EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-27/c1/58/c158f2953bf501c79015111beffbc606.jpg" tvg-id="no_epg_cinema" group-title="Кино",Гарри Поттер
 https://bl.rutube.ru/livestream/f6a3656e5ef574982994ddf2e5003341/index.m3u8?s=w3HwRFG8CRLteg6rMlCSXQ&e=2088894152&scheme=https
+
+#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/ynjYP4x1/images-9.jpg", Киножелезо
+https://river-6-601.rtbcdn.ru/stream/genetta-315.m9.rutube.ru/AzVYa4j9-dMSVzq1FSdlng/1790347852/4965b7b928c4a143d708ab424be01d37/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/FqXSNNp5/channels4-profile-2.jpg", Кино и жизнь
+https://river-4-423.rtbcdn.ru/stream/genetta-406.ntv.rutube.ru/5LN1KrlRLIdBrWL9Jo_ivA/1790348260/09e51eefa939595a4ac67182c6fb3e4e/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/p69fRvGs/channels4-profile-1.jpg", Детективы каждый день
+https://river-m9-rtk-d3116.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/w0kZktDJGscse67sZzDSFg/1790348363/e05401be60a9cc719fa7075b6e77b86d/720p_stream.m3u8
+
+#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/YBzx2y8s/images-10.jpg", Mix Apple TV
+https://river-1.rutube.ru/stream/genetta-420.ntv.rutube.ru/XDz06VpcTiUD1S8MOfqgPQ/1790349851/478a825bfd784e1e9de08ceceb3d2121/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/99ZvhNN6/images-8.jpg", Dvach
+https://river-m9-rtk-351.rtbcdn.ru/stream/genetta-406.ntv.rutube.ru/qgpVtkUD7TWUEZOahapTmA/1790349645/300560a65014ec501a25b1f79df9ad90/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/bMd3J9Yq/images-11.jpg", Y TV
+https://river-m9-rtk-318.rtbcdn.ru/stream/genetta-412.ntv.rutube.ru/xrjFVUQcXyF0ZFwgAnLBvA/1790349297/673b559e08f8b99d65a4e8fbbceb911b/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Хит-парад" tvg-logo="https://i.ibb.co/rf4T831v/images-12.jpg", Муз ТВ
+https://river-m9-rtk-d3115.rtbcdn.ru/stream/genetta-314.m9.rutube.ru/2Y8szxqzArlniyVdFwmkAQ/1790349216/df6fe73494a26f74da51573fd97b9baa/1080p_stream.m3u8

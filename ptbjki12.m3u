@@ -447,9 +447,6 @@ https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/solovjinypomiot.png", Solovyov Live
 https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
 
-#EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/super.png", Subbota!
-https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?e=2070278263&s=is_mLq_kjPYLsOJ4qj85tw&scheme=https
-
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/yu.png", U
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
 

@@ -365,7 +365,25 @@ https://bl.rutube.ru/livestream/c9b87c0b00cfff9b37f95b9c8e4eed42/index.m3u8?s=EL
 https://balancer.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 #EXTINF:-1 tvg-logo="http://epg.one/img/1683.png" group-title="Новости",Россия 24
 
+#EXTINF:-1 tvg-logo="http://telik.live/images/fmc-tv.png" tvg-id="no_epg_cinema" group-title="Kinowalk TV", FantasticMistyc
+rtmp://vkvsd199.okcdn.ru/playback/3780958366657?stkn=c3qCEto7Z19Gl6AT2PFZujdHvggU3zjJ1Wd4nvkEESOm9yVb5Ua8iL_YwVUg7G8dNsZOAkV5dUs&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/d0/24/d02422c0078c8517a1a4c2678a25529b.jpg" tvg-id="no_epg_cinema" group-title="Kinowalk TV",Фильмач
+https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=ts6K4yoGVWl3-MeiAHjvnw&e=2088807301&scheme=https
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/c4/53/c453149b8774d33966cf7967c0647bfd.jpg" tvg-id="no_epg_cinema" group-title="Kinowalk TV",Epic Media Love
+https://bl.rutube.ru/livestream/21f3993ed8291b70208aa06c982c731f/index.m3u8?s=O_uQSQyXnTgjsU14sGfEuw&e=2088807304&scheme=https
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/UFOTVM/LOGO/refs/heads/main/TVseries.jpg" tvg-id="no_epg_cinema" group-title="Kinowalk TV", TV Series
+rtmp://vkvsd258.okcdn.ru/playback/4212830514154?stkn=3-5AxYkRTClGxxwNYsB-PosDfNMu_Z8wVCxKPRiA5P1eG-dXv3IyUKjRPAmaGd92HY3VjEPNPE4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-logo="https://sun9-81.userapi.com/WJ0Zg9HH9jna5O1M4BwV5rpMcJuCL_GAyd5Luw/HXvx3v4PSec.jpg" tvg-id="no_epg_cinema" group-title="Kinowalk TV", TDM KINO
+rtmp://vkvsd79.okcdn.ru/playback/11865043512184?stkn=iP9X2jyo6Zr-w_LUZKkXvBaBp3-lOX9JjFgyOpcPnbsjorW-MN9cBeUsyuGVMWt0uqYPqhnhKxwK&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://i128.fastpic.org/big/2026/0730/e6/455f183c1745a2acf6f6e223f80129e6.jpg" group-title="Kinowalk TV",VB Всё в одном
+http://kinowalk.hopto.org/vb-all-in-one_live
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://s6.iimage.su/s/06/gnyQeTex0fqIpdBByaiOiDoVXqaKsc43DiiS9Qq6v.jpg" group-title="Kinowalk TV",VB Российские сериалы
+http://kinowalk.hopto.org/russerials_live
 
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rentv.png" tvg-id="rentv" group-title="Основные", Рен ТВ HD
+https://edge06r.mediavitrina.ru/hls-livef5/ren-tv/index.m3u8?token=v2.QtsBgF5FCLsH9D3qsgEW5-NwNKDGpo-8gHIX5o3HHhY.bFdddgsbZdsB48hzTooQA_JuzSko63mRxcInM1eKox8.1789727695.eddc85790cc790afb1ff14f199d425ba
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy.png" tvg-id="pervy" group-title="Основные", Первый FHD
+https://edge01d.mediavitrina.ru/hls-livef6/1tv/index.m3u8?token=v2.oAx3KvOQkBfEZwygh8TUFEzSMx9wXgIem00nSa0-WuE.bOtonTX_m0LkcDbuT8Zd0W_idtMCBu7lXp8uCF2JM5s.1789727577.d546d135a91a1b796a22b8d2af8aad6a
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy.png" tvg-id="pervy" group-title="Основные", Первый HD
 https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=S18LD_G9b2BgxLMuDWfQPQ&e=2072222109&scheme=https
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rossia1.png" tvg-id="rossia1" group-title="Основные", Россия 1 HD

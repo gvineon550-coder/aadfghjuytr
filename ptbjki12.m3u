@@ -501,6 +501,9 @@ https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=DJ
 #EXTINF:-1 tvg-logo="http://epg.one/img/615.png" group-title="Кино",Fox Life HD
 https://bl.rutube.ru/livestream/f27b804a6f805cb66ff83d4930bd17ff/index.m3u8?s=60h9IAEA6akbYgQLX_iStg&e=2089065868&scheme=https
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dDswaTy.png" group-title="Кинозалы",Star Media HD
+https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=FabXp0a_iO4SLO3EW-QvNQ&e=2088603429&scheme=https
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Dtfx3C0.png" group-title="Кинозалы",VB Российские сериалы HD
 http://kinowalk.hopto.org/russerials_live
 
@@ -669,9 +672,6 @@ https://river-m9-rtk-d3116.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/w0kZktDJGsc
 
 #EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/YBzx2y8s/images-10.jpg", Mix Apple TV
 https://river-1.rutube.ru/stream/genetta-420.ntv.rutube.ru/XDz06VpcTiUD1S8MOfqgPQ/1790349851/478a825bfd784e1e9de08ceceb3d2121/1080p_stream.m3u8
-
-#EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/99ZvhNN6/images-8.jpg", Dvach
-https://river-m9-rtk-351.rtbcdn.ru/stream/genetta-406.ntv.rutube.ru/qgpVtkUD7TWUEZOahapTmA/1790349645/300560a65014ec501a25b1f79df9ad90/1080p_stream.m3u8
 
 #EXTINF:-1 group-title="Фильмотека" tvg-logo="https://i.ibb.co/bMd3J9Yq/images-11.jpg", Y TV
 https://river-m9-rtk-318.rtbcdn.ru/stream/genetta-412.ntv.rutube.ru/xrjFVUQcXyF0ZFwgAnLBvA/1790349297/673b559e08f8b99d65a4e8fbbceb911b/1080p_stream.m3u8

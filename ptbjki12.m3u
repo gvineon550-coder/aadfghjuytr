@@ -384,6 +384,15 @@ http://kinowalk.hopto.org/channel36774366_live
 #EXTINF:-1 group-title="Kinowalk" tvg-logo="https://i.ibb.co/FqLwshg8/avatar-2-20.jpg", RetroMus
 http://kinowalk.hopto.org/retromus_live
 
+#EXTINF:-1 group-title="Kinowalk" tvg-logo="https://i.ibb.co/ccT7g2Ck/avatar-1.jpg", Kurt TV
+http://kinowalk.hopto.org/_kurt_tv__live
+
+#EXTINF:-1 group-title="Kinowalk" tvg-logo="https://i.ibb.co/D64CdZc/avatar.png", Film4KHDClub
+http://kinowalk.hopto.org/film4khdclub_live
+
+#EXTINF:-1 group-title="Kinowalk" tvg-logo="https://i.ibb.co/NnQ3QCx1/avatar.jpg", Paranormal404
+http://kinowalk.hopto.org/paranormal404_live
+
 #EXTINF:-1 group-title="IPTV-ORG" tvg-logo="https://epg.iptvx.one/picons/2na2.png", 2x2
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 

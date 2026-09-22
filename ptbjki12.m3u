@@ -592,10 +592,6 @@ https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt.png" tvg-id="tnt" group-title="Основные", ТНТ HD
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=E0R2kfCL_-Hcl58HPM1jgA&e=2072222110&scheme=https
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sts.png" tvg-id="sts" group-title="Основные", СТС HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge05p.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2.fexaRexresp8eboWa8KgxIfab84JZbBkItIHFEcFop0.-l-3grNRB9wxDavMcqYYkFg4DBif6tuJdmb1NFA5poQ.1789727783.747e9a76fec31107c3eb19cf1977cecd
-
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" group-title="Основные",ТВ3 HD
 https://bl.rutube.ru/livestream/7bf12d9c050f9a7ef3728db5730432ae/index.m3u8?s=574vg6yabF0PZrSsdpRKuw&e=2069846623&scheme=https
 

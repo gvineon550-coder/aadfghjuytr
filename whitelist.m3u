@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptvx.one/EPG,http://epg.one/epg2.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz,http://epg.it999.ru/epg2.xml.gz,http://www.teleguide.info/download/new3/xmltv.xml.gz"
 
 #EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="Kinowalk",Kinowalk_tv
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
@@ -628,18 +628,6 @@ https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=2w
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=MchU3jytJK5_XoSzeP_PJA&e=2090410583&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Россия 24
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/ad6ba2e9e587406b29978b861b7b7dd1/index.m3u8?s=2xI0szFZPbr-yIu5m8Ee2Q&e=2090410051&scheme=https
-
-#EXTINF:-1 group-title="Rutube",Тнт
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=2wFiZzRdBsgLEi-A59erSg&e=2090410357&scheme=https
-
-#EXTINF:-1 group-title="Rutube",Тнт 4
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=MchU3jytJK5_XoSzeP_PJA&e=2090410583&scheme=https
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/animach.jpg" group-title="Rutube",Анимач
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/b3019a8983105f5e33f038246f860c32/index.m3u8?s=6dkVBoo-i3EU22zeb39XRw&e=2090410980&scheme=https
@@ -690,7 +678,7 @@ https://bl.rutube.ru/livestream/2814e12b4ef6c528967736441c2e2803/index.m3u8?s=g9
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/latinos.jpeg" group-title="Rutube",Латиноамериканские кино и сериалы
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/4d06d4d152d087f3792a5b15dc729562/index.m3u8?s=XNy8zs-nADoWvtgFatx0PA&e=2090413023&scheme=https 
+https://bl.rutube.ru/livestream/4d06d4d152d087f3792a5b15dc729562/index.m3u8?s=XNy8zs-nADoWvtgFatx0PA&e=2090413023&scheme=https
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/muzach.jpg" group-title="Rutube",Музач
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
@@ -780,186 +768,22 @@ https://bl.rutube.ru/livestream/f27b804a6f805cb66ff83d4930bd17ff/index.m3u8?s=mE
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=6U2H53WuJxFduCItVrD7Qg&e=2090673740&scheme=https
 
-EXTINF:-1 tvg-id="NTVSvoyaigra.ru" tvg-logo="https://dictant.rgo.ru/sites/default/files/styles/fullscreen/public/logo3.png" group-title="📡 Федеральные",НТВ Своя игра
+#EXTINF:-1 tvg-id="NTVSvoyaigra.ru" tvg-logo="https://dictant.rgo.ru/sites/default/files/styles/fullscreen/public/logo3.png" group-title="📡 Федеральные",НТВ Своя игра
 #EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
 https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8
-#EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg" group-title="📺 Сериалы",Смотрим Честный Детектив
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="5minuttishiny.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg" group-title="🎞 Сериалы НТВ",Пять минут тишины
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
-#EXTINF:-1 tvg-id="Balabol.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/balabol_vse.jpg" group-title="🎞 Сериалы НТВ",Балабол
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/Balabol/index.m3u8
-#EXTINF:-1 tvg-id="Nevskiy.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/nevski_llive.jpg" group-title="🎞 Сериалы НТВ",Невский
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
-#EXTINF:-1 tvg-id="Perviyotdel.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/perv_otdel_llive.jpg" group-title="🎞 Сериалы НТВ",Первый отдел
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
-#EXTINF:-1 tvg-id="pes-ua" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/pes_llive.jpg" group-title="🎞 Сериалы НТВ",Пес HD
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/Pes/index.m3u8
-#EXTINF:-1 tvg-id="Shef.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/shef_llive.jpg" group-title="🎞 Сериалы НТВ",Шеф
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/Shef/index.m3u8
-#EXTINF:-1 tvg-id="Skorayapomoshch.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/skoraya_pom_llive.jpg" group-title="🎞 Сериалы НТВ",Скорая помощь
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
-https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
-#EXTM3U  url-tvg="https://iptvx.one/EPG,http://epg.one/epg2.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz,http://epg.it999.ru/epg2.xml.gz,http://www.teleguide.info/download/new3/xmltv.xml.gz"
-#EXTINF:-1 group-title="Россия #IPTV" tvg-logo="https://zuno.surge.sh/info.jpg",Info
-https://zuno.surge.sh/info.mp4
-#EXTINF:-1 group-title="Россия #IPTV",Первый канал 
-https://flussonic.mkpnet.ru/tv-4f9598ab5f91dca4/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Россия 1 
-https://flussonic.mkpnet.ru/tv-d696bdfd6a0e4373/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Россия 24 
-https://flussonic.mkpnet.ru/tv-6c5b49dbcf811fc6/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",5 Канал 
-https://flussonic.mkpnet.ru/tv-a5ff8c7a86c8b951/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Россия К 
-https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Мир24 
-https://flussonic.mkpnet.ru/tv-d76fe26181666459/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",РБК 
-https://flussonic.mkpnet.ru/tv-d76fe26181666459/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",RT Doc HD 
-https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",TPO 
-https://flussonic.mkpnet.ru/tv-1a9f2076ff8cd0f3/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",ТВЦ 
-https://flussonic.mkpnet.ru/tv-b76bb5b80615eed6/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",НТВ 
-https://flussonic.mkpnet.ru/tv-1bc5d712ea5ace74/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",ТВ-3 
-https://flussonic.mkpnet.ru/tv-b9ddf7deb3d25757/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Рен-ТВ 
-https://flussonic.mkpnet.ru/tv-44dfec2799c5738e/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",СТС 
-https://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",CTC Love 
-https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",ТНТ 4 
-https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Че! 
-https://flussonic.mkpnet.ru/tv-cf5a26a180f402ef/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Ю 
-https://flussonic.mkpnet.ru/tv-3b21847ece4b1c19/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",ОТР 
-https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Домашний 
-https://flussonic.mkpnet.ru/tv-b515ccce67923f8a/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Пятнитца! 
-https://flussonic.mkpnet.ru/tv-7d5e5db805057e8f/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",8 Канал 
-https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Красная Линия 
-https://flussonic.mkpnet.ru/tv-3c6edc849aea7c07/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Точка ТВ 
-https://flussonic.mkpnet.ru/tv-297099e2d5179304/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Продвижение 
-https://flussonic.mkpnet.ru/tv-86cc4bfff941b275/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Суббота 
-https://flussonic.mkpnet.ru/tv-2e0a7cc949958b60/video.m3u8
-#EXTINF:-1 group-title="Россия #IPTV",Успех 
-https://flussonic.mkpnet.ru/tv-324fe9acc597fbc1/video.m3u8
 
-#EXTINF:-1 group-title="Кино #IPTV",Amedia HIT 
-https://flussonic.mkpnet.ru/tv-8f04998179283ee5/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Amedia 2 
-https://flussonic.mkpnet.ru/tv-cad19a32f4a82824/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",viju TV1000 
-https://flussonic.mkpnet.ru/tv-aab84159a39fbe84/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Rviju TV1000 Action 
-https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",viju TV1000 Русское 
-https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",viju+ Comedy 
-https://flussonic.mkpnet.ru/tv-c385ec3bab3a3605/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",viju+ megahit 
-https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",viju+ premiere 
-https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Киносат 
-https://flussonic.mkpnet.ru/tv-e055808223a74709/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Киносвидание 
-https://flussonic.mkpnet.ru/tv-be2ba983babad866/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Кинохит 
-https://flussonic.mkpnet.ru/tv-513b9c22f4277475/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Русский Бестселлер 
-https://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Русский Детектив 
-https://flussonic.mkpnet.ru/tv-2997fed720614567/video.m3u8
-#EXTINF:-1 group-title="Кино #IPTV",Русский Роман 
-https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
-
-#EXTINF:-1 group-title="Спорт #IPTV",Extreme Sports 
-https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
-#EXTINF:-1 group-title="Спорт #IPTV",КХЛ 
-https://flussonic.mkpnet.ru/tv-e3d23fc7511b5fcd/video.m3u8
-https://flussonic.mkpnet.ru/tv-7a5f996197077375/video.m3u8
-#EXTINF:-1 group-title="Спорт #IPTV",МАТЧ! Арена 
-https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
-#EXTINF:-1 group-title="Спорт #IPTV",МАТЧ! Премьер 
-https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
-#EXTINF:-1 group-title="Спорт #IPTV",МАТЧ! 
-https://flussonic.mkpnet.ru/tv-d3098523a4409835/video.m3u8
-#EXTINF:-1 group-title="Спорт #IPTV",МАТЧ! Игра 
-https://flussonic.mkpnet.ru/tv-1bfac9df3d938c1f/video.m3u8
-#EXTINF:-1 group-title="Спорт #IPTV",МАТЧ! Страна 
-https://flussonic.mkpnet.ru/tv-6db4f59c21aec361/video.m3u8
-
-#EXTINF:-1 group-title="Познавательный #IPTV",Viasat Explore 
-https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Viasat History 
-https://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Viasat Nature 
-https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Бобер
-https://flussonic.mkpnet.ru/tv-319cadb3fff5fb3e/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Большая азия 
-https://flussonic.mkpnet.ru/tv-d5d21f78cdf69c47/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Живи Активно 
-https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Здоовое ТВ 
-https://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Моя планета 
-https://flussonic.mkpnet.ru/tv-6febc5aecf84848d/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Наша тема 
-https://flussonic.mkpnet.ru/tv-c922a9201f5073f8/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Точка отрыва 
-https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Авто24 
-https://flussonic.mkpnet.ru/tv-a5fa84789fc4add5/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Загородная Жизнь
-https://flussonic.mkpnet.ru/tv-a651b413f5cb4c44/video.m3u8
-#EXTINF:-1 group-title="Познавательный #IPTV",Мужской 
-https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
-
-#EXTINF:-1 group-title="Музыка #IPTV",Bridge TV 
-https://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
-#EXTINF:-1 group-title="Музыка #IPTV",Europa Plus
-https://flussonic.mkpnet.ru/tv-0f5fe3eb19ad83d9/video.m3u8
-#EXTINF:-1 group-title="Музыка #IPTV",Ru TV 
-https://flussonic.mkpnet.ru/tv-64b2c4ff13365817/video.m3u8
-#EXTINF:-1 group-title="Музыка #IPTV",TNT Music 
-https://flussonic.mkpnet.ru/tv-6683d71aa818d0a0/video.m3u8
-#EXTINF:-1 group-title="Музыка #IPTV",Жара ТВ 
-https://flussonic.mkpnet.ru/tv-3cdc33d3606ba23f/video.m3u8
-#EXTINF:-1 group-title="Музыка #IPTV",Муз ТВ 
-https://flussonic.mkpnet.ru/tv-4a4cb3e0aac082c9/video.m3u8
-#EXTINF:-1 group-title="Музыка #IPTV",Шансон ТВ 
-https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="📡 Федеральные",НТВ HD [cdn-dvr.ntv.ru]
 #EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
 https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
+
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="📡 Федеральные",НТВ HD [flussonic.linkintel.ru]
 #EXTVLCOPT:http-user-agent=WINK/RT_(Android_TV/11)_WinkPlayer_AppleWebKit/537.36
 http://flussonic.linkintel.ru/ntv/index.m3u8
+
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="📡 Федеральные",НТВ
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/ntv-spb/index.m3u8
+
 #EXTINF:-1 tvg-id="ntv-serial" tvg-logo="https://i.imgur.com/QdVa8tl.png" group-title="📡 Федеральные",НТВ Сериал
 #EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
 http://stream.mcquack.net/301/index.m3u8
@@ -967,36 +791,283 @@ http://stream.mcquack.net/301/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="📡 Федеральные",NTV (Russia) +1 (576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/ntv1/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="📡 Федеральные",NTV (Russia) +2 (576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/ntv2/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="📡 Федеральные",NTV (Russia) +4 (576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/ntv4/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="📡 Федеральные",NTV (Russia) +7 (576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/ntv7/playlist.m3u8
+
 #EXTINF:-1 tvg-id="ntv-pravo" tvg-logo="https://i.imgur.com/3ChnWGg.png" group-title="📡 Федеральные",НТВ Право
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/th_pravo/playlist.m3u8
+
 #EXTINF:-1 tvg-id="ntv-style" tvg-logo="https://i.imgur.com/rX6K6qT.png" group-title="📡 Федеральные",НТВ Стиль
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://cdn.ntv.ru/th_style/playlist.m3u8
+
 #EXTINF:-1 tvg-id="zvezda-plus" tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="📡 Федеральные",Звезда Плюс HD
 #EXTVLCOPT:http-user-agent=WINK/RT_(Android_TV/11)_WinkPlayer_AppleWebKit/537.36
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-klassika" tvg-logo="https://i.imgur.com/aASNpKq.png" group-title="🎬 Кино",Смотрим 100% Классика
+
+#EXTINF:-1 tvg-id="5minuttishiny.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg" group-title="🎞 Сериалы НТВ",Пять минут тишины
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
+
+#EXTINF:-1 tvg-id="Balabol.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/balabol_vse.jpg" group-title="🎞 Сериалы НТВ",Балабол
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/Balabol/index.m3u8
+
+#EXTINF:-1 tvg-id="Nevskiy.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/nevski_llive.jpg" group-title="🎞 Сериалы НТВ",Невский
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
+
+#EXTINF:-1 tvg-id="Perviyotdel.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/perv_otdel_llive.jpg" group-title="🎞 Сериалы НТВ",Первый отдел
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
+
+#EXTINF:-1 tvg-id="pes-ua" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/pes_llive.jpg" group-title="🎞 Сериалы НТВ",Пёс HD
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/Pes/index.m3u8
+
+#EXTINF:-1 tvg-id="Shef.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/shef_llive.jpg" group-title="🎞 Сериалы НТВ",Шеф
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/Shef/index.m3u8
+
+#EXTINF:-1 tvg-id="Skorayapomoshch.ru" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/skoraya_pom_llive.jpg" group-title="🎞 Сериалы НТВ",Скорая помощь
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
+
+#EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg" group-title="👁️ Смотрим",Смотрим • Честный Детектив
+#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="smotrim-100-klassika" tvg-logo="https://i.imgur.com/aASNpKq.png" group-title="👁️ Смотрим",Смотрим • 100% Классика
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0 (Linux; Android 11; Sony Smart TV)
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-lubov" tvg-logo="https://i.imgur.com/4EFh0nu.png" group-title="🎭 Развлекательные",Смотрим 100% Любовь
+
+#EXTINF:-1 tvg-id="smotrim-100-lubov" tvg-logo="https://i.imgur.com/4EFh0nu.png" group-title="👁️ Смотрим",Смотрим • 100% Любовь
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0 (Linux; Android 11; Sony Smart TV)
 https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-muzhskoe" tvg-logo="https://i.imgur.com/UY3fjYU.png" group-title="🎭 Развлекательные",Смотрим 100% Мужское
+
+#EXTINF:-1 tvg-id="smotrim-100-muzhskoe" tvg-logo="https://i.imgur.com/UY3fjYU.png" group-title="👁️ Смотрим",Смотрим • 100% Мужское
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0 (Linux; Android 11; Sony Smart TV)
 https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-prazdnik" tvg-logo="https://i.imgur.com/NEcqFse.png" group-title="🎭 Развлекательные",Смотрим 100% Праздник
+
+#EXTINF:-1 tvg-id="smotrim-100-prazdnik" tvg-logo="https://i.imgur.com/NEcqFse.png" group-title="👁️ Смотрим",Смотрим • 100% Праздник
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0 (Linux; Android 11; Sony Smart TV)
 https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8
-#EXTINF:-1 tvg-id="smotrim-100-fakty" tvg-logo="https://i.imgur.com/dB3cJzO.png" group-title="🌍 Познавательные",Смотрим 100% Факты
+
+#EXTINF:-1 tvg-id="smotrim-100-fakty" tvg-logo="https://i.imgur.com/dB3cJzO.png" group-title="👁️ Смотрим",Смотрим • 100% Факты
 #EXTVLCOPT:http-user-agent=TiviMate/4.7.0 (Linux; Android 11; Sony Smart TV)
 https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
+
+#EXTINF:-1 group-title="ℹ️ Инфо" tvg-logo="https://zuno.surge.sh/info.jpg",Info
+https://zuno.surge.sh/info.mp4
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Первый канал
+https://flussonic.mkpnet.ru/tv-4f9598ab5f91dca4/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Россия 1
+https://flussonic.mkpnet.ru/tv-d696bdfd6a0e4373/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Россия 24
+https://flussonic.mkpnet.ru/tv-6c5b49dbcf811fc6/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",5 канал
+https://flussonic.mkpnet.ru/tv-a5ff8c7a86c8b951/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Россия К
+https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Мир 24
+https://flussonic.mkpnet.ru/tv-d76fe26181666459/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",RT Doc HD
+https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",TPO
+https://flussonic.mkpnet.ru/tv-1a9f2076ff8cd0f3/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",ТВ Центр
+https://flussonic.mkpnet.ru/tv-b76bb5b80615eed6/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",НТВ
+https://flussonic.mkpnet.ru/tv-1bc5d712ea5ace74/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",ТВ-3
+https://flussonic.mkpnet.ru/tv-b9ddf7deb3d25757/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",РЕН ТВ
+https://flussonic.mkpnet.ru/tv-44dfec2799c5738e/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",СТС
+https://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",СТС Love
+https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",ТНТ 4
+https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Че!
+https://flussonic.mkpnet.ru/tv-cf5a26a180f402ef/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Ю
+https://flussonic.mkpnet.ru/tv-3b21847ece4b1c19/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",ОТР
+https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Домашний
+https://flussonic.mkpnet.ru/tv-b515ccce67923f8a/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Пятница!
+https://flussonic.mkpnet.ru/tv-7d5e5db805057e8f/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",8 канал
+https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Красная линия
+https://flussonic.mkpnet.ru/tv-3c6edc849aea7c07/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Точка ТВ
+https://flussonic.mkpnet.ru/tv-297099e2d5179304/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Продвижение
+https://flussonic.mkpnet.ru/tv-86cc4bfff941b275/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Суббота
+https://flussonic.mkpnet.ru/tv-2e0a7cc949958b60/video.m3u8
+
+#EXTINF:-1 group-title="🇷🇺 Россия #IPTV",Успех
+https://flussonic.mkpnet.ru/tv-324fe9acc597fbc1/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Amedia Hit
+https://flussonic.mkpnet.ru/tv-8f04998179283ee5/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Amedia 2
+https://flussonic.mkpnet.ru/tv-cad19a32f4a82824/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",viju TV1000
+https://flussonic.mkpnet.ru/tv-aab84159a39fbe84/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",viju TV1000 Action
+https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",viju TV1000 Русское
+https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",viju+ Comedy
+https://flussonic.mkpnet.ru/tv-c385ec3bab3a3605/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",viju+ Megahit
+https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",viju+ Premiere
+https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Киносат
+https://flussonic.mkpnet.ru/tv-e055808223a74709/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Киносвидание
+https://flussonic.mkpnet.ru/tv-be2ba983babad866/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Кинохит
+https://flussonic.mkpnet.ru/tv-513b9c22f4277475/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Русский Бестселлер
+https://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Русский Детектив
+https://flussonic.mkpnet.ru/tv-2997fed720614567/video.m3u8
+
+#EXTINF:-1 group-title="🎬 Кино #IPTV",Русский Роман
+https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",Extreme Sports
+https://flussonic.mkpnet.ru/tv-1a9441fd32d63873/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",КХЛ
+https://flussonic.mkpnet.ru/tv-e3d23fc7511b5fcd/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",МАТЧ! Арена
+https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",МАТЧ! Премьер
+https://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",МАТЧ!
+https://flussonic.mkpnet.ru/tv-d3098523a4409835/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",МАТЧ! Игра
+https://flussonic.mkpnet.ru/tv-1bfac9df3d938c1f/video.m3u8
+
+#EXTINF:-1 group-title="⚽ Спорт #IPTV",МАТЧ! Страна
+https://flussonic.mkpnet.ru/tv-6db4f59c21aec361/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Viasat Explore
+https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Viasat History
+https://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Viasat Nature
+https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Бобёр
+https://flussonic.mkpnet.ru/tv-319cadb3fff5fb3e/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Большая Азия
+https://flussonic.mkpnet.ru/tv-d5d21f78cdf69c47/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Живи активно
+https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Здоровое ТВ
+https://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Моя планета
+https://flussonic.mkpnet.ru/tv-6febc5aecf84848d/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Наша тема
+https://flussonic.mkpnet.ru/tv-c922a9201f5073f8/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Точка отрыва
+https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Авто 24
+https://flussonic.mkpnet.ru/tv-a5fa84789fc4add5/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Загородная жизнь
+https://flussonic.mkpnet.ru/tv-a651b413f5cb4c44/video.m3u8
+
+#EXTINF:-1 group-title="🌍 Познавательные #IPTV",Мужской
+https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",Bridge TV
+https://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",Europa Plus
+https://flussonic.mkpnet.ru/tv-0f5fe3eb19ad83d9/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",Ru TV
+https://flussonic.mkpnet.ru/tv-64b2c4ff13365817/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",TNT Music
+https://flussonic.mkpnet.ru/tv-6683d71aa818d0a0/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",Жара ТВ
+https://flussonic.mkpnet.ru/tv-3cdc33d3606ba23f/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",Муз-ТВ
+https://flussonic.mkpnet.ru/tv-4a4cb3e0aac082c9/video.m3u8
+
+#EXTINF:-1 group-title="🎵 Музыка #IPTV",Шансон ТВ
+https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8

@@ -25,13 +25,14 @@ jobs:
         run: |
           curl -fsSL -o source_ru.m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u"
           curl -fsSL -o channels.json "https://iptv-org.github.io/api/channels.json"
-          [ -s source_ru.m3u ] && [ -s channels.json ] || { echo "Download failed" >&2; exit 1; }
+          curl -fsSL -o logos.json "https://iptv-org.github.io/api/logos.json"
+          [ -s source_ru.m3u ] && [ -s channels.json ] && [ -s logos.json ] || { echo "Download failed" >&2; exit 1; }
 
       - name: Enrich playlist (logos + Wink UA)
         run: python3 scripts/enrich.py
 
       - name: Cleanup temp files
-        run: rm -f source_ru.m3u channels.json
+        run: rm -f source_ru.m3u channels.json logos.json
 
       - name: Commit and push
         run: |

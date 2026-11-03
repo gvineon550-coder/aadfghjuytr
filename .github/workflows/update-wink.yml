@@ -1,0 +1,48 @@
+name: Update Wink IPTV playlist
+
+on:
+  schedule:
+    - cron: '0 3 * * *'      # 03:00 UTC = 06:00 МСК
+  workflow_dispatch:          # ручной запуск
+
+permissions:
+  contents: write             # нужно для сохранения файла в репо
+
+concurrency:
+  group: update-wink-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download sources
+        run: |
+          curl -fsSL -o source_ru.m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u"
+          curl -fsSL -o channels.json "https://iptv-org.github.io/api/channels.json"
+          [ -s source_ru.m3u ] && [ -s channels.json ] || { echo "Download failed" >&2; exit 1; }
+
+      - name: Enrich playlist (logos + Wink UA)
+        run: python3 scripts/enrich.py
+
+      - name: Cleanup temp files
+        run: rm -f source_ru.m3u channels.json
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add wink_ru.m3u
+          
+          if git diff --cached --quiet; then
+            echo "No changes — playlist up to date."
+            exit 0
+          fi
+          
+          git commit -m "chore: auto-update Wink playlist ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

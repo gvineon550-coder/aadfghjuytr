@@ -28,7 +28,7 @@ jobs:
           curl -fsSL -o logos.json "https://iptv-org.github.io/api/logos.json"
           [ -s source_ru.m3u ] && [ -s channels.json ] && [ -s logos.json ] || { echo "Download failed" >&2; exit 1; }
 
-      - name: Enrich playlist (logos + Wink UA)
+      - name: Enrich playlist (logos + Wink UA + EPG mapping)
         run: python3 scripts/enrich.py
 
       - name: Cleanup temp files

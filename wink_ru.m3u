@@ -144,7 +144,7 @@ http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1 tvg-id="da-vinci" tvg-logo="https://i.imgur.com/V8AUJP6.png" tvg-name="Da Vinci",Da Vinci
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="DanceHits80.ru@SD" tvg-logo="https://i.imgur.com/uMw3kks.png" tvg-name="DanceHits80",DanceHits80
+#EXTINF:-1 tvg-id="khit-hd" tvg-logo="https://i.imgur.com/uMw3kks.png" tvg-name="DanceHits80",DanceHits80
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" tvg-logo="https://i.imgur.com/EOue13e.png" tvg-name="Dikaya okhota HD (1080p)",Dikaya okhota HD (1080p)
@@ -231,7 +231,7 @@ http://stream.mcquack.net/305/index.m3u8
 #EXTINF:-1 tvg-id="gulli-girl" tvg-logo="https://i.imgur.com/lbViDuC.png" tvg-name="Gulli Girl (576p)",Gulli Girl (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://live-3.otcnet.ru/GulliGirl/index.m3u8
-#EXTINF:-1 tvg-id="Hit.ru@HD" tvg-logo="https://i.imgur.com/jl3MNPe.png" tvg-name="Hit HD (1080p)",Hit HD (1080p)
+#EXTINF:-1 tvg-id="khit-hd" tvg-logo="https://i.imgur.com/jl3MNPe.png" tvg-name="Hit HD (1080p)",Hit HD (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://stream.mcquack.net/363/index.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-logo="https://i.imgur.com/ZbOqfy4.png" tvg-name="Horoshee Kino (720p)",Horoshee Kino (720p)
@@ -336,7 +336,7 @@ https://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://i.imgur.com/Vw3LFLX.png" tvg-name="KVN TV (576p)",KVN TV (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://178.124.179.122:8080/KVN-TV/index.m3u8
-#EXTINF:-1 tvg-id="LawTV.ru@SD" tvg-logo="https://i.imgur.com/X0Vp6fd.png" tvg-name="Law TV (1080p)",Law TV (1080p)
+#EXTINF:-1 tvg-id="zakon-tv" tvg-logo="https://i.imgur.com/X0Vp6fd.png" tvg-name="Law TV (1080p)",Law TV (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1 tvg-id="maydan" tvg-logo="https://i.imgur.com/C8CCjZK.png" tvg-name="Maidan (720p)",Maidan (720p)
@@ -459,7 +459,7 @@ http://stream.mcquack.net/419/index.m3u8
 #EXTINF:-1 tvg-id="nashesd" tvg-logo="https://i.imgur.com/KO8dhi9.png" tvg-name="Nashe HD (576p)",Nashe HD (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://stream.mcquack.net/217/index.m3u8
-#EXTINF:-1 tvg-id="nashesd" tvg-logo="https://i.imgur.com/QRWKpmb.png" tvg-name="Nashe muzhskoe HD (1080p)",Nashe muzhskoe HD (1080p)
+#EXTINF:-1 tvg-id="nashe-muzhskoe-hd" tvg-logo="https://i.imgur.com/QRWKpmb.png" tvg-name="Nashe muzhskoe HD (1080p)",Nashe muzhskoe HD (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://stream.mcquack.net/362/index.m3u8
 #EXTINF:-1 tvg-id="nashe-novoe-kino" tvg-logo="https://i.imgur.com/IOxIsPj.png" tvg-name="Nashe Novoe Kino",Nashe Novoe Kino
@@ -700,7 +700,7 @@ https://vod.tuva.ru/rusroman/index.m3u8
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" tvg-logo="https://i.imgur.com/wJMTcFS.png" tvg-name="Rybolov (576p)",Rybolov (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://stream.mcquack.net/264/index.m3u8
-#EXTINF:-1 tvg-id="Ryzhiy.ru@SD" tvg-logo="https://i.imgur.com/acrU2IE.png" tvg-name="Ryzhiy (576i)",Ryzhiy (576i)
+#EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://i.imgur.com/acrU2IE.png" tvg-name="Ryzhiy (576i)",Ryzhiy (576i)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="SanktPeterburg.ru@HD" tvg-logo="https://i.imgur.com/9At4oG7.png" tvg-name="Sankt-Peterburg HD (720p)",Sankt-Peterburg HD (720p)
@@ -1468,7 +1468,7 @@ https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="prikluchenia-hd" tvg-logo="https://i.imgur.com/qQ6pPPQ.png" tvg-name="Priklyucheniya (576p)",Priklyucheniya (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ZhivayaPlaneta.ru@SD" tvg-logo="https://i.imgur.com/onNv1tM.png" tvg-name="Zhivaya Planeta (576p)",Zhivaya Planeta (576p)
+#EXTINF:-1 tvg-id="zhivaya-planeta" tvg-logo="https://i.imgur.com/onNv1tM.png" tvg-name="Zhivaya Planeta (576p)",Zhivaya Planeta (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="kultura-pl7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png" tvg-name="Russia-K (576p)",Russia-K (576p)
@@ -1699,7 +1699,7 @@ https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-logo="https://interra-cdn-europe1.b-cdn.net/soviet.png" tvg-name="Velvet. Sovetskoe Kino (1080p)",Velvet. Sovetskoe Kino (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
-#EXTINF:-1 tvg-id="VelvetSeriesHits.ru@HD" tvg-logo="https://antiabuse-container.b-cdn.net/serialyhity.png" tvg-name="Velvet. Series Hits (1080p)",Velvet. Series Hits (1080p)
+#EXTINF:-1 tvg-id="khit-hd" tvg-logo="https://antiabuse-container.b-cdn.net/serialyhity.png" tvg-name="Velvet. Series Hits (1080p)",Velvet. Series Hits (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
 #EXTINF:-1 tvg-id="modo-nightscary" tvg-logo="https://antiabuse-container.b-cdn.net/uzh1.png" tvg-name="Velvet. Scary (1080p)",Velvet. Scary (1080p)
@@ -1780,7 +1780,7 @@ http://176.118.197.101/2x2/index.m3u8
 #EXTINF:-1 tvg-id="evrokino" tvg-logo="https://i.imgur.com/8LPtPf6.png" tvg-name="Evrokino (576p)",Evrokino (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://176.118.197.101/Evrokino/index.m3u8
-#EXTINF:-1 tvg-id="mir-pl7" tvg-logo="https://i.imgur.com/uzj7wVp.png" tvg-name="Mir Seriala (576p)",Mir Seriala (576p)
+#EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://i.imgur.com/uzj7wVp.png" tvg-name="Mir Seriala (576p)",Mir Seriala (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://176.118.197.101/MirSeriala/index.m3u8
 #EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" tvg-name="Russia-24 (576p)",Russia-24 (576p)

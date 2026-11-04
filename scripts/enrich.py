@@ -2,6 +2,7 @@
 import json
 import re
 import gzip
+import io
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
@@ -13,28 +14,26 @@ EPG_URL      = "https://iptvx.one/epg/epg_lite.xml.gz"
 OUTPUT       = "wink_ru.m3u"
 UA           = "WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer"
 
+
 def log(msg: str) -> None:
     print(msg, flush=True)
 
-# 📌 Расширенная нормализация: убирает всё, что мешает сопоставлению[reference:0]
+
+# 📌 Расширенная нормализация: убирает всё, что мешает сопоставлению
 COUNTRY_PREFIX = re.compile(r'^(ru|russia|россия|рф|ua|ukraine|by|belarus|kz|kazakhstan)[\s:\-|]+', re.IGNORECASE)
 QUALITY_SUFFIX = re.compile(r'\b(hd|sd|fhd|fullhd|uhd|4k|8k|2160p|1080p|720p|576p|480p|360p|hevc|h\.?264|h\.?265)\b', re.IGNORECASE)
 NOISE_WORDS    = re.compile(r'\b(тв|tv|телеканал|channel|прямой\s+эфир|live|international|int|global|europa|europe|cis|снг|mir|мир)\b', re.IGNORECASE)
 PUNCTUATION    = re.compile(r'[\(\)\[\]\{\}\"\'«»“”`]')
 
+
 def normalize_name(name: str) -> str:
     """Максимальная очистка названия для поиска в EPG."""
     if not name:
         return ""
-    # 1. Убираем префиксы стран
     name = COUNTRY_PREFIX.sub('', name)
-    # 2. Убираем пунктуацию
     name = PUNCTUATION.sub('', name)
-    # 3. Убираем маркеры качества
     name = QUALITY_SUFFIX.sub('', name)
-    # 4. Убираем шумовые слова (ТВ, HD и т.д.)
     name = NOISE_WORDS.sub('', name)
-    # 5. Схлопываем пробелы и приводим к нижнему регистру
     name = re.sub(r'\s+', ' ', name).strip().lower()
     return name
 
@@ -58,39 +57,40 @@ def build_epg_mapping(url: str) -> tuple[dict, dict]:
     """Возвращает (точная_карта, карта_для_нечёткого_поиска)."""
     log(f"📥 Скачиваем EPG из {url} ...")
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=120) as resp:
         raw = resp.read()
     log(f"✅ Скачано {len(raw)} байт")
 
+    # 🚨 ИСПРАВЛЕНИЕ: не распаковываем в память, а читаем gzip на лету
     if raw[:2] == b"\x1f\x8b":
-        log("📦 Файл сжат gzip — распаковываем...")
-        xml_data = gzip.decompress(raw)
-        log(f"✅ Распаковано до {len(xml_data)} байт")
+        log("📦 Файл сжат gzip — распаковываем на лету (экономия памяти)...")
+        source = gzip.GzipFile(fileobj=io.BytesIO(raw))
     else:
-        xml_data = raw
+        log("📦 Файл без сжатия — читаем как есть...")
+        source = io.BytesIO(raw)
 
-    log("🔍 Парсим XMLTV (потоково, для экономии памяти)...")
-    
+    log("🔍 Парсим XMLTV (потоково)...")
     exact_map = {}
-    fuzzy_map = defaultdict(set)  # для поиска по вхождению
+    fuzzy_map = defaultdict(set)
 
-    # iterparse позволяет не грузить весь XML в память[reference:1]
-    context = ET.iterparse(gzip.GzipFile(fileobj=__import__('io').BytesIO(xml_data)), events=("end",))
-    for event, elem in context:
-        if elem.tag == "channel":
-            epg_id = elem.get("id")
-            if epg_id:
-                for name_node in elem.findall("display-name"):
-                    if name_node.text:
-                        raw_name = name_node.text
-                        norm_name = normalize_name(raw_name)
-                        if norm_name:
-                            exact_map[norm_name] = epg_id
-                            # Для нечёткого поиска добавляем все значимые слова
-                            for word in norm_name.split():
-                                if len(word) > 2:
-                                    fuzzy_map[word].add(epg_id)
-            elem.clear()
+    try:
+        context = ET.iterparse(source, events=("end",))
+        for event, elem in context:
+            if elem.tag == "channel":
+                epg_id = elem.get("id")
+                if epg_id:
+                    for name_node in elem.findall("display-name"):
+                        if name_node.text:
+                            norm_name = normalize_name(name_node.text)
+                            if norm_name:
+                                exact_map[norm_name] = epg_id
+                                for word in norm_name.split():
+                                    if len(word) > 2:
+                                        fuzzy_map[word].add(epg_id)
+                elem.clear()
+    except Exception as e:
+        log(f"❌ Ошибка парсинга XML: {e}")
+        raise
 
     log(f"✅ Загружено {len(exact_map)} уникальных названий (точных) и {len(fuzzy_map)} ключевых слов (для поиска)")
     return exact_map, fuzzy_map
@@ -102,21 +102,14 @@ def find_epg_id(channel_name: str, exact_map: dict, fuzzy_map: dict) -> str | No
     if not norm_name:
         return None
 
-    # Шаг 1: Точное совпадение[reference:2]
     if norm_name in exact_map:
         return exact_map[norm_name]
 
-    # Шаг 2: Нечёткий поиск по самому длинному слову
     words = sorted([w for w in norm_name.split() if len(w) > 2], key=len, reverse=True)
     for word in words:
         candidates = fuzzy_map.get(word)
         if candidates and len(candidates) == 1:
             return list(candidates)[0]
-        # Если несколько кандидатов, проверяем, есть ли среди них полное совпадение названия
-        if candidates:
-            for cand_id in candidates:
-                # Здесь можно было бы сверять по другому полю, но для простоты оставим
-                pass
     return None
 
 
@@ -141,7 +134,6 @@ def enrich(src_path: str, out_path: str, logos: dict, exact_map: dict, fuzzy_map
             parts = line.rsplit(",", 1)
             channel_name = parts[1].strip() if len(parts) > 1 else ""
 
-            # Поиск EPG ID
             epg_id = find_epg_id(channel_name, exact_map, fuzzy_map)
             if epg_id:
                 matched_epg += 1
@@ -196,6 +188,7 @@ def main() -> None:
     exact_map, fuzzy_map = build_epg_mapping(EPG_URL)
     enrich(SOURCE, OUTPUT, logos, exact_map, fuzzy_map)
     log("🎉 ГОТОВО")
+
 
 if __name__ == "__main__":
     main()

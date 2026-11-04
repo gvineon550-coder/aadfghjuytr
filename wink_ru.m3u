@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz"
-#EXTINF:-1 tvg-id="2x2.ru@SD" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-name="2x2 (576i)",2x2 (576i)
+#EXTINF:-1 tvg-id="2na2" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-name="2x2 (576i)",2x2 (576i)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-name="2x2 SD (576p)",2x2 SD (576p)
@@ -8,7 +8,7 @@ http://stream.mcquack.net/187/index.m3u8
 #EXTINF:-1 tvg-id="5minuttishiny.ru@SD" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg" tvg-name="5 minut tishiny (1080p)",5 minut tishiny (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
-#EXTINF:-1 tvg-id="360-int" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-name="360° (1080p)",360° (1080p)
+#EXTINF:-1 tvg-id="360-podmoskovie" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-name="360° (1080p)",360° (1080p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
 #EXTINF:-1 tvg-id="360.ru@SD" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-name="360° (576p) [Geo-blocked]",360° (576p) [Geo-blocked]
@@ -1838,7 +1838,7 @@ http://195.26.83.96:7029/play/a006
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 #EXTVLCOPT:http-referrer=http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
-#EXTINF:-1 tvg-id="360-int" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-name="360°",360°
+#EXTINF:-1 tvg-id="360-podmoskovie" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-name="360°",360°
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="one-il" tvg-logo="https://uut-telecom.ru/wp-content/uploads/2021/12/pervyj-hd.png" tvg-name="Channel One Europa (480p)",Channel One Europa (480p)

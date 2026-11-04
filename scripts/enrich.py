@@ -20,17 +20,16 @@ def log(msg: str) -> None:
 
 
 def progress_bar(percent: int, length: int = 20) -> str:
-    """Рисует текстовый прогресс-бар."""
     filled = int(length * percent / 100)
     bar = '█' * filled + '░' * (length - filled)
     return f"[{bar}]"
 
 
-# 📌 Нормализация для поиска по имени
+# 📌 Очистка названий (добавлен 576i и спецсимволы)
 COUNTRY_PREFIX = re.compile(r'^(ru|russia|россия|рф|ua|ukraine|by|belarus|kz|kazakhstan)[\s:\-|]+', re.IGNORECASE)
-QUALITY_SUFFIX = re.compile(r'\b(hd|sd|fhd|fullhd|uhd|4k|8k|2160p|1080p|720p|576p|480p|360p|hevc|h\.?264|h\.?265)\b', re.IGNORECASE)
+QUALITY_SUFFIX = re.compile(r'\b(hd|sd|fhd|fullhd|uhd|4k|8k|2160p|1080p|720p|576p|576i|480p|480i|360p|hevc|h\.?264|h\.?265)\b', re.IGNORECASE)
 NOISE_WORDS    = re.compile(r'\b(тв|tv|телеканал|channel|прямой\s+эфир|live|international|int|global|europa|europe|cis|снг|mir|мир)\b', re.IGNORECASE)
-PUNCTUATION    = re.compile(r'[\(\)\[\]\{\}\"\'«»“”`]')
+PUNCTUATION    = re.compile(r'[\(\)\[\]\{\}\"\'«»“”`°]')
 
 
 def normalize_name(name: str) -> str:
@@ -91,6 +90,11 @@ def build_epg_mapping(url: str) -> tuple[set, dict, dict]:
             elem.clear()
 
     log(f"✅ EPG загружено: {len(epg_ids)} ID, {len(exact_map)} названий")
+    
+    # 🛠️ ДИАГНОСТИКА: показываем, как выглядят ID в EPG
+    sample_ids = list(epg_ids)[:10]
+    log(f"   Примеры ID в EPG: {', '.join(sample_ids)}")
+    
     return epg_ids, exact_map, fuzzy_map
 
 
@@ -130,17 +134,25 @@ def enrich(src_path: str, out_path: str, logos: dict, epg_ids: set, exact_map: d
             parts = line.rsplit(",", 1)
             channel_name = parts[1].strip() if len(parts) > 1 else ""
 
-            # 1. Поиск по ID
             m = re.search(r'tvg-id="([^"]*)"', line)
             epg_id = None
+            matched_by_id = False
+
             if m:
                 original_id = m.group(1)
-                base_id = original_id.split("@", 1)[0]
-                if base_id in epg_ids:
-                    epg_id = base_id
-                    matched_epg_id += 1
+                # Пробуем 3 варианта ID для максимального совпадения
+                variants = [
+                    original_id,                          # 2x2.ru@SD
+                    original_id.split("@")[0],            # 2x2.ru
+                    original_id.split("@")[0].split(".")[0] # 2x2
+                ]
+                for v in variants:
+                    if v in epg_ids:
+                        epg_id = v
+                        matched_by_id = True
+                        matched_epg_id += 1
+                        break
 
-            # 2. Поиск по названию
             if not epg_id:
                 epg_id = find_epg_id(channel_name, exact_map, fuzzy_map)
                 if epg_id:
@@ -175,7 +187,6 @@ def enrich(src_path: str, out_path: str, logos: dict, epg_ids: set, exact_map: d
         else:
             out.append(line)
 
-    # 📊 КРАСИВАЯ СТАТИСТИКА
     epg_total = matched_epg_id + matched_epg_name
     epg_percent = (epg_total * 100) // max(total_channels, 1)
     logo_percent = (matched_logo * 100) // max(total_channels, 1)

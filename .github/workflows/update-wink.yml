@@ -2,11 +2,12 @@ name: Update Wink IPTV playlist
 
 on:
   schedule:
-    - cron: '0 3 * * *'      # 03:00 UTC = 06:00 МСК
-  workflow_dispatch:          # ручной запуск
+    # Сдвинули на 17 минут, чтобы не попадать в пик нагрузки GitHub
+    - cron: '17 3 * * *'  # 03:17 UTC = 06:17 МСК
+  workflow_dispatch:      # Ручной запуск
 
 permissions:
-  contents: write             # нужно для сохранения файла в репо
+  contents: write
 
 concurrency:
   group: update-wink-playlist
@@ -23,13 +24,34 @@ jobs:
 
       - name: Download sources
         run: |
+          set -e
+          echo "→ Скачиваем ru.m3u..."
           curl -fsSL -o source_ru.m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u"
+          echo "→ Скачиваем channels.json..."
           curl -fsSL -o channels.json "https://iptv-org.github.io/api/channels.json"
+          echo "→ Скачиваем logos.json..."
           curl -fsSL -o logos.json "https://iptv-org.github.io/api/logos.json"
-          [ -s source_ru.m3u ] && [ -s channels.json ] && [ -s logos.json ] || { echo "Download failed" >&2; exit 1; }
+          echo "✅ Все источники скачаны"
+          ls -lh source_ru.m3u channels.json logos.json
 
-      - name: Enrich playlist (logos + Wink UA + EPG mapping)
+      - name: Enrich playlist
         run: python3 scripts/enrich.py
+
+      - name: Verify output
+        run: |
+          if [ ! -f wink_ru.m3u ]; then
+            echo "❌ ФАЙЛ wink_ru.m3u НЕ СОЗДАН!"
+            exit 1
+          fi
+          echo "✅ wink_ru.m3u создан, размер:"
+          ls -lh wink_ru.m3u
+          echo "────── Первые 10 строк: ──────"
+          head -10 wink_ru.m3u
+          echo "────── Статистика: ──────"
+          # Флаг || true нужен, чтобы шаг не падал с ошибкой, если совпадений 0
+          echo "Каналов: $(grep -c '^#EXTINF' wink_ru.m3u || true)"
+          echo "С UA Wink: $(grep -c 'http-user-agent=WINK' wink_ru.m3u || true)"
+          echo "С логотипами: $(grep -c 'tvg-logo=' wink_ru.m3u || true)"
 
       - name: Cleanup temp files
         run: rm -f source_ru.m3u channels.json logos.json
@@ -41,9 +63,14 @@ jobs:
           git add wink_ru.m3u
           
           if git diff --cached --quiet; then
-            echo "No changes — playlist up to date."
+            echo "ℹ️ Нет изменений — плейлист уже актуален."
             exit 0
           fi
           
           git commit -m "chore: auto-update Wink playlist ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          
+          # Делаем rebase, чтобы избежать конфликтов, если в репо что-то менялось
+          git pull --rebase origin ${GITHUB_REF_NAME} || true
+          
           git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "✅ Изменения успешно запушены"

@@ -65,7 +65,7 @@ MANUAL_MAP = {
     # Музыка
     "shanson": "шансон", "europa plus": "европа плюс", "zhara": "жара", "ru tv": "ru tv",
     "rutv": "ru tv", "russian musicbox": "russian musicbox", "muz": "муз", "muzyka pervogo": "музыка первого",
-    "muzyka live": "музыка live", "1hd": "1hd", "hit": "hit", "bridge": "bridge",
+    "muzyka live": "музыка live", "1hd": "1hd", "hit": "хит", "bridge": "bridge",
     "dancehits80": "dancehits80", "fon music": "фон музик", "mcm top": "mcm top", "live music channel": "live music channel",
 
     # Спорт
@@ -95,11 +95,19 @@ MANUAL_MAP = {
     "vkus": "вкус", "vmeste rf": "вместе-рф", "voprosy i otvety": "вопросы и ответы",
     "vremya": "время", "zhivi": "живи", "afontovo": "афонтово", "amedia hit": "amedia hit",
     "channel 8": "8 канал", "channel 10": "10 канал", "channel 12": "12 канал",
-    "glazami turista": "глазами туриста", "groznyj": "грозный", "law tv": "law tv",
+    "glazami turista": "глазами туриста", "groznyj": "грозный", "law tv": "закон тв",
     "sochi live": "сочи live", "sochi 24": "сочи 24", "nasha tema": "наша тема",
     "redline": "красная линия", "krasnaya linia": "красная линия",
     "mir belogorya": "мир белогорья", "mir belagorya": "мир белогорья",
-    "huzur": "хузур", "xuzur": "хузур", "vtv": "втв", "russian extreme ultra": "russian extreme ultra"
+    "huzur": "хузур", "xuzur": "хузур", "vtv": "втв", "russian extreme ultra": "russian extreme ultra",
+    
+    # Добиваем оставшиеся каналы из лога
+    "5 minut tishiny": "5 минут тишины", "pyat minut tishiny": "5 минут тишины",
+    "dancehits80": "dancehits80", "insayt tv": "инсайт тв", "insayt": "инсайт",
+    "kulinar tv": "кулинар тв", "law tv": "закон тв", "nevskiy": "невский",
+    "pes": "пёс", "mir seriala": "мир сериала", "multimuzyka": "мультимузыка",
+    "nashe muzhskoe": "наше мужское", "ryzhiy": "рыжий", "smotrim 100": "смотрим 100",
+    "tnv planet": "тнв планет", "zhivaya planeta": "живая планета"
 }
 
 def log(msg: str) -> None:

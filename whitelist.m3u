@@ -1068,3 +1068,7 @@ https://flussonic.mkpnet.ru/tv-4a4cb3e0aac082c9/video.m3u8
 
 #EXTINF:-1 group-title="🎵 Музыка #IPTV",Шансон ТВ
 https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
+
+#EXTINF:-1 tvg-id="49811" tvg-name="ScripachTV" tvg-logo="https://smotret.tv/images/scripach-tv.webp" group-title="Kinowalk",ScripachTV
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://live20.bozztv.com/akamaissh101/ssh101/scripachmovie/playlist.m3u8

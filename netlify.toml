@@ -1,0 +1,2 @@
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "MY_SECRET_TOKEN"

@@ -769,7 +769,6 @@ https://bl.rutube.ru/livestream/f27b804a6f805cb66ff83d4930bd17ff/index.m3u8?s=mE
 https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=6U2H53WuJxFduCItVrD7Qg&e=2090673740&scheme=https
 
 #EXTINF:-1 tvg-id="NTVSvoyaigra.ru" tvg-logo="https://dictant.rgo.ru/sites/default/files/styles/fullscreen/public/logo3.png" group-title="📡 Федеральные",НТВ Своя игра
-#EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
 https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8
 
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="📡 Федеральные",НТВ HD [cdn-dvr.ntv.ru]

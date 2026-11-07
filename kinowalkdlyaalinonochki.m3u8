@@ -1,6 +1,5 @@
 #EXTM3U url-tvg="https://bit.ly/Kino_epg,https://bit.ly/Endik1_epg,https://italo.drm-play.com/Kino_epg.xml.gz,http://epg.one/epg2.xml,https://iptvx.one/EPG"
 
-#EXTM3U url-tvg="https://www.dropbox.com/scl/fi/3xg2u9hdfygtm2la3xw7f/KinoMix.xml?rlkey=5mu6w3zgrvmytnso5yrr7dubp&st=nzqamwnh&dl=1"
 #EXTINF:-1  group-title="🎞️ Kinowalk Production"  tvg-id="KinoMix Юрич"  tvg-logo="https://s10.iimage.su/s/09/glnHYskxv2p5gbVU2IQmh2ziUa3ABgGuDfZ0jS6XJ.png"   tvg-name="KinoMix Юрич", Поддержите приложение (чат t.me/KinoMix_stream)
 https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.QK20f3fCHAGw.m3u8
 #EXTINF:-1  group-title="🎞️ Kinowalk Production"  tvg-id="KinoMix Юрич"  tvg-logo="https://s10.iimage.su/s/09/glnHYskxv2p5gbVU2IQmh2ziUa3ABgGuDfZ0jS6XJ.png"   tvg-name="KinoMix Юрич", Поддержите канал KinoMix Юрич тбанк 2200700125241678

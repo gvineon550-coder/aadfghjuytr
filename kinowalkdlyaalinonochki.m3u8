@@ -1,5 +1,12 @@
-#EXTM3U url-tvg="https://bit.ly/Kino_epg,https://bit.ly/Endik1_epg,https://italo.drm-play.com/Kino_epg.xml.gz,http://epg.one/epg2.xml,https://iptvx.one/EPG"
-
+#EXTM3U url-tvg="https://bit.ly/Kino_epg,https://bit.ly/Endik1_epg,https://italo.drm-play.com/Kino_epg.xml.gz,http://epg.one/epg2.xml,https://iptvx.one/EPG,https://www.dropbox.com/scl/fi/3xg2u9hdfygtm2la3xw7f/KinoMix.xml?rlkey=5mu6w3zgrvmytnso5yrr7dubp&st=nzqamwnh&dl=1"
+#EXTINF:-1 group-title="🎞️ Kinowalk Production" tvg-id="KinoMix Юрич" tvg-logo="https://s10.iimage.su/s/09/glnHYskxv2p5gbVU2IQmh2ziUa3ABgGuDfZ0jS6XJ.png" tvg-name="KinoMix Юрич",KinoMix Юрич
+https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.QK20f3fCHAGw.m3u8
+#EXTINF:-1 group-title="🎞️ Kinowalk Production" tvg-id="KinoMix Юрич" tvg-logo="https://s10.iimage.su/s/09/glnHYskxv2p5gbVU2IQmh2ziUa3ABgGuDfZ0jS6XJ.png" tvg-name="KinoMix Юрич",KinoMix Юрич
+http://kinowalk.hopto.org/yurich_kinomix_live
+#EXTINF:-1 group-title="🎞️ Kinowalk Production" tvg-logo="https://s10.iimage.su/s/09/glnHYskxv2p5gbVU2IQmh2ziUa3ABgGuDfZ0jS6XJ.png" tvg-name="KinoMix Юрич 2",KinoMix Юрич 2
+https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.kOLvChA3aUIE.m3u8
+#EXTINF:-1 group-title="🎞️ Kinowalk Production" tvg-id="43064" tvg-logo="https://smotret.tv/images/vse-tv.webp" tvg-name="Malder vse tv",Малдер Всё ТВ (Дубль)
+https://s.catcast.tv/content/43064/index.m3u8?token=5a98b18db8a708b548255be92b429f46
 #EXTINF:-1  group-title="🎞️ Kinowalk Production"  tvg-id="43064"  tvg-logo="https://smotret.tv/images/vse-tv.webp"   tvg-name="Malder  vse tv", Малдер Всё ТВ (Дубль)
 https://s.catcast.tv/content/43064/index.m3u8?token=5a98b18db8a708b548255be92b429f46
 #EXTINF:-1  group-title="🎞️ Kinowalk Production"  tvg-logo="https://images.live.vkvideo.ru/user/20428041/avatar?change_time=1766171277&croped=1&mh=140&mw=140"   tvg-name="Kinowalk_tv", Kinowalk_tv

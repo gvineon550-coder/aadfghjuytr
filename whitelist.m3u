@@ -1071,3 +1071,1409 @@ https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
 #EXTINF:-1 tvg-id="49811" tvg-name="ScripachTV (дубль)" tvg-logo="https://smotret.tv/images/scripach-tv.webp" group-title="Kinowalk",ScripachTV (дубль)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://live20.bozztv.com/akamaissh101/ssh101/scripachmovie/playlist.m3u8
+
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervyj.png" group-title="Россия",Первый канал FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869736&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervyj.png" group-title="Россия",Первый канал HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869735&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-kanal-eu.png" group-title="Россия",Первый канал
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869734&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl1.png" group-title="Россия",Первый канал +1
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869733&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl2.png" group-title="Россия",Первый канал +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869732&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl3.png" group-title="Россия",Первый канал +3
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869731&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl4.png" group-title="Россия",Первый канал HD +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869730&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl5.png" group-title="Россия",Первый канал +5
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869729&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl7.png" group-title="Россия",Первый канал +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869728&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-pl8.png" group-title="Россия",Первый канал +8
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869727&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/pervy-kanal-csi.png" group-title="Россия",Первый канал СНГ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869726&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1.png" group-title="Россия",Россия 1 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869725&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1.png" group-title="Россия",Россия 1 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869724&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1.png" group-title="Россия",Россия 1
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869723&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl1.png" group-title="Россия",Россия 1 HD +1
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869722&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl1.png" group-title="Россия",Россия 1 +1
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869721&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl2.png" group-title="Россия",Россия 1 HD +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869720&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl2.png" group-title="Россия",Россия 1 +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869719&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl3.png" group-title="Россия",Россия 1 HD +3
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869718&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl3.png" group-title="Россия",Россия 1 +3
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869717&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl4.png" group-title="Россия",Россия 1 HD +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869716&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl4.png" group-title="Россия",Россия 1 +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869715&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl5.png" group-title="Россия",Россия 1 HD +5
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869714&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl5.png" group-title="Россия",Россия 1 +5
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869713&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl6.png" group-title="Россия",Россия 1 HD +6
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869712&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl6.png" group-title="Россия",Россия 1 +6
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869711&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl7.png" group-title="Россия",Россия 1 HD +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869710&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl7.png" group-title="Россия",Россия 1 +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869709&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl8.png" group-title="Россия",Россия 1 HD +8
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869708&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl8.png" group-title="Россия",Россия 1 +8
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869707&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rossia1-pl9.png" group-title="Россия",Россия 1 +9
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869706&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-white.png" group-title="Россия",НТВ FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869705&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-white.png" group-title="Россия",НТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869704&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/ntv-white.png" group-title="Россия",НТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869703&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-pl2.png" group-title="Россия",НТВ HD +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869702&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-pl2.png" group-title="Россия",НТВ +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869701&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-pl4.png" group-title="Россия",НТВ HD +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869700&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-pl4.png" group-title="Россия",НТВ +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869699&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-pl7.png" group-title="Россия",НТВ +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869698&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/ntv-mir.png" group-title="Россия",НТВ-Мир
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869697&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt.png" group-title="Россия",ТНТ FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869696&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt.png" group-title="Россия",ТНТ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869695&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/tnt.png" group-title="Россия",ТНТ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869694&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-pl2.png" group-title="Россия",ТНТ HD +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869693&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-pl2.png" group-title="Россия",ТНТ +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869692&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-pl4.png" group-title="Россия",ТНТ HD +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869691&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-pl4.png" group-title="Россия",ТНТ +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869690&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-pl7.png" group-title="Россия",ТНТ HD +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869689&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-pl7.png" group-title="Россия",ТНТ +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869688&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/tnt-int.png" group-title="Россия",ТНТ International
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869687&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TNT4200.png" group-title="Россия",ТНТ4 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869686&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TNT4200.png" group-title="Россия",ТНТ4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869685&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TNT4PL2200.png" group-title="Россия",ТНТ4 +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869684&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TNT4PL4200.png" group-title="Россия",ТНТ4 +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869683&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TNT4PL7200.png" group-title="Россия",ТНТ4 +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869682&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/sts.png" group-title="Россия",СТС FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869681&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/sts.png" group-title="Россия",СТС HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869680&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/sts.png" group-title="Россия",СТС
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869679&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/sts-pl2.png" group-title="Россия",СТС +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869678&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/sts-pl4.png" group-title="Россия",СТС +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869677&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/sts-pl7.png" group-title="Россия",СТС +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869676&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/sts-int.png" group-title="Россия",СТС International
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869675&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/sts-love.png" group-title="Россия",СТС Love
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869674&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rentv.png" group-title="Россия",РЕН ТВ FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869673&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rentv.png" group-title="Россия",Рен ТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869672&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rentv.png" group-title="Россия",Рен ТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869671&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rentv-pl2.png" group-title="Россия",Рен ТВ +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869670&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rentv-pl4.png" group-title="Россия",Рен ТВ +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869669&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rentv-pl7.png" group-title="Россия",Рен ТВ +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869668&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tvcentr.png" group-title="Россия",ТВЦ FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869667&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tvcentr.png" group-title="Россия",ТВЦ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869666&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tvcentr.png" group-title="Россия",ТВЦ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869665&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TVCPL2200.png" group-title="Россия",ТВЦ +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869664&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tvcentr-pl4.png" group-title="Россия",ТВЦ +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869663&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tvcentr-pl7.png" group-title="Россия",ТВЦ +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869662&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/zvezda.png" group-title="Россия",Звезда HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869661&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/zvezda.png" group-title="Россия",Звезда
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869660&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/zvezda-pl2.png" group-title="Россия",Звезда +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869659&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/zvezda-pl4.png" group-title="Россия",Звезда +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869658&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/zvezda-pl7.png" group-title="Россия",Звезда +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869657&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/zvezda-plus.png" group-title="Россия",Звезда Плюс HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869656&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/5kanal-ru.png" group-title="Россия",Пятый канал HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869655&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/5kanal-ru-pl2.png" group-title="Россия",Пятый канал +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869654&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/5kanal-ru-pl7.png" group-title="Россия",Пятый канал +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869653&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/tv3-ru.png" group-title="Россия",ТВ3 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869652&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/tv3-ru.png" group-title="Россия",ТВ3 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869651&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/tv3-ru.png" group-title="Россия",ТВ3
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869650&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/TV3RUPL2200.png" group-title="Россия",ТВ3 +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869649&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tv3-ru-pl4.png" group-title="Россия",ТВ3 +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869648&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tv3-ru-pl7.png" group-title="Россия",ТВ3 +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869647&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir.png" group-title="Россия",Мир FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869646&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir.png" group-title="Россия",Мир HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869645&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir.png" group-title="Россия",Мир
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869644&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir-pl2.png" group-title="Россия",Мир +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869643&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir-pl4.png" group-title="Россия",Мир +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869642&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir-pl7.png" group-title="Россия",Мир +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869641&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/pyatnica.png" group-title="Россия",Пятница! FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869640&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/pyatnica.png" group-title="Россия",Пятница! HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869639&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/pyatnica.png" group-title="Россия",Пятница!
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869638&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/piatnica-pl4.png" group-title="Россия",Пятница! +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869637&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/piatnica.png" group-title="Россия",Пятница! +6
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869636&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/piatnica-pl7.png" group-title="Россия",Пятница! +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869635&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/subbota.png" group-title="Россия",Суббота! FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869634&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/subbota.png" group-title="Россия",Суббота! HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869633&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/subbota.png" group-title="Россия",Суббота!
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869632&extension=ts
+
+#EXTINF:-1 tvg-logo="" group-title="Россия",Суббота! +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869631&extension=ts
+
+#EXTINF:-1 tvg-logo="" group-title="Россия",Суббота! +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869630&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/subbota-pl7.png" group-title="Россия",Суббота! +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869629&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/domashny.png" group-title="Россия",Домашний FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869628&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/domashny.png" group-title="Россия",Домашний HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869627&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/domashny.png" group-title="Россия",Домашний
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869626&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/domashny-pl2.png" group-title="Россия",Домашний +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869625&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/domashny-pl4.png" group-title="Россия",Домашний +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869624&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/domashny-pl7.png" group-title="Россия",Домашний +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869623&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/show/perec.png" group-title="Россия",Перец INT
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869622&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/che.png" group-title="Россия",Че!
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869620&extension=ts
+
+#EXTINF:-1 tvg-logo="" group-title="Россия",Че! +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869619&extension=ts
+
+#EXTINF:-1 tvg-logo="" group-title="Россия",Че! +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869618&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/che-pl7.png" group-title="Россия",Че! +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869617&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/otr.png" group-title="Россия",ОТР
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869616&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/yu.png" group-title="Россия",Ю (МСК)
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869615&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/yu.png" group-title="Россия",Ю
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869614&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/yu-pl2.png" group-title="Россия",Ю +2
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869613&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/yu-pl4.png" group-title="Россия",Ю +4
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869612&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/yu-pl7.png" group-title="Россия",Ю +7
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869611&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/kultura.png" group-title="Россия",Россия К
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869610&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/sankt-peterburg.png" group-title="Россия",Санкт-Петербург HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869609&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/spas.png" group-title="Россия",Спас
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869608&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/poznanie/soyuz.png" group-title="Россия",Союз
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869607&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/russky-sever.png" group-title="Россия",Русский север
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869606&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/78.png" group-title="Россия",78 канал
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869605&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/doverie.png" group-title="Россия",Доверие
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869604&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/ukraina/glas.png" group-title="Россия",Глас
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869603&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/tnv.png" group-title="Россия",ТНВ-Планета
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869602&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/izvestia.png" group-title="Новостные",Известия HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869391&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/rossia-24.png" group-title="Новостные",Россия 24
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869390&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/region/novorossija.png" group-title="Новостные",Соловьёв LIVE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869389&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rbk.png" group-title="Новостные",РБК HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869388&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rbk.png" group-title="Новостные",РБК
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869387&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/360-news.png" group-title="Новостные",360 Новости HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869386&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/mir24.png" group-title="Новостные",Мир 24
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869385&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/moskva-24.png" group-title="Новостные",Москва 24
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869384&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/region/lot-47.png" group-title="Новостные",ЛенТВ 24
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869383&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/region/ylugansk24.png" group-title="Новостные",Луганск 24
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869382&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/news/NEWSFRONT200.png" group-title="Новостные",News Front
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869381&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/tsargrad.png" group-title="Новостные",ЦарьГрад
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869380&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rt-news.png" group-title="Новостные",Russia Today HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869379&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/euronews.png" group-title="Новостные",Евроновости
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869378&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/rtvi.png" group-title="Новостные",RTVI
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869377&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/krasnaya-linia.png" group-title="Новостные",Красная линия
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869376&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/echotv.png" group-title="Новостные",ЭхоТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869375&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/uhd/ultra-hd-cinema.png" group-title="Кино",Ultra HD Cinema (Cinema UHD)
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869529&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/uhd/kinouhd.png" group-title="Кино",Кино UHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869528&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/mosfilm.png" group-title="Кино",Мосфильм: золотая коллекция HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869527&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/mosfilm.png" group-title="Кино",Мосфильм: золотая коллекция
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869526&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/mosfilm-pl4.png" group-title="Кино",Мосфильм: золотая коллекция +4 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869525&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/mashina_vremeni.png" group-title="Кино",Госфильмофонд. Машина времени
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869524&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/4k-ruskino.png" group-title="Кино",4К Русское кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869523&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/khit.png" group-title="Кино",Хит HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869522&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/ntv-serial.png" group-title="Кино",НТВ Сериал
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869521&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/ntv-xit.png" group-title="Кино",НТВ Хит
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869520&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/patriot.png" group-title="Кино",Патриот
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869519&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/OKKOTV200.png" group-title="Кино",Окко ТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869518&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/start-air.png" group-title="Кино",START Air
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869517&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/start-world.png" group-title="Кино",START World
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869516&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/domkino.png" group-title="Кино",Дом кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869515&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/domkino-premium.png" group-title="Кино",Дом кино Премиум HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869514&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kino-tv.png" group-title="Кино",Кино ТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869513&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/SAGATV200.png" group-title="Кино",SAGA TV HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869512&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/eurokino.png" group-title="Кино",ЕвроКино HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869511&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinojam1.png" group-title="Кино",Киноджем 1 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869510&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinojam2.png" group-title="Кино",Киноджем 2 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869509&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tv1000_hd.png" group-title="Кино",viju TV1000 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869508&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tv1000.png" group-title="Кино",viju TV1000
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869507&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tv1000-action_hd.png" group-title="Кино",viju TV1000 Action HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869506&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tv1000-action.png" group-title="Кино",viju TV1000 Action
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869505&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tv1000-russkoe-kino_hd.png" group-title="Кино",viju TV1000 Русское кино HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869504&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tv1000-russkoe-kino.png" group-title="Кино",viju TV1000 Русское кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869503&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/viju-tv1000-novella.png" group-title="Кино",viju TV1000 Новелла HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869502&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/viju-tv1000-romantica.png" group-title="Кино",viju TV1000 Romantica HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869501&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/vip-premiere.png" group-title="Кино",viju+ ViP Premiere HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869500&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/vip-comedy.png" group-title="Кино",viju+ ViP Comedy HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869499&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/vip-megahit.png" group-title="Кино",viju+ ViP Megahit HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869498&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/vip-serial.png" group-title="Кино",viju+ ViP Serial HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869497&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/denpobedy.png" group-title="Кино",День Победы HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869496&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/russky-detektiv.png" group-title="Кино",Русский детектив
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869495&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/russky-bestseller.png" group-title="Кино",Русский Бестселлер
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869494&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/russky-illuzion.png" group-title="Кино",Русский Иллюзион HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869493&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/russky-roman.png" group-title="Кино",Русский Роман HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869492&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/premialnoe-hd.png" group-title="Кино",Премиальное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869491&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/romantichnoe-hd.png" group-title="Кино",Романтичное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869490&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/komedijnoe-hd.png" group-title="Кино",Комедийное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869489&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/nashe-lubimoe-hd.png" group-title="Кино",Любимое HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869488&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/ostrosiuzhetnoe-hd.png" group-title="Кино",Остросюжетное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869487&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/shokiruyushchee.png" group-title="Кино",Шокирующее HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869486&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/dushevnoe-hd.png" group-title="Кино",Душевное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869485&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/strashnoe-hd.png" group-title="Кино",Страшное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869484&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinopremiera.png" group-title="Кино",Кинопремьера HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869483&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinoxit.png" group-title="Кино",Кинохит FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869482&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinosemia.png" group-title="Кино",Киносемья HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869481&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinosemia.png" group-title="Кино",Киносемья
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869480&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinokomedia.png" group-title="Кино",Кинокомедия HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869479&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinomiks.png" group-title="Кино",Киномикс HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869478&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinouzhas.png" group-title="Кино",Киноужас HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869477&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinosvidanie.png" group-title="Кино",Киносвидание HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869476&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinoseria.png" group-title="Кино",Киносерия HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869475&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/muzhskoe-kino.png" group-title="Кино",Мужское кино HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869474&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/nashe-novoe-kino.png" group-title="Кино",Наше Новое кино HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869473&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/rodnoe-kino.png" group-title="Кино",Родное кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869472&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/indijskoe-kino.png" group-title="Кино",Индийское кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869471&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinomenu.png" group-title="Кино",Киноменю HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869470&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/sovkino.png" group-title="Кино",Советское кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869469&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/4ever-cinema.png" group-title="Кино",4ever Cinema HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869468&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/4ever-drama.png" group-title="Кино",4ever Drama HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869467&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/4ever-theater.png" group-title="Кино",4ever Theater HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869466&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinosat.png" group-title="Кино",Киноман
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869465&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinokult.png" group-title="Кино",КиноКульт HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869464&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/komedia.png" group-title="Кино",Комедия
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869463&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/sony-scifi.png" group-title="Кино",. Sci-Fi
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869462&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/sony.png" group-title="Кино",. Red HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869461&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/sony-turbo.png" group-title="Кино",. black
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869460&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/nst.png" group-title="Кино",НСТ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869459&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/trashtv.png" group-title="Кино",Trash HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869458&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/hollywood.png" group-title="Кино",Hollywood
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869457&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/nash-kinopokaz.png" group-title="Кино",Наш Кинопоказ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869456&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/lubimoe-kino.png" group-title="Кино",Наше любимое кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869455&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/bolt.png" group-title="Кино",Болт HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869454&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/mir-seriala.png" group-title="Кино",Мир Сериала HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869453&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/arsenaltv.png" group-title="Кино",Арсенал HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869452&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/bollywood-hd.png" group-title="Кино",Bollywood HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869451&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/amedia-hit.png" group-title="Кино",Amedia Hit HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869450&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/amedia-premium.png" group-title="Кино",Amedia Premium HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869449&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/amedia1.png" group-title="Кино",A1 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869448&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/amedia2.png" group-title="Кино",A2 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869447&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/timeless-dizi.png" group-title="Кино",Timeless Dizi Channel HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869446&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/blokbaster.png" group-title="Кино",Блокбастер HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869445&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kamedi.png" group-title="Кино",Камеди HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869444&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/nashe-muzhskoe.png" group-title="Кино",Наше мужское HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869443&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/pro-lyubov.png" group-title="Кино",Про любовь HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869442&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/fox.png" group-title="Кино",Fox HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869441&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/foxlife.png" group-title="Кино",Fox Life HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869440&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/cinema.png" group-title="Кино",Синема HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869439&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/epik-drama.png" group-title="Кино",Epic Drama HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869438&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/filmbox-ru.png" group-title="Кино",Filmbox
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869437&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/filmbox-arthouse.png" group-title="Кино",Filmbox Arthouse
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869436&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/dorama.png" group-title="Кино",Дорама HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869435&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/shot-tv.png" group-title="Кино",Shot TV
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869434&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kino-24.png" group-title="Кино",Kino 24
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869433&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/zee-tv.png" group-title="Кино",Индия
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869432&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/illuzion-plus.png" group-title="Кино",Иллюзион +
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869431&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/klassika-kino.png" group-title="Кино",Классика Кино
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869430&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/nashehd.png" group-title="Кино",Наше HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869429&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/nashenasledie200.png" group-title="Кино",Наше Наследие HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869428&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINO200.png" group-title="Кино",Viasat Kino HD CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869427&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOWORLD200.png" group-title="Кино",Viasat Kino World CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869426&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOACTION200.png" group-title="Кино",Viasat Kino Action HD CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869425&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOCOMEDY200.png" group-title="Кино",Viasat Kino Comedy HD CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869424&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/VIASATKINOMEGAHIT200.png" group-title="Кино",Viasat Kino Megahit HD CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869423&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/familyjam.png" group-title="Кино",FamilyJam HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869422&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/cinema.png" group-title="Кино",Синема
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869421&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinosezon.png" group-title="Кино",Киносезон
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869420&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/pobeda.png" group-title="Кино",Победа HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869419&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/cosmostv.png" group-title="Кино",Cinema Космос ТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869418&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/flixsnip.png" group-title="Кино",Flix Snip HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869417&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/plan-b.png" group-title="Кино",Plan_B
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869416&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinoliving.png" group-title="Кино",KinoLiving HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869415&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kinopokaz.png" group-title="Кино",Кинопоказ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869414&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/feniks-plus-kino.png" group-title="Кино",Феникс+Кино HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869413&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/scream.png" group-title="Кино",Scream HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869412&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/lavstori.png" group-title="Кино",Лавстори HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869411&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/romance.png" group-title="Кино",Romance HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869410&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/suspense.png" group-title="Кино",Suspense HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869409&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/sov-kinklass.png" group-title="Кино",Советская киноклассика HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869408&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kino/kinoizhizn200.png" group-title="Кино",Кино и Жизнь HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869407&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/efir/vremia.png" group-title="Кино",Время
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869406&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/retro-tv.png" group-title="Кино",Ретро
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869405&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/hollywood-hd.png" group-title="Кино",Hollywood HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869404&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kinoInt/star-family.png" group-title="Кино",Star Family HD RU
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869403&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/kinoInt/star-cinema.png" group-title="Кино",Star Cinema HD RU
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869402&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kriminalnoe_hd.png" group-title="Кино",Криминальное HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869401&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kion-xit.png" group-title="Кино",KION Хит HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869400&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/kineko.png" group-title="Кино",Кинеко HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869399&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/sapfir.png" group-title="Кино",Сапфир HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869398&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/detectivejam.png" group-title="Кино",Detective Jam HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869397&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/vhs-ka.png" group-title="Кино",VHS-ка HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869396&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/films/tvxxi.png" group-title="Кино",TV | 21
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869393&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-tv.png" group-title="Спорт",Матч! ТВ FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869601&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-tv.png" group-title="Спорт",Матч! ТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869600&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/federal/match-tv.png" group-title="Спорт",Матч! ТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869599&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-premiere.png" group-title="Спорт",Матч! Премьер FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869598&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-premiere.png" group-title="Спорт",Матч! Премьер HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869597&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-football1.png" group-title="Спорт",Матч! Футбол 1 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869596&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-football1.png" group-title="Спорт",Матч! Футбол 1 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869595&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-football2.png" group-title="Спорт",Матч! Футбол 2 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869594&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-football2.png" group-title="Спорт",Матч! Футбол 2 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869593&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-football3.png" group-title="Спорт",Матч! Футбол 3 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869592&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-football3.png" group-title="Спорт",Матч! Футбол 3 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869591&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-arena.png" group-title="Спорт",Матч! Арена FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869590&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-arena.png" group-title="Спорт",Матч! Арена
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869589&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-igra.png" group-title="Спорт",Матч! Игра FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869588&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-igra.png" group-title="Спорт",Матч! Игра
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869587&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-strana.png" group-title="Спорт",Матч! Страна FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869586&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/okkofutbol200.png" group-title="Спорт",Окко.Футбол HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869585&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/okkosport1200.png" group-title="Спорт",Окко.Спорт HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869584&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/okkoprime200.png" group-title="Спорт",Окко.Прайм Спорт HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869583&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/OKKOCHEMPIONAT2200.png" group-title="Спорт",Окко.Чемпионат
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869582&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/kxl-hd.png" group-title="Спорт",KHL Prime FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869581&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/kxl-hd.png" group-title="Спорт",KHL Prime HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869580&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/kxl.png" group-title="Спорт",KHL FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869579&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/kxl.png" group-title="Спорт",KHL HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869578&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-planeta.png" group-title="Спорт",Матч! Планета
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869577&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/belarus5HD.png" group-title="Спорт",Беларусь 5 HD BY
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869576&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/sport-tv-by.png" group-title="Спорт",Спорт ТВ Беларусь HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869575&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/match-boec.png" group-title="Спорт",Матч! Боец
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869574&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/box-tv.png" group-title="Спорт",Бокс ТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869573&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/ufc.png" group-title="Спорт",Удар
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869572&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/prime_fight.jpg" group-title="Спорт",Prime Fight HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869571&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/fightbox-hd.png" group-title="Спорт",FightBox HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869570&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/m1-global.png" group-title="Спорт",MMA-TV (M-1 Global)
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869569&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/exstreme.png" group-title="Спорт",Extreme Sports
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869568&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/rus-extrim.png" group-title="Спорт",Русский экстрим
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869567&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/start.png" group-title="Спорт",Точка отрыва
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869566&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/fastfunbox-hd.png" group-title="Спорт",Fast&FunBox
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869565&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/voleybol.png" group-title="Спорт",Волейбол ТВ FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869564&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/mir-basketbola.png" group-title="Спорт",Мир баскетбола HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869563&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/mir-basketbola.png" group-title="Спорт",Мир баскетбола
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869562&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/eurosport1.png" group-title="Спорт",Eurosport 1 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869561&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/eurosport2.png" group-title="Спорт",Eurosport 2 FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869560&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/eurosport1-cee.png" group-title="Спорт",Eurosport 1 HD CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869559&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/eurosport2-cee.png" group-title="Спорт",Eurosport 2 HD CEE
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869558&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/SETANTASPORTSPREM200.png" group-title="Спорт",Setanta Sports Premium HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869557&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-sports1.png" group-title="Спорт",Setanta Sports 1 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869556&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-sports2.png" group-title="Спорт",Setanta Sports 2 HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869555&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-plus-ua.png" group-title="Спорт",Setanta Sports UA+ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869554&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-ua.png" group-title="Спорт",Setanta Sports UA HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869553&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-kz.png" group-title="Спорт",Setanta Qazaqstan HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869552&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta1-kz.png" group-title="Спорт",Setanta Sports 1 HD KZ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869551&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta2-kz.png" group-title="Спорт",Setanta Sports 2 HD KZ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869550&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-plus-kz.png" group-title="Спорт",Setanta Sports + HD KZ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869549&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta-ua.png" group-title="Спорт",Setanta Sports HD MD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869548&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta1-ge.png" group-title="Спорт",Setanta Sports 1 HD Georgia
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869547&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta2-ge.png" group-title="Спорт",Setanta Sports 2 HD Georgia
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869546&extension=ts
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/setanta3-ge.png" group-title="Спорт",Setanta Sports 3 HD Georgia
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869545&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/setanta1-lt.png" group-title="Спорт",Setanta Sports Baltic HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869544&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/start.png" group-title="Спорт",Старт FHD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869543&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/start-triumf.png" group-title="Спорт",Старт Триумф HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869542&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/football-ru.png" group-title="Спорт",Футбол HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869541&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/footbolny.png" group-title="Спорт",Мяч HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869540&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/sportivny.png" group-title="Спорт",ТВ Спорт HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869539&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/xokkejny.png" group-title="Спорт",Хоккей ТВ HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869538&extension=ts
+
+#EXTINF:-1 tvg-logo="http://peaktv.su/img/logos/sport/viasat-sport.png" group-title="Спорт",viju+ Viasat Sport HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://vip058esmertv.live:8080/play/live.php?mac=00:1A:79:BF:B3:FF&stream=869537&extension=ts

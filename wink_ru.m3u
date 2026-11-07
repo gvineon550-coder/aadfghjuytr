@@ -748,9 +748,6 @@ https://stream.smotrim.ru/hls2/doverie/playlist_3.m3u8
 #EXTINF:-1 tvg-id="mir-pl7" tvg-logo="https://www.cableman.ru/sites/default/files/MM-TV_logo-1%5B1509%5D.png" tvg-name="Moy mir (720p)",Moy mir (720p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://moymir.ru/hls/onair.m3u8
-#EXTINF:-1 tvg-id="moya-planeta" tvg-logo="https://i.imgur.com/uIiAdBv.png" tvg-name="Moya Planeta (1080p)",Moya Planeta (1080p)
-#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
-http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="moya-planeta" tvg-logo="https://i.imgur.com/uIiAdBv.png" tvg-name="Moya Planeta (576p)",Moya Planeta (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 http://stream.mcquack.net/124/index.m3u8
@@ -2042,3 +2039,15 @@ http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 tvg-id="yuvelirochka" tvg-logo="https://i.imgur.com/IcWtXCZ.png" tvg-name="Ювелирочка ТВ (576p)",Ювелирочка ТВ (576p)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
+#EXTINF:-1 tvg-id="the-explorers" tvg-logo="https://www.oreol.tv/img/news/Logo_The_Explorers_Bleu.png" tvg-name="The Explorers (1080p)",The Explorers (1080p)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
+#EXTINF:-1 tvg-id="muztv-pl7" tvg-logo="https://i.imgur.com/xyztpBf.png" tvg-name="Muzhskoy HD (1080p)",Muzhskoy HD (1080p)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
+#EXTINF:-1 tvg-id="nasha-tema" tvg-logo="https://i.imgur.com/67ZVDKW.png" tvg-name="Nasha Tema (1080p)",Nasha Tema (1080p)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+https://fonbet.mediacdn.ru/live/nashatema/playlist.m3u8
+#EXTINF:-1 tvg-id="o_" tvg-logo="https://smotreshka.server-img.lfstrm.tv/images/media/59/20/592021ab74bddb93907e2b18997215a9.png" tvg-name="Volleyball (1080p)",Volleyball (1080p)
+#EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
+https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8

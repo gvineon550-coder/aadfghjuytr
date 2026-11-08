@@ -3,12 +3,9 @@ import yt_dlp
 import requests
 import os
 import sys
-import time
 import uuid
-import re
 
 CONFIG_FILE = "vk_config.json"
-CACHE_FILE = "rutube_cache.json"
 OUTPUT_FILE = "vk_live.m3u"
 
 # 🎨 Цвета для логов
@@ -42,19 +39,6 @@ class Progress:
         sys.stdout.write(f"\r{C_CYAN}[{bar}]{C_RESET} {pct}% ({self.done}/{self.total}) | {C_GREEN}Успех: {self.success}{C_RESET} | {C_RED}Офлайн: {self.failed}{C_RESET} | {status_icon} {short_name:<25}")
         sys.stdout.flush()
 
-def load_cache():
-    if os.path.exists(CACHE_FILE):
-        try:
-            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception:
-            return {}
-    return {}
-
-def save_cache(cache):
-    with open(CACHE_FILE, 'w', encoding='utf-8') as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
-
 def get_streams_from_category(category_id):
     url = f"https://api.live.vkvideo.ru/v1/catalog/public_video_streams/category/{category_id}/stream/?limit=100"
     headers = {
@@ -87,21 +71,12 @@ def get_streams_from_category(category_id):
         return []
 
 def get_stream_info(vk_url):
-    is_rutube = "rutube.ru" in vk_url
-    is_vk = "vk.com" in vk_url or "vkvideo.ru" in vk_url
-    
     headers = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Referer': 'https://vk.com/',
+        'Origin': 'https://vk.com',
     }
-    if is_rutube:
-        headers['Referer'] = 'https://rutube.ru/'
-        headers['Origin'] = 'https://rutube.ru'
-    elif is_vk:
-        headers['Referer'] = 'https://vk.com/'
-
-    # --- ПЛАН А: yt-dlp ---
+    
     ydl_opts = {
         'quiet': True, 'no_warnings': True,
         'format': 'best[protocol^=m3u8]/best',
@@ -125,52 +100,10 @@ def get_stream_info(vk_url):
                     "thumbnail": info.get('thumbnail') or ""
                 }
     except Exception:
-        pass
-
-    # --- ПЛАН Б: Прямой API Rutube ---
-    if is_rutube:
-        match = re.search(r'/(?:live/)?video/([a-f0-9]+)', vk_url)
-        if match:
-            video_id = match.group(1)
-            api_urls = [
-                f"https://rutube.ru/api/play/options/{video_id}/?no_404=true&client=wdp",
-                f"http://rutube.ru/api/play/options/{video_id}/?no_404=true&client=wdp",
-                f"https://rutube.ru/api/play/options/{video_id}/",
-                f"http://rutube.ru/api/play/options/{video_id}/"
-            ]
-            for api_url in api_urls:
-                try:
-                    r = requests.get(api_url, headers=headers, timeout=15)
-                    if r.status_code == 200:
-                        data = r.json()
-                        stream_url = None
-                        
-                        # Эфиры
-                        live = data.get('live_streams')
-                        if live and isinstance(live, dict):
-                            hls = live.get('hls')
-                            if hls and isinstance(hls, list) and hls[0].get('url'):
-                                stream_url = hls[0]['url']
-                        
-                        # Обычные видео
-                        if not stream_url:
-                            vb = data.get('video_balancer')
-                            if vb and isinstance(vb, dict):
-                                stream_url = vb.get('m3u8')
-                        
-                        if stream_url:
-                            return {
-                                "url": stream_url,
-                                "title": data.get('title', ''),
-                                "thumbnail": data.get('thumbnail_url', '')
-                            }
-                except Exception:
-                    continue
-                    
-    return None
+        return None
 
 def main():
-    print(f"{C_CYAN}{C_BOLD}=== VK & Rutube (Smart Groups & Cache) ==={C_RESET}")
+    print(f"{C_CYAN}{C_BOLD}=== VK Live Auto-Update ==={C_RESET}")
     if not os.path.exists(CONFIG_FILE):
         print(f"{C_RED}Файл vk_config.json не найден!{C_RESET}")
         return
@@ -178,21 +111,15 @@ def main():
     with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
         config = json.load(f)
 
-    rutube_cache = load_cache()
     all_channels = []
     
-    # 1. VK Live (по категориям)
     for cat_id in config.get("categories", []):
         print(f"{C_CYAN}[*] Загрузка VK категории: {cat_id}{C_RESET}")
         all_channels.extend(get_streams_from_category(cat_id))
         
-    # 2. Ручные каналы
     for ch in config.get("channels", []):
         if "group" not in ch or not ch["group"]:
-            url = ch['url']
-            if "rutube.ru" in url: ch["group"] = "📼 Rutube"
-            elif "vk.com" in url or "vkvideo.ru" in url: ch["group"] = "🎬 VK Video"
-            else: ch["group"] = "📦 Разное"
+            ch["group"] = "🎬 VK Video"
         all_channels.append(ch)
 
     if not all_channels:
@@ -206,23 +133,13 @@ def main():
     
     for ch in all_channels:
         url = ch['url']
-        info = None
-        
-        # 🧠 Кэш для Rutube
-        is_rutube = "rutube.ru" in url
-        
-        if is_rutube and url in rutube_cache:
-            info = rutube_cache[url]
-        else:
-            info = get_stream_info(url)
-            if info and is_rutube:
-                rutube_cache[url] = info
+        info = get_stream_info(url)
         
         if info:
             final_logo = ch.get("logo") or info.get("thumbnail") or ""
             final_name = ch["name"]
             
-            if final_name.startswith("Rutube") or final_name.startswith("Эфир"):
+            if final_name.startswith("Эфир") or final_name.startswith("VK"):
                 final_name = info.get("title") or final_name
             
             final_name = final_name[:60].replace(",", " ")
@@ -231,28 +148,18 @@ def main():
             logo_attr = f' tvg-logo="{final_logo}"' if final_logo else ""
             lines.append(f'#EXTINF:-1{logo_attr} group-title="{group_name}",{final_name}')
             
-            # Стелс для плеера
             lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-            
-            if "rutube.ru" in url:
-                lines.append("#EXTVLCOPT:http-referrer=https://rutube.ru/")
-                lines.append("#EXTVLCOPT:http-origin=https://rutube.ru")
-            elif "vk.com" in url or "vkvideo.ru" in url:
-                lines.append("#EXTVLCOPT:http-referrer=https://vk.com/")
-                lines.append("#EXTVLCOPT:http-origin=https://vk.com")
+            lines.append("#EXTVLCOPT:http-referrer=https://vk.com/")
+            lines.append("#EXTVLCOPT:http-origin=https://vk.com")
                 
             lines.append(info["url"])
             progress.update(True, final_name)
         else:
-            if is_rutube and url in rutube_cache:
-                del rutube_cache[url]
             progress.update(False, ch["name"])
             
     print("\n")
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write("\n".join(lines) + "\n")
-        
-    save_cache(rutube_cache)
     
     groups = {}
     for line in lines:

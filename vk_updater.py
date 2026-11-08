@@ -2,14 +2,60 @@ import json
 import yt_dlp
 import requests
 import os
+import sys
+import time
 import uuid
 
 CONFIG_FILE = "vk_config.json"
+CACHE_FILE = "rutube_cache.json"
 OUTPUT_FILE = "vk_live.m3u"
+
+# 🎨 Цвета для логов
+C_GREEN = '\033[92m'
+C_RED = '\033[91m'
+C_YELLOW = '\033[93m'
+C_CYAN = '\033[96m'
+C_BOLD = '\033[1m'
+C_RESET = '\033[0m'
+
+class Progress:
+    def __init__(self, total):
+        self.total = total
+        self.done = 0
+        self.success = 0
+        self.failed = 0
+
+    def update(self, success, name=""):
+        self.done += 1
+        if success: self.success += 1
+        else: self.failed += 1
+        self.render(success, name)
+
+    def render(self, success, name):
+        pct = int((self.done / self.total) * 100) if self.total > 0 else 100
+        bar_len = 30
+        filled = int(bar_len * self.done / self.total) if self.total > 0 else bar_len
+        bar = "█" * filled + "░" * (bar_len - filled)
+        status_icon = f"{C_GREEN}✅{C_RESET}" if success else f"{C_RED}❌{C_RESET}"
+        short_name = (name[:25] + '..') if len(name) > 25 else name
+        sys.stdout.write(f"\r{C_CYAN}[{bar}]{C_RESET} {pct}% ({self.done}/{self.total}) | {C_GREEN}Успех: {self.success}{C_RESET} | {C_RED}Офлайн: {self.failed}{C_RESET} | {status_icon} {short_name:<25}")
+        sys.stdout.flush()
+
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+def save_cache(cache):
+    with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
 
 def get_streams_from_category(category_id):
     url = f"https://api.live.vkvideo.ru/v1/catalog/public_video_streams/category/{category_id}/stream/?limit=100"
-    
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
@@ -17,106 +63,144 @@ def get_streams_from_category(category_id):
         "Referer": "https://live.vkvideo.ru/",
         "X-App": "streams_web",
         "X-From-Id": str(uuid.uuid4()),
-        "X-Referer": "https://live.vkvideo.ru/",
-        "X-Super-Referer": "https://live.vkvideo.ru/"
     }
-    
     try:
         response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         data = response.json()
-        
-        # НОВАЯ СТРУКТУРА: ищем data -> streamBlogs
         streams = data.get("data", {}).get("streamBlogs", [])
-        
-        if not streams:
-            print(f"[!] В ответе не найден список streamBlogs.")
-            return []
-            
         result = []
         for s in streams:
             blog = s.get("blog", {})
             blog_url = blog.get("blogUrl")
-            
-            if not blog_url:
-                continue
-                
-            # 1. Название
+            if not blog_url: continue
             raw_name = blog.get("title") or blog.get("owner", {}).get("displayName") or blog_url
-            name = raw_name[:50] + "..." if len(raw_name) > 50 else raw_name
+            name = raw_name[:40] + "..." if len(raw_name) > 40 else raw_name
             name = name.replace(",", " ")
-            
-            # 2. Ссылка на стрим (используем канонический URL VK Live)
             channel_url = f"https://live.vkvideo.ru/{blog_url}"
-            
-            # 3. Логотип
             logo = blog.get("owner", {}).get("avatarUrl") or blog.get("coverUrl") or ""
-            
             result.append({"name": name, "url": channel_url, "logo": logo})
-                
-        print(f"Найдено {len(result)} стримов в категории {category_id}")
         return result
     except Exception as e:
-        print(f"Ошибка при получении категории {category_id}: {e}")
+        print(f"\n{C_RED}Ошибка API VK категории {category_id}: {e}{C_RESET}")
         return []
 
-def get_stream_url(vk_url):
+def get_stream_info(vk_url):
+    is_rutube = "rutube.ru" in vk_url
+    is_vk = "vk.com" in vk_url or "vkvideo.ru" in vk_url
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+    
+    if is_rutube:
+        headers['Referer'] = 'https://rutube.ru/'
+        headers['Origin'] = 'https://rutube.ru'
+    elif is_vk:
+        headers['Referer'] = 'https://vk.com/'
+        
     ydl_opts = {
         'quiet': True, 'no_warnings': True,
-        'format': 'best[protocol^=m3u8]',
+        'format': 'best[protocol^=m3u8]/best',
         'skip_download': True,
-        'http_headers': {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Referer': 'https://vk.com/'
-        }
+        'http_headers': headers
     }
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(vk_url, download=False)
+            stream_url = None
             for fmt in info.get('formats', []):
                 if fmt.get('protocol') == 'm3u8' and fmt.get('url'):
-                    return fmt['url']
-            return info.get('url')
-    except Exception as e:
-        # Если yt-dlp не смог распарсить (например, стрим офлайн), возвращаем None
+                    stream_url = fmt['url']
+                    break
+            if not stream_url: stream_url = info.get('url')
+            if not stream_url: return None
+                
+            return {
+                "url": stream_url,
+                "title": info.get('title') or "",
+                "thumbnail": info.get('thumbnail') or ""
+            }
+    except Exception:
         return None
 
 def main():
+    print(f"{C_CYAN}{C_BOLD}=== VK & Rutube (Smart Cache) ==={C_RESET}")
     if not os.path.exists(CONFIG_FILE):
-        print("Файл vk_config.json не найден!")
+        print(f"{C_RED}Файл vk_config.json не найден!{C_RESET}")
         return
+        
     with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
         config = json.load(f)
 
+    rutube_cache = load_cache()
     all_channels = []
+    
     for cat_id in config.get("categories", []):
-        print(f"Обработка категории: {cat_id}")
+        print(f"{C_CYAN}[*] Загрузка VK категории: {cat_id}{C_RESET}")
         all_channels.extend(get_streams_from_category(cat_id))
         
     for ch in config.get("channels", []):
         all_channels.append(ch)
 
+    if not all_channels:
+        print(f"{C_YELLOW}[!] Каналы не найдены.{C_RESET}")
+        return
+
+    print(f"\n{C_CYAN}[*] Всего каналов: {len(all_channels)}. Начинаем проверку...{C_RESET}\n")
+    
     lines = ["#EXTM3U"]
-    success_count = 0
+    progress = Progress(len(all_channels))
     
     for ch in all_channels:
-        print(f"Проверка: {ch['name']}...")
-        stream_url = get_stream_url(ch['url'])
+        url = ch['url']
+        info = None
         
-        if stream_url:
-            success_count += 1
-            logo_attr = f' tvg-logo="{ch["logo"]}"' if ch.get("logo") else ""
-            lines.append(f'#EXTINF:-1{logo_attr} group-title="📺 VK Live",{ch["name"]}')
-            lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-            lines.append(stream_url)
-            print(f"  -> Успех")
+        # 🧠 УМНЫЙ КЭШ: Если это Rutube и ссылка уже есть в кэше — берем оттуда
+        if "rutube.ru" in url and url in rutube_cache:
+            info = rutube_cache[url]
         else:
-            print(f"  -> Пропущено (офлайн или нет доступа)")
+            # Иначе парсим через yt-dlp
+            info = get_stream_info(url)
+            if info and "rutube.ru" in url:
+                # Если спарсили Rutube — сохраняем в кэш навсегда
+                rutube_cache[url] = info
+        
+        if info:
+            final_logo = ch.get("logo") or info.get("thumbnail") or ""
+            final_name = ch["name"]
             
+            if final_name.startswith("Rutube") or final_name.startswith("Эфир"):
+                final_name = info.get("title") or final_name
+            
+            final_name = final_name[:60].replace(",", " ")
+
+            logo_attr = f' tvg-logo="{final_logo}"' if final_logo else ""
+            lines.append(f'#EXTINF:-1{logo_attr} group-title="📺 VK & Rutube",{final_name}')
+            lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+            
+            if "rutube.ru" in url:
+                lines.append("#EXTVLCOPT:http-referrer=https://rutube.ru/")
+                lines.append("#EXTVLCOPT:http-origin=https://rutube.ru")
+            elif "vk.com" in url or "vkvideo.ru" in url:
+                lines.append("#EXTVLCOPT:http-referrer=https://vk.com/")
+                lines.append("#EXTVLCOPT:http-origin=https://vk.com")
+                
+            lines.append(info["url"])
+            progress.update(True, final_name)
+        else:
+            # Если Rutube-ссылка не спарсилась (удалена), убираем её из кэша
+            if "rutube.ru" in url and url in rutube_cache:
+                del rutube_cache[url]
+            progress.update(False, ch["name"])
+            
+    print("\n")
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write("\n".join(lines) + "\n")
         
-    print(f"\nГотово! Файл {OUTPUT_FILE} обновлен. Успешно добавлено: {success_count} из {len(all_channels)}")
+    # Сохраняем обновленный кэш
+    save_cache(rutube_cache)
+    print(f"{C_GREEN}{C_BOLD}✅ Готово! Успешно добавлено: {progress.success} из {len(all_channels)}{C_RESET}")
 
 if __name__ == "__main__":
     main()

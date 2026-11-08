@@ -112,7 +112,7 @@ def get_vk_stream(vk_url):
     return None
 
 # ==========================================
-# ЛОГИКА ДЛЯ RUTUBE (ТОЧНАЯ КОПИЯ PYQT-СКРИПТА)
+# ЛОГИКА ДЛЯ RUTUBE (БЕЗ HEAD-ЗАПРОСОВ)
 # ==========================================
 def _rutube_api_request(url, ref=None, json_mode=False):
     """Точная копия api_get_ex из PyQt-скрипта."""
@@ -136,7 +136,7 @@ def _rutube_api_request(url, ref=None, json_mode=False):
         session.close()
 
 def _pick_best_rutube_stream(m3u8_text, base_url):
-    """Парсит master m3u8, выбирает лучший поток (с rtbcdn.ru)."""
+    """Парсит master m3u8 и выбирает лучший поток БЕЗ проверки HEAD."""
     lines = m3u8_text.splitlines()
     streams = []
     for i, line in enumerate(lines):
@@ -156,30 +156,19 @@ def _pick_best_rutube_stream(m3u8_text, base_url):
             h = int(m.group(1)) if m else 0
             streams.append({"url": url, "height": h})
     
+    # Если это не master-плейлист (нет вариантов), возвращаем как есть
     if not streams:
         return base_url
     
     # Сортируем по высоте кадра (от большего к меньшему)
     streams.sort(key=lambda s: -s["height"])
     
-    # Проверяем живость через HEAD
+    # Приоритет: rtbcdn.ru (быстрый CDN), потом все остальные
     for s in streams:
-        try:
-            r = requests.head(s["url"], allow_redirects=True, timeout=5, headers=RUTUBE_HEADERS, verify=False)
-            if r.status_code == 200:
-                if "rtbcdn.ru" in s["url"]:
-                    return s["url"]
-        except Exception:
-            pass
+        if "rtbcdn.ru" in s["url"]:
+            return s["url"]
     
-    for s in streams:
-        try:
-            r = requests.head(s["url"], allow_redirects=True, timeout=5, headers=RUTUBE_HEADERS, verify=False)
-            if r.status_code == 200:
-                return s["url"]
-        except Exception:
-            pass
-    return streams[0]["url"] if streams else base_url
+    return streams[0]["url"]
 
 def get_rutube_stream(vk_url):
     match = re.search(r'/(?:live/|video/)?([a-f0-9]{32})', vk_url)

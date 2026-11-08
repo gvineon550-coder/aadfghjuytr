@@ -8,7 +8,6 @@ CONFIG_FILE = "vk_config.json"
 OUTPUT_FILE = "vk_live.m3u"
 
 def get_streams_from_category(category_id):
-    # Новый формат эндпоинта: ID категории прямо в пути
     url = f"https://api.live.vkvideo.ru/v1/catalog/public_video_streams/category/{category_id}/stream/?limit=100"
     
     headers = {
@@ -16,8 +15,8 @@ def get_streams_from_category(category_id):
         "Accept": "application/json, text/plain, */*",
         "Origin": "https://live.vkvideo.ru",
         "Referer": "https://live.vkvideo.ru/",
-        "X-App": "streams_web",  # VK ожидает этот заголовок
-        "X-From-Id": str(uuid.uuid4()), # Уникальный ID сессии
+        "X-App": "streams_web",
+        "X-From-Id": str(uuid.uuid4()),
         "X-Referer": "https://live.vkvideo.ru/",
         "X-Super-Referer": "https://live.vkvideo.ru/"
     }
@@ -27,37 +26,33 @@ def get_streams_from_category(category_id):
         response.raise_for_status()
         data = response.json()
         
-        # Выводим ответ в лог для отладки (первые 500 символов)
-        print(f"[DEBUG] Ответ API (категория {category_id}): {str(data)[:500]}...")
-        
-        # Ищем список стримов (структура может быть data.streams, data.items или просто список)
-        streams = data.get("data", {}).get("streams", []) or data.get("data", {}).get("items", []) or data.get("streams", []) or data.get("data", [])
+        # НОВАЯ СТРУКТУРА: ищем data -> streamBlogs
+        streams = data.get("data", {}).get("streamBlogs", [])
         
         if not streams:
-            print(f"[!] В ответе не найден список стримов. Проверьте структуру JSON.")
+            print(f"[!] В ответе не найден список streamBlogs.")
             return []
             
         result = []
         for s in streams:
-            if not isinstance(s, dict): continue
+            blog = s.get("blog", {})
+            blog_url = blog.get("blogUrl")
+            
+            if not blog_url:
+                continue
+                
             # 1. Название
-            raw_name = s.get("title") or s.get("channel", {}).get("name") or "VK Live"
+            raw_name = blog.get("title") or blog.get("owner", {}).get("displayName") or blog_url
             name = raw_name[:50] + "..." if len(raw_name) > 50 else raw_name
             name = name.replace(",", " ")
             
-            # 2. Ссылка на стрим (может быть в channel.url или в url)
-            channel_url = s.get("channel", {}).get("url") or s.get("url")
+            # 2. Ссылка на стрим (используем канонический URL VK Live)
+            channel_url = f"https://live.vkvideo.ru/{blog_url}"
             
             # 3. Логотип
-            logo = (
-                s.get("channel", {}).get("avatar") or 
-                s.get("channel", {}).get("photo_200") or 
-                s.get("cover", {}).get("url") or 
-                s.get("preview_url") or ""
-            )
+            logo = blog.get("owner", {}).get("avatarUrl") or blog.get("coverUrl") or ""
             
-            if channel_url:
-                result.append({"name": name, "url": channel_url, "logo": logo})
+            result.append({"name": name, "url": channel_url, "logo": logo})
                 
         print(f"Найдено {len(result)} стримов в категории {category_id}")
         return result
@@ -82,7 +77,8 @@ def get_stream_url(vk_url):
                 if fmt.get('protocol') == 'm3u8' and fmt.get('url'):
                     return fmt['url']
             return info.get('url')
-    except Exception:
+    except Exception as e:
+        # Если yt-dlp не смог распарсить (например, стрим офлайн), возвращаем None
         return None
 
 def main():

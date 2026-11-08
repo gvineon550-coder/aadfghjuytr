@@ -1,6 +1,25 @@
 {
   "categories": [
-    "23c1873d-c51b-498a-a336-843a852fbd85"
+    "23c1873d-c51b-498a-a336-843a852fbd85",
+    "3c6b4b27-75f2-49c4-b967-f15aa88e2038",
+    "82b52547-eebc-4a00-bb86-028c1c3c9e5e",
+    "fbc48bd0-d14f-49e0-b8f6-d5082179f9da"
   ],
-  "channels": []
+  "channels": [
+    {
+      "name": "Эфир VK Video 1",
+      "url": "https://vkvideo.ru/video-217672812_456239544",
+      "logo": ""
+    },
+    {
+      "name": "Эфир VK Video 2",
+      "url": "https://vkvideo.ru/video-217672812_456239671",
+      "logo": ""
+    },
+    {
+      "name": "Rutube Видео",
+      "url": "https://rutube.ru/video/54395b96ad1a7b49966f46a6eee370a4/",
+      "logo": ""
+    }
+  ]
 }

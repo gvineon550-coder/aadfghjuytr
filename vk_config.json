@@ -1,71 +1,17 @@
 {
-  "categories": [],
+  "categories": [
+    "23c1873d-c51b-498a-a336-843a852fbd85"
+  ],
   "channels": [
     {
       "name": "Эфир VK Video 1",
       "url": "https://vkvideo.ru/video-217672812_456239544",
-      "logo": "",
-      "group": "🎬 VK Video"
+      "logo": ""
     },
     {
       "name": "Эфир VK Video 2",
       "url": "https://vkvideo.ru/video-217672812_456239671",
-      "logo": "",
-      "group": "🎬 VK Video"
-    },
-    {
-      "name": "Rutube Live 1",
-      "url": "https://rutube.ru/live/video/546602986e6a424d74d594876ddb3f04/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 2",
-      "url": "https://rutube.ru/live/video/c58f502c7bb34a8fcdd976b221fca292/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Sport Match TV",
-      "url": "https://rutube.sport/stream/priamoi-efir-match-tv/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 3",
-      "url": "https://rutube.ru/live/video/c37cd74192c6bc3d6cd6077c0c4fd686/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 4",
-      "url": "https://rutube.ru/live/video/b2b32a7d6f2323f3a113ff44b0404bf2/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 5",
-      "url": "https://rutube.ru/live/video/2619fc295c16585ef018041d88f14db0/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 6",
-      "url": "https://rutube.ru/live/video/6422d62f7e1f87bc3aec45b462cd89ea/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 7",
-      "url": "https://rutube.ru/live/video/e08e513c4e33f52fce3a975b5cb6932c/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 8",
-      "url": "https://rutube.ru/live/video/680dfe110840cf882437082b948578d6/",
-      "logo": "",
-      "group": "📼 Rutube"
+      "logo": ""
     }
   ]
 }

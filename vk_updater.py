@@ -4,12 +4,6 @@ import requests
 import os
 import sys
 import uuid
-import re
-import urllib3
-from urllib.parse import urljoin
-
-# Отключаем предупреждения SSL (как в PyQt-скрипте)
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 CONFIG_FILE = "vk_config.json"
 OUTPUT_FILE = "vk_live.m3u"
@@ -21,15 +15,6 @@ C_YELLOW = '\033[93m'
 C_CYAN = '\033[96m'
 C_BOLD = '\033[1m'
 C_RESET = '\033[0m'
-
-# 🕵️ Точные заголовки из PyQt-скрипта
-RUTUBE_UA = "Mozilla/5.0 (X11; Linux x86_64)"
-RUTUBE_HEADERS = {
-    "Accept-Encoding": "gzip, deflate",
-    "Accept": "*/*",
-    "Connection": "keep-alive",
-    "User-Agent": RUTUBE_UA,
-}
 
 class Progress:
     def __init__(self, total):
@@ -54,9 +39,6 @@ class Progress:
         sys.stdout.write(f"\r{C_CYAN}[{bar}]{C_RESET} {pct}% ({self.done}/{self.total}) | {C_GREEN}Успех: {self.success}{C_RESET} | {C_RED}Офлайн: {self.failed}{C_RESET} | {status_icon} {short_name:<25}")
         sys.stdout.flush()
 
-# ==========================================
-# ЛОГИКА ДЛЯ VK
-# ==========================================
 def get_streams_from_category(category_id):
     url = f"https://api.live.vkvideo.ru/v1/catalog/public_video_streams/category/{category_id}/stream/?limit=100"
     headers = {
@@ -88,8 +70,13 @@ def get_streams_from_category(category_id):
         print(f"\n{C_RED}Ошибка API VK категории {category_id}: {e}{C_RESET}")
         return []
 
-def get_vk_stream(vk_url):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+def get_stream_info(vk_url):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Referer': 'https://vk.com/',
+        'Origin': 'https://vk.com',
+    }
+    
     ydl_opts = {
         'quiet': True, 'no_warnings': True,
         'format': 'best[protocol^=m3u8]/best',
@@ -105,116 +92,18 @@ def get_vk_stream(vk_url):
                     stream_url = fmt['url']
                     break
             if not stream_url: stream_url = info.get('url')
-            if stream_url:
-                return {"url": stream_url, "title": info.get('title') or "", "thumbnail": info.get('thumbnail') or ""}
-    except Exception:
-        pass
-    return None
-
-# ==========================================
-# ЛОГИКА ДЛЯ RUTUBE (БЕЗ HEAD-ЗАПРОСОВ)
-# ==========================================
-def _rutube_api_request(url, ref=None, json_mode=False):
-    """Точная копия api_get_ex из PyQt-скрипта."""
-    session = requests.Session()
-    session.verify = False
-    headers = RUTUBE_HEADERS.copy()
-    if ref:
-        headers["Referer"] = ref
-        try:
-            session.get(ref, headers=headers, timeout=10) # Прогрев
-        except Exception:
-            pass
-    try:
-        r = session.get(url, headers=headers, timeout=15)
-        if r.status_code != 200:
-            return None
-        return r.json() if json_mode else r.text
-    except Exception:
-        return None
-    finally:
-        session.close()
-
-def _pick_best_rutube_stream(m3u8_text, base_url):
-    """Парсит master m3u8 и выбирает лучший поток БЕЗ проверки HEAD."""
-    lines = m3u8_text.splitlines()
-    streams = []
-    for i, line in enumerate(lines):
-        if line.startswith("#EXT-X-STREAM-INF:"):
-            url = ""
-            j = i + 1
-            while j < len(lines) and not lines[j].strip():
-                j += 1
-            if j < len(lines):
-                url = lines[j].strip()
-            if not url or url.startswith("#"):
-                continue
-            if not url.startswith("http"):
-                url = urljoin(base_url, url)
-            
-            m = re.search(r"RESOLUTION=\d+x(\d+)", line)
-            h = int(m.group(1)) if m else 0
-            streams.append({"url": url, "height": h})
-    
-    # Если это не master-плейлист (нет вариантов), возвращаем как есть
-    if not streams:
-        return base_url
-    
-    # Сортируем по высоте кадра (от большего к меньшему)
-    streams.sort(key=lambda s: -s["height"])
-    
-    # Приоритет: rtbcdn.ru (быстрый CDN), потом все остальные
-    for s in streams:
-        if "rtbcdn.ru" in s["url"]:
-            return s["url"]
-    
-    return streams[0]["url"]
-
-def get_rutube_stream(vk_url):
-    match = re.search(r'/(?:live/|video/)?([a-f0-9]{32})', vk_url)
-    if match:
-        video_id = match.group(1)
-        # 1. Запрос к API (по http, без параметров)
-        api_url = f"http://rutube.ru/api/play/options/{video_id}"
-        data = _rutube_api_request(api_url, ref="http://rutube.ru/", json_mode=True)
-        
-        if isinstance(data, dict):
-            stream_url = None
-            live = data.get("live_streams")
-            if isinstance(live, dict):
-                hls = live.get("hls")
-                if hls and isinstance(hls, list) and hls[0].get("url"):
-                    master_url = hls[0]["url"]
-                    # 2. Второй запрос к master m3u8
-                    m3u8_text = _rutube_api_request(master_url)
-                    if m3u8_text:
-                        stream_url = _pick_best_rutube_stream(m3u8_text, master_url)
-            
-            if not stream_url:
-                vb = data.get("video_balancer")
-                if vb and isinstance(vb, dict):
-                    stream_url = vb.get("m3u8")
             
             if stream_url:
                 return {
                     "url": stream_url,
-                    "title": data.get('title', ''),
-                    "thumbnail": data.get('thumbnail_url', '')
+                    "title": info.get('title') or "",
+                    "thumbnail": info.get('thumbnail') or ""
                 }
-    return None
-
-# ==========================================
-# ГЛАВНЫЙ ЦИКЛ
-# ==========================================
-def get_stream_info(vk_url):
-    if "rutube.ru" in vk_url or "rutube.sport" in vk_url:
-        return get_rutube_stream(vk_url)
-    elif "vk.com" in vk_url or "vkvideo.ru" in vk_url:
-        return get_vk_stream(vk_url)
-    return None
+    except Exception:
+        return None
 
 def main():
-    print(f"{C_CYAN}{C_BOLD}=== Ultimate VK & Rutube Auto-Update ==={C_RESET}")
+    print(f"{C_CYAN}{C_BOLD}=== VK Live Auto-Update ==={C_RESET}")
     if not os.path.exists(CONFIG_FILE):
         print(f"{C_RED}Файл vk_config.json не найден!{C_RESET}")
         return
@@ -230,9 +119,7 @@ def main():
         
     for ch in config.get("channels", []):
         if "group" not in ch or not ch["group"]:
-            if "rutube.ru" in ch['url']: ch["group"] = "📼 Rutube"
-            elif "vk.com" in ch["url"] or "vkvideo.ru" in ch["url"]: ch["group"] = "🎬 VK Video"
-            else: ch["group"] = "📦 Разное"
+            ch["group"] = "🎬 VK Video"
         all_channels.append(ch)
 
     if not all_channels:
@@ -245,13 +132,14 @@ def main():
     progress = Progress(len(all_channels))
     
     for ch in all_channels:
-        info = get_stream_info(ch['url'])
+        url = ch['url']
+        info = get_stream_info(url)
         
         if info:
             final_logo = ch.get("logo") or info.get("thumbnail") or ""
             final_name = ch["name"]
             
-            if final_name.startswith("Rutube") or final_name.startswith("Эфир"):
+            if final_name.startswith("Эфир") or final_name.startswith("VK"):
                 final_name = info.get("title") or final_name
             
             final_name = final_name[:60].replace(",", " ")
@@ -260,14 +148,9 @@ def main():
             logo_attr = f' tvg-logo="{final_logo}"' if final_logo else ""
             lines.append(f'#EXTINF:-1{logo_attr} group-title="{group_name}",{final_name}')
             
-            # Стелс для плеера
             lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-            if "rutube.ru" in ch['url'] or "rutube.sport" in ch['url']:
-                lines.append("#EXTVLCOPT:http-referrer=https://rutube.ru/")
-                lines.append("#EXTVLCOPT:http-origin=https://rutube.ru")
-            elif "vk.com" in ch['url'] or "vkvideo.ru" in ch['url']:
-                lines.append("#EXTVLCOPT:http-referrer=https://vk.com/")
-                lines.append("#EXTVLCOPT:http-origin=https://vk.com")
+            lines.append("#EXTVLCOPT:http-referrer=https://vk.com/")
+            lines.append("#EXTVLCOPT:http-origin=https://vk.com")
                 
             lines.append(info["url"])
             progress.update(True, final_name)

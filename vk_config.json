@@ -1,145 +1,17 @@
 {
   "categories": [
-    ""
+    "23c1873d-c51b-498a-a336-843a852fbd85"
   ],
   "channels": [
     {
       "name": "Эфир VK Video 1",
       "url": "https://vkvideo.ru/video-217672812_456239544",
-      "logo": "",
-      "group": "🎬 VK Video"
+      "logo": ""
     },
     {
       "name": "Эфир VK Video 2",
       "url": "https://vkvideo.ru/video-217672812_456239671",
-      "logo": "",
-      "group": "🎬 VK Video"
-    },
-    {
-      "name": "Rutube Live 1",
-      "url": "https://rutube.ru/live/video/5ab908fccfac5bb43ef2b1e4182256b0/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 2",
-      "url": "https://rutube.ru/live/video/c58f502c7bb34a8fcdd976b221fca292/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 3",
-      "url": "https://rutube.ru/live/video/2742a3c42be661ea732705f80adb7bdd/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Video 1",
-      "url": "https://rutube.ru/video/3abeb7577fd38ac4b8130bb8e03418f2/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Video 2",
-      "url": "https://rutube.ru/video/e08e513c4e33f52fce3a975b5cb6932c/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Video 3",
-      "url": "https://rutube.ru/video/7758ac4d77fac95e187144ee2c8b368d/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 4",
-      "url": "https://rutube.ru/live/video/21f3993ed8291b70208aa06c982c731f/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 5",
-      "url": "https://rutube.ru/live/video/4965b7b928c4a143d708ab424be01d37/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 6",
-      "url": "https://rutube.ru/live/video/680dfe110840cf882437082b948578d6/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 7",
-      "url": "https://rutube.ru/live/video/300560a65014ec501a25b1f79df9ad90/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 8",
-      "url": "https://rutube.ru/live/video/6f99d2a36810a41acc8f66af25441ae3/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 9",
-      "url": "https://rutube.ru/live/video/54de765aeea96a73d23a24b4e2cab07d/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 10",
-      "url": "https://rutube.ru/live/video/546602986e6a424d74d594876ddb3f04/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 11",
-      "url": "https://rutube.ru/live/video/1786622e52a6864eb3fd66b83733fef5/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 12",
-      "url": "https://rutube.ru/live/video/99f8f1d827641b766de62fe9023642fa/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Video 4",
-      "url": "https://rutube.ru/video/8b077d20877c0cd70b5bc4a090b9f37e/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 13",
-      "url": "https://rutube.ru/live/video/5e3edd063411550ed6b67a8c0d7c96ea/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 14",
-      "url": "https://rutube.ru/live/video/4d06d4d152d087f3792a5b15dc729562/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Live 15",
-      "url": "https://rutube.ru/live/video/2814e12b4ef6c528967736441c2e2803/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Video 5",
-      "url": "https://rutube.ru/video/74bb437ef478a52f42198c50d4241dc7/",
-      "logo": "",
-      "group": "📼 Rutube"
-    },
-    {
-      "name": "Rutube Video 6",
-      "url": "https://rutube.ru/video/31cd70d4054fbbde3b169d9a6972515c/",
-      "logo": "",
-      "group": "📼 Rutube"
+      "logo": ""
     }
   ]
 }

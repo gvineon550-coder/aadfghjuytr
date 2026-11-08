@@ -1,1 +1,292 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19364745/avatar?change_time=1770301615" group-title="📺 VK Live",MovieToper
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd194.okcdn.ru/cmaf/20623679228603/sig/1rm6URFtTl8/expires/1794227482374/srcIp/4.242.196.67/urls/176.112.172.114/clientType/36/srcAg/CHROME/mid/17070271580091/get/CLuP5dvn8AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBmyhZimBVvQw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19154240/avatar?change_time=1720968476" group-title="📺 VK Live",VHS Forever
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd491.okcdn.ru/cmaf/18762376546866/sig/XUH9i35t63A/expires/1794227486824/srcIp/4.242.196.67/urls/185.226.55.77/clientType/36/srcAg/CHROME/mid/19025238509362/get/CLKO1cTaqQQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCDfynCCzJzLaA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18457965/avatar?change_time=1758374144" group-title="📺 VK Live",TimeToMovie
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd495.okcdn.ru/cmaf/19575320677003/sig/EY0_4RPYJjM/expires/1794227490048/srcIp/4.242.196.67/urls/185.226.55.82/clientType/36/srcAg/CHROME/mid/16696689641355/get/CIuPhYL45QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBbTn0cB30MNQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/15503490/avatar?change_time=1782598562" group-title="📺 VK Live",Тоха Киноман
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd208.okcdn.ru/cmaf/21429918108387/sig/IMr0Qc8EQJ0/expires/1794227494479/srcIp/4.242.196.67/urls/178.237.23.92/clientType/36/srcAg/CHROME/mid/17624797038563/get/COOPkb75gAQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBAtqaBdMhlwA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30679453/avatar?change_time=1768060945" group-title="📺 VK Live",Назад в СССР
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd229.okcdn.ru/cmaf/21213981313603/sig/h_Z1vLdss7Y/expires/1794227496555/srcIp/4.242.196.67/urls/185.180.203.85/clientType/36/srcAg/CHROME/mid/18604056921923/get/CMOO0cG5nQQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCDq1g7kCmi29g/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20428041/avatar?change_time=1766171277" group-title="📺 VK Live",Kinowalk_tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd137.okcdn.ru/cmaf/21426857970403/sig/GwsVRJiS828/expires/1794227499088/srcIp/4.242.196.67/urls/95.163.35.73/clientType/36/srcAg/CHROME/mid/17623035561955/get/COOPmfbygAQQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBj57kABzTlE4A/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18457974/avatar?change_time=1779539058" group-title="📺 VK Live",TimeToHorror
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd164.okcdn.ru/cmaf/19135386225261/sig/wv7A_9qef5w/expires/1794227503264/srcIp/4.242.196.67/urls/95.163.35.107/clientType/36/srcAg/CHROME/mid/16473786697581/get/CO2O0dG53wMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBZP525ToVy2w/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18921611/avatar?change_time=1734455657" group-title="📺 VK Live",kinolampa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd139.okcdn.ru/cmaf/18682510379535/sig/KyfNZGFVUOs/expires/1794227506836/srcIp/4.242.196.67/urls/95.163.35.77/clientType/36/srcAg/CHROME/mid/16287151441679/get/CI-Oga-C2gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC1GUBcsgCtUw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18520297/avatar?change_time=1742525161" group-title="📺 VK Live",lampovoeTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd81.okcdn.ru/cmaf/18754311228144/sig/rmz65LPkGTY/expires/1794227510405/srcIp/4.242.196.67/urls/178.237.23.61/clientType/36/srcAg/CHROME/mid/16140766889968/get/CPCPtYXh1QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCA6QMJCpdG1sA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23770117/avatar?change_time=1785613080" group-title="📺 VK Live",Blockbusters Time
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd287.okcdn.ru/cmaf/17692739046068/sig/ds11mcHAr6I/expires/1794227513157/srcIp/4.242.196.67/urls/185.180.203.108/clientType/36/srcAg/CHROME/mid/15881570043828/get/CLSP3bqbzgMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAeqxROi182yg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19785904/avatar?change_time=1763034827" group-title="📺 VK Live",Фильмотека
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd211.okcdn.ru/hls/21140646070941.m3u8/sig/xxb_NzAaqno/expires/1794227516640/srcIp/4.242.196.67/urls/95.163.35.99/clientType/36/srcAg/CHROME/mid/17670871009181/21140646070941_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34295925/avatar?change_time=1782718839" group-title="📺 VK Live",Фильмоскоп
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd256.okcdn.ru/cmaf/19104000445173/sig/ead8xlNzjPo/expires/1794227519710/srcIp/4.242.196.67/urls/176.112.172.108/clientType/36/srcAg/CHROME/mid/16733102753781/get/CPWPldX_5gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCCdqn582bRKlA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20478706/avatar?change_time=1750202905" group-title="📺 VK Live",МирКино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd122.okcdn.ru/hls/18909881240206.m3u8/sig/hcovLyvta9A/expires/1794227522162/srcIp/4.242.196.67/urls/178.237.23.89/clientType/36/srcAg/CHROME/mid/16904235009934/18909881240206_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18907130/avatar?change_time=1734455298" group-title="📺 VK Live",lampoTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd253.okcdn.ru/cmaf/21365901888095/sig/C-AkFkbjnTo/expires/1794227525086/srcIp/4.242.196.67/urls/178.237.23.44/clientType/36/srcAg/CHROME/mid/17473215940447/get/CN-O0ebE_AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCDHo221sYtvSQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19574708/avatar?change_time=1784876669" group-title="📺 VK Live",KinoMix Юрич
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd78.okcdn.ru/cmaf/21248014551553/sig/7qkhfFDZ9UI/expires/1794227527542/srcIp/4.242.196.67/urls/185.226.55.85/clientType/36/srcAg/CHROME/mid/17531033634561/get/CIGOoZic_gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBq7FN9RsznIg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/12235240/avatar?change_time=1686298823" group-title="📺 VK Live",swat2k
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd258.okcdn.ru/cmaf/19961606769305/sig/mjBEkPwPt5s/expires/1794227530007/srcIp/4.242.196.67/urls/95.163.35.102/clientType/36/srcAg/CHROME/mid/16743607912345/get/CJmPteam5wMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAurA_ykEk32g/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18725544/avatar?change_time=1764060712" group-title="📺 VK Live",КОМЕДИИ 24/7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd229.okcdn.ru/cmaf/18668851759666/sig/u3ybulCOpDg/expires/1794227532983/srcIp/4.242.196.67/urls/178.237.23.121/clientType/36/srcAg/CHROME/mid/18963007031090/get/CLKOsdrypwQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBbDRb_x2rlzQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19371765/avatar?change_time=1785097645" group-title="📺 VK Live",ScripachTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd198.okcdn.ru/cmaf/21132147886685/sig/kpsuus-6Zmw/expires/1794227535581/srcIp/4.242.196.67/urls/178.237.23.115/clientType/36/srcAg/CHROME/mid/17374123607901/get/CN2O3dPT-QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBHqLcsRXs5yQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19238690/avatar?change_time=1792084391" group-title="📺 VK Live",Тот самый W001F stream
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd211.okcdn.ru/cmaf/19758534953706/sig/vL93Kdz_pgA/expires/1794227538962/srcIp/4.242.196.67/urls/185.226.55.76/clientType/36/srcAg/CHROME/mid/17343338989546/get/COqPvfzg-AMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBhF3iuiMW_3Tw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18680619/avatar?change_time=1706432987" group-title="📺 VK Live",grislytoe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd160.okcdn.ru/cmaf/21101099027005/sig/1pNOO0jp_iU/expires/1794227541831/srcIp/4.242.196.67/urls/178.237.23.113/clientType/36/srcAg/CHROME/mid/17323405625149/get/CL2OwduW-AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBapn9KtbP-Ww/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29831882/avatar?change_time=1765390059" group-title="📺 VK Live",кино кино кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd165.okcdn.ru/hls/18421916961457.m3u8/sig/bxK94jz9ybg/expires/1794227545038/srcIp/4.242.196.67/urls/178.237.23.115/clientType/36/srcAg/CHROME/mid/16256418858929/18421916961457_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31548922/avatar?change_time=1772726729" group-title="📺 VK Live",У подруги
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd270.okcdn.ru/cmaf/18766174751472/sig/vlk7G_pxKm4/expires/1794227548660/srcIp/4.242.196.67/urls/178.237.23.89/clientType/36/srcAg/CHROME/mid/16147711477744/get/CPCP7fT61QMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBj6pb3X9itYnQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20745126/avatar?change_time=1746520742" group-title="📺 VK Live",Эквилибриум69
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd232.okcdn.ru/cmaf/20010973792921/sig/frffe8VaLx8/expires/1794227551398/srcIp/4.242.196.67/urls/185.226.55.84/clientType/36/srcAg/CHROME/mid/16773562910617/get/CJmPibKW6AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAc0As0ZrH5VQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36774366/avatar?change_time=1790956523" group-title="📺 VK Live",VHS store 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd275.okcdn.ru/cmaf/19708533082826/sig/4I6q11t3IQo/expires/1794227555077/srcIp/4.242.196.67/urls/176.112.172.112/clientType/36/srcAg/CHROME/mid/16893958768586/get/CMqPpfPW6wMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCDlgXkgYsQ1rg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31540211/avatar?change_time=1784732588" group-title="📺 VK Live",NEZABUDKA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd130.okcdn.ru/hls/18872594926288.m3u8/sig/MB0IZgx4n-g/expires/1794227557675/srcIp/4.242.196.67/urls/185.226.55.84/clientType/36/srcAg/CHROME/mid/16441986729936/18872594926288_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34344563/avatar?change_time=1790496753" group-title="📺 VK Live",Музыка Войны
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd126.okcdn.ru/hls/19009799850612.m3u8/sig/0wKACypifGo/expires/1794227561027/srcIp/4.242.196.67/urls/185.180.203.110/clientType/36/srcAg/CHROME/mid/16540428355444/19009799850612_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30346500/avatar?change_time=1767118302" group-title="📺 VK Live",SerialTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd180.okcdn.ru/cmaf/19950721108713/sig/P7l2wGXuaGk/expires/1794227562992/srcIp/4.242.196.67/urls/185.226.55.75/clientType/36/srcAg/CHROME/mid/17184971245545/get/COmP7YCT9AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAjqRVMcwvEYA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30717897/avatar?change_time=1778475141" group-title="📺 VK Live",ФИЛЬМЫ у Максима
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd266.okcdn.ru/hls/22098780293794.m3u8/sig/MQMnrPd_XxE/expires/1794227565428/srcIp/4.242.196.67/urls/178.237.23.48/clientType/36/srcAg/CHROME/mid/18126321829794/22098780293794_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20737705/avatar?change_time=1746958066" group-title="📺 VK Live",Video Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd196.okcdn.ru/hls/19023156677141.m3u8/sig/Z9Kj94DIZ4A/expires/1794227568703/srcIp/4.242.196.67/urls/95.163.35.55/clientType/36/srcAg/CHROME/mid/16716092950293/19023156677141_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/6256103/avatar?change_time=1685722753" group-title="📺 VK Live",Wfliq
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd496.okcdn.ru/cmaf/19313454549621/sig/eZ3kgH7_zDM/expires/1794227571886/srcIp/4.242.196.67/urls/185.180.203.87/clientType/36/srcAg/CHROME/mid/16514065778549/get/CPWOmdjP4AMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBjW3qGYAYAU5g/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20555010/avatar?change_time=1742524384" group-title="📺 VK Live",serial4u
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd175.okcdn.ru/cmaf/20926789192252/sig/Tj-_8MrPUeE/expires/1794227574513/srcIp/4.242.196.67/urls/185.226.55.73/clientType/36/srcAg/CHROME/mid/18166423308092/get/CLyO1ZnbkAQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAxiGeSMegscg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18851066/avatar?change_time=1785145168" group-title="📺 VK Live",SeleCaoTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd204.okcdn.ru/cmaf/18586242845201/sig/Agoz6zoctxE/expires/1794227576999/srcIp/4.242.196.67/urls/185.226.55.74/clientType/36/srcAg/CHROME/mid/17147245250321/get/CJGO2buG8wMQ6AcYBTIICgYI1AoQgAY6BAjE2AJaBggDEAIoF2ICCBjMc82XNEdF2w/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19793409/avatar?change_time=1734719695" group-title="📺 VK Live",CHUPA-CHUPS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd217.okcdn.ru/hls/21447593560736.m3u8/sig/8CF308DYpbo/expires/1794227579542/srcIp/4.242.196.67/urls/178.237.23.58/clientType/36/srcAg/CHROME/mid/17825592461216/21447593560736_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18467028/avatar?change_time=1701605530" group-title="📺 VK Live",ChowAmigo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd176.okcdn.ru/hls/19303579257420.m3u8/sig/8gYkpMInlCU/expires/1794227582196/srcIp/4.242.196.67/urls/185.226.55.119/clientType/36/srcAg/CHROME/mid/17147985151820/19303579257420_quadhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29954496/avatar?change_time=1789726027" group-title="📺 VK Live",Мир Ехо
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd248.okcdn.ru/cmaf/19092906773204/sig/BSG8j9voqpo/expires/1794227585060/srcIp/4.242.196.67/urls/178.237.23.119/clientType/36/srcAg/CHROME/mid/16382172153812/get/CNSPtazk3AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCA7RUQj7GEkbw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/28795341/avatar?change_time=1793891198" group-title="📺 VK Live",PrizraK_PlaY_
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd166.okcdn.ru/hls/18742444952239.m3u8/sig/2AhW5JVQUxk/expires/1794227587529/srcIp/4.242.196.67/urls/185.226.55.80/clientType/36/srcAg/CHROME/mid/16489011234735/18742444952239_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19135223/avatar?change_time=1747327533" group-title="📺 VK Live",Пᛊየᛒьᵻӥ የጸሏ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd274.okcdn.ru/cmaf/18801212590676/sig/B52rmeO-u0c/expires/1794227590175/srcIp/4.242.196.67/urls/185.226.55.92/clientType/36/srcAg/CHROME/mid/16223178278740/get/CNSOnYaU2AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCA4Lm6W_Amt6Q/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36947316/avatar?change_time=1788473723" group-title="📺 VK Live",ДиТи Тv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd496.okcdn.ru/cmaf/18728085752337/sig/yQxvqFDEEPM/expires/1794227592615/srcIp/4.242.196.67/urls/178.237.23.113/clientType/36/srcAg/CHROME/mid/17235476956945/get/CJGO7ZPP9QMQ6AcYBzIICgYIgBQQoAs6BAjE2AJaBAgDKBdiAgggJA6x82MzYHs/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18272994/avatar?change_time=1782030545" group-title="📺 VK Live",Амбергейт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd182.okcdn.ru/cmaf/20802901445190/sig/8JnEMTYvfYc/expires/1794227595132/srcIp/4.242.196.67/urls/176.112.172.110/clientType/36/srcAg/CHROME/mid/17369420416838/get/CMaOiZHC-QMQ6AcYBzIICgYIgBQQoAs6BAjE2AJaBAgDKBdiAgggqm5xlPF0Cx0/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20151512/avatar?change_time=1753896668" group-title="📺 VK Live",Дядя_Санчес
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd493.okcdn.ru/hls/19137690339949.m3u8/sig/7DgniHOfdrk/expires/1794227598604/srcIp/4.242.196.67/urls/185.180.203.58/clientType/36/srcAg/CHROME/mid/16475301365613/19137690339949_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31696924/avatar?change_time=1783843693" group-title="📺 VK Live",ПАРАНОРМАЛЬНЫЙ АРХИВ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd229.okcdn.ru/cmaf/19833477335738/sig/2NdKcjVGlA4/expires/1794227601014/srcIp/4.242.196.67/urls/185.180.203.109/clientType/36/srcAg/CHROME/mid/17504846497722/get/CLqPodG6_QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCCDWEtejr4Nqg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18389899/avatar?change_time=1741815011" group-title="📺 VK Live",BOH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd160.okcdn.ru/cmaf/20006943263305/sig/XMaTLKaQPXI/expires/1794227603304/srcIp/4.242.196.67/urls/95.163.35.106/clientType/36/srcAg/CHROME/mid/16888129406793/get/CMmO0ZfB6wMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBRJFjlZJwvjg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/33137498/avatar?change_time=1778924140" group-title="📺 VK Live",FilmsSerialsEveryDay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd135.okcdn.ru/hls/18950033967860.m3u8/sig/Hf0HeQKRDy8/expires/1794227605244/srcIp/4.242.196.67/urls/185.226.55.116/clientType/36/srcAg/CHROME/mid/16597393950708/18950033967860_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19919850/avatar?change_time=1734802999" group-title="📺 VK Live",FRXNKL1N
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd228.okcdn.ru/hls/20646873729702.m3u8/sig/pZW4_rkmsI4/expires/1794227607275/srcIp/4.242.196.67/urls/185.180.203.116/clientType/36/srcAg/CHROME/mid/17523972392870/20646873729702_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/12719933/avatar?change_time=1699038708" group-title="📺 VK Live",Kycman
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd208.okcdn.ru/cmaf/19459058830041/sig/dvEOVqs8AhY/expires/1794227609231/srcIp/4.242.196.67/urls/95.163.35.72/clientType/36/srcAg/CHROME/mid/16625058334681/get/CNmPyZXt4wMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBg_PWzxLQsAIw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20044657/avatar?change_time=1786772184" group-title="📺 VK Live",IGROComp 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd266.okcdn.ru/cmaf/18901257161262/sig/aq4ySSibVwQ/expires/1794227612109/srcIp/4.242.196.67/urls/95.163.35.77/clientType/36/srcAg/CHROME/mid/16631250306862/get/CK6OkZ6E5AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCDhApmYfpkvHw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18569310/avatar?change_time=1699733855" group-title="📺 VK Live",ОсторожноМодерн2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd140.okcdn.ru/cmaf/18602783148755/sig/C0RquD8cDvM/expires/1794227614323/srcIp/4.242.196.67/urls/176.112.172.105/clientType/36/srcAg/CHROME/mid/16294860179411/get/CNOP6Yqf2gMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBgKwzXzB6sn7g/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20310353/avatar?change_time=1794010032" group-title="📺 VK Live",Тоха Стрим
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd196.okcdn.ru/cmaf/19685427448471/sig/NYaj7GD_qlA/expires/1794227617388/srcIp/4.242.196.67/urls/176.112.172.72/clientType/36/srcAg/CHROME/mid/17319204833175/get/CJePtYiH-AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCA63X7UlIhmuw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34649377/avatar?change_time=1782932022" group-title="📺 VK Live",дядя Лёша 2.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd165.okcdn.ru/cmaf/20866858158780/sig/kcbg3QI4stg/expires/1794227619942/srcIp/4.242.196.67/urls/185.180.203.113/clientType/36/srcAg/CHROME/mid/17377452246972/get/CLyP-Ybg-QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBrShI97dbYgA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18094792/avatar?change_time=1684589816" group-title="📺 VK Live",priest_kod
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd269.okcdn.ru/hls/20511386700360.m3u8/sig/D0d2n8ejxUg/expires/1794227621810/srcIp/4.242.196.67/urls/178.237.23.111/clientType/36/srcAg/CHROME/mid/17626088425288/20511386700360_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/9113464/avatar?change_time=1738948477" group-title="📺 VK Live",LifeZ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd173.okcdn.ru/hls/19267462236812.m3u8/sig/gyfOOVw0JgY/expires/1794227623794/srcIp/4.242.196.67/urls/185.180.203.111/clientType/36/srcAg/CHROME/mid/16307044304780/19267462236812_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29545720/avatar?change_time=1760619525" group-title="📺 VK Live",фильмы для вас
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd250.okcdn.ru/cmaf/19051108502030/sig/jIQOfDketDQ/expires/1794227625812/srcIp/4.242.196.67/urls/95.163.35.106/clientType/36/srcAg/CHROME/mid/16350940710670/get/CI6OjYDw2wMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBiBZJDEclEN-A/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20495921/avatar?change_time=1742225886" group-title="📺 VK Live",Мы из 90-х
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd283.okcdn.ru/cmaf/18742637234926/sig/5Dd4D9D6BX8/expires/1794227628288/srcIp/4.242.196.67/urls/185.180.203.111/clientType/36/srcAg/CHROME/mid/16252945450990/get/CO6PqfiC2QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCD-umA8RRovpA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36706302/avatar?change_time=1790187164" group-title="📺 VK Live",Kurt ТV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd271.okcdn.ru/hls/21150257842725.m3u8/sig/Tr-B6OducCM/expires/1794227630302/srcIp/4.242.196.67/urls/95.163.35.73/clientType/36/srcAg/CHROME/mid/18132790101797/21150257842725_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18468506/avatar?change_time=1739028962" group-title="📺 VK Live",Kira_freak1993
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd113.okcdn.ru/cmaf/20311911762536/sig/LpeNU0Z6f0U/expires/1794227632175/srcIp/4.242.196.67/urls/178.237.23.87/clientType/36/srcAg/CHROME/mid/17120624985960/get/COiOlaaj8gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBL1vtJo2PdEA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/28819251/avatar?change_time=1786480585" group-title="📺 VK Live",V_L_A_D_L_E_N
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd272.okcdn.ru/hls/21659483310624.m3u8/sig/MwisBxWoCAU/expires/1794227634736/srcIp/4.242.196.67/urls/176.112.172.71/clientType/36/srcAg/CHROME/mid/18027268556576/21659483310624_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18405639/avatar?change_time=1787766564" group-title="📺 VK Live",AiratosPlays92
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd279.okcdn.ru/hls/19555218492010.m3u8/sig/TRsxxKLJ1Tc/expires/1794227637298/srcIp/4.242.196.67/urls/178.237.29.195/clientType/36/srcAg/CHROME/mid/16659714164586/19555218492010_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19573960/avatar?change_time=1728634064" group-title="📺 VK Live",У КРАЯ БЕЗДНЫ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd174.okcdn.ru/cmaf/19253661141718/sig/dw4TczhL_eA/expires/1794227640225/srcIp/4.242.196.67/urls/185.226.55.91/clientType/36/srcAg/CHROME/mid/16704831571926/get/CNaPtayW5gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBW1el7UeejKg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18837601/avatar?change_time=1726162319" group-title="📺 VK Live",Кино Jam
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd490.okcdn.ru/cmaf/18706557962770/sig/IsK88an504A/expires/1794227642654/srcIp/4.242.196.67/urls/185.226.55.80/clientType/36/srcAg/CHROME/mid/16007475644178/get/CJKOmb_w0QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCD8R_5sViA8pQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18108323/avatar?change_time=1782416640" group-title="📺 VK Live",Moto2J
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd162.okcdn.ru/cmaf/18657480542866/sig/nB7AO57jf5U/expires/1794227644905/srcIp/4.242.196.67/urls/185.226.55.118/clientType/36/srcAg/CHROME/mid/16402448467858/get/CJKP9fCv3QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBiFDvxytCCAQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20409294/avatar?change_time=1741557294" group-title="📺 VK Live",Школа
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd111.okcdn.ru/cmaf/20145918839398/sig/9meQ8U4HOyU/expires/1794227646826/srcIp/4.242.196.67/urls/176.112.172.116/clientType/36/srcAg/CHROME/mid/17351905265510/get/COaOmfGA-QMQ6AcYBTIICgYIgAoQqAU6BAjE2AJaBggDEAIoF2ICCBicJpmOk3KB9A/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/24684747/avatar?change_time=1792765060" group-title="📺 VK Live",VHS кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd167.okcdn.ru/cmaf/19404384176842/sig/CndSTkWSjIE/expires/1794227649255/srcIp/4.242.196.67/urls/95.163.35.107/clientType/36/srcAg/CHROME/mid/16705020315594/get/CMqPtYaX5gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBqEe0MWXmptw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31939511/avatar?change_time=1789400003" group-title="📺 VK Live",Котёнок_ГАВ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd261.okcdn.ru/cmaf/21242391825059/sig/uycM4TIZe7k/expires/1794227652628/srcIp/4.242.196.67/urls/185.180.203.87/clientType/36/srcAg/CHROME/mid/18152860108707/get/CKOPndaokAQQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBgsQVp-R_JcOA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18272994/avatar?change_time=1782030545" group-title="📺 VK Live",Амбергейт
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd165.okcdn.ru/cmaf/20802901445190/sig/wdpfhtGW7_Y/expires/1794227656075/srcIp/4.242.196.67/urls/178.237.23.62/clientType/36/srcAg/CHROME/mid/17369420416838/get/CMaOiZHC-QMQ6AcYBzIICgYIgBQQoAs6BAjE2AJaBAgDKBdiAgggqm5xlPF0Cx0/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34036642/avatar?change_time=1780923320" group-title="📺 VK Live",Кладовая Фильмов
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd138.okcdn.ru/cmaf/18795486055025/sig/Y5AChgbEer0/expires/1794227659976/srcIp/4.242.196.67/urls/176.112.172.115/clientType/36/srcAg/CHROME/mid/16276921206641/get/CPGO7aDc2QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC1_UAagJMjyA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/16123819/avatar?change_time=1744393606" group-title="📺 VK Live",Solo ink
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd160.okcdn.ru/hls/21400433330753.m3u8/sig/fbv9GFEXH3M/expires/1794227664168/srcIp/4.242.196.67/urls/185.226.55.88/clientType/36/srcAg/CHROME/mid/17779892111169/21400433330753_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18376109/avatar?change_time=1692882320" group-title="📺 VK Live",ВИДЕОКАССЕТА
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd232.okcdn.ru/cmaf/20989735144005/sig/HTZOThWBfhs/expires/1794227666401/srcIp/4.242.196.67/urls/176.112.172.71/clientType/36/srcAg/CHROME/mid/17495801677637/get/CMWOrfiY_QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBNAnR9vu7VrQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/12884012/avatar?change_time=1791639671" group-title="📺 VK Live",ℜуυ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd255.okcdn.ru/hls/19201079773846.m3u8/sig/bJ80V-adc_c/expires/1794227668275/srcIp/4.242.196.67/urls/185.180.203.107/clientType/36/srcAg/CHROME/mid/16383617812374/19201079773846_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23803295/avatar?change_time=1773146184" group-title="📺 VK Live",Cinema Time
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd283.okcdn.ru/cmaf/21126784748192/sig/TqNrpIw4BvY/expires/1794227670681/srcIp/4.242.196.67/urls/185.180.203.86/clientType/36/srcAg/CHROME/mid/17629431744416/get/CKCPkeCKgQQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAUefG9-s6Ccg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/24439476/avatar?change_time=1752695508" group-title="📺 VK Live",ВидФок
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd217.okcdn.ru/hls/20111667890841.m3u8/sig/-02b9H61dr8/expires/1794227673986/srcIp/4.242.196.67/urls/178.237.23.62/clientType/36/srcAg/CHROME/mid/16836477274009/20111667890841_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19574708/avatar?change_time=1784876669" group-title="📺 VK Live",KinoMix Юрич
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd78.okcdn.ru/cmaf/21248014551553/sig/tSrbXYKH29I/expires/1794227676454/srcIp/4.242.196.67/urls/178.237.23.114/clientType/36/srcAg/CHROME/mid/17531033634561/get/CIGOoZic_gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBq7FN9RsznIg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18282683/avatar?change_time=1689589959" group-title="📺 VK Live",TopMoment TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd78.okcdn.ru/hls/20409928583720.m3u8/sig/9_TJIteu0QU/expires/1794227678964/srcIp/4.242.196.67/urls/185.226.55.71/clientType/36/srcAg/CHROME/mid/17553522313000/20409928583720_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38307885/avatar?change_time=1791744363" group-title="📺 VK Live",Сериаломанка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd161.okcdn.ru/cmaf/21209113496130/sig/Z2bEPIAomp0/expires/1794227681421/srcIp/4.242.196.67/urls/178.237.23.120/clientType/36/srcAg/CHROME/mid/17543092913986/get/CMKOyY7J_gMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBj9snAk2cvhKA/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/35971710/avatar?change_time=1787272295" group-title="📺 VK Live",The_kinozall
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd210.okcdn.ru/hls/20953933941381.m3u8/sig/gy-58rhD3uU/expires/1794227683346/srcIp/4.242.196.67/urls/95.163.35.104/clientType/36/srcAg/CHROME/mid/17145230673797/20953933941381_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29702196/avatar?change_time=1788936796" group-title="📺 VK Live",_KleopatrA_
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd254.okcdn.ru/hls/19900369603224.m3u8/sig/3n1cneYAhYI/expires/1794227685410/srcIp/4.242.196.67/urls/95.163.35.102/clientType/36/srcAg/CHROME/mid/16837440653208/19900369603224_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19185081/avatar?change_time=1760022778" group-title="📺 VK Live",Рысяка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd110.okcdn.ru/hls/18700357929487.m3u8/sig/X1Ln2OVOihE/expires/1794227687952/srcIp/4.242.196.67/urls/176.112.172.108/clientType/36/srcAg/CHROME/mid/16297598666511/18700357929487_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18172995/avatar?change_time=1688417756" group-title="📺 VK Live",НСвета
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd94.okcdn.ru/hls/21142702328548.m3u8/sig/IV91eYx3728/expires/1794227691261/srcIp/4.242.196.67/urls/95.163.35.55/clientType/36/srcAg/CHROME/mid/17671401195492/21142702328548_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19940394/avatar?change_time=1734982742" group-title="📺 VK Live",Фильмы сериалы трансляции
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd253.okcdn.ru/hls/18992499264141.m3u8/sig/RFifac7qgGo/expires/1794227694154/srcIp/4.242.196.67/urls/178.237.29.16/clientType/36/srcAg/CHROME/mid/16818657773453/18992499264141_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19941227/avatar?change_time=1790116838" group-title="📺 VK Live",Плиточник
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd252.okcdn.ru/hls/19054235617877.m3u8/sig/XoWkzkAnDVI/expires/1794227696603/srcIp/4.242.196.67/urls/176.112.172.107/clientType/36/srcAg/CHROME/mid/16480844597077/19054235617877_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/32408253/avatar?change_time=1777883408" group-title="📺 VK Live",ВрррЕДЬМА
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd281.okcdn.ru/cmaf/20663784639163/sig/IhhANrmlc7w/expires/1794227699315/srcIp/4.242.196.67/urls/185.180.203.114/clientType/36/srcAg/CHROME/mid/17096466974651/get/CLuP3abJ8QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC3HxjC1JaRug/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19124468/avatar?change_time=1777517605" group-title="📺 VK Live",JTX Online
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd266.okcdn.ru/cmaf/20088444422775/sig/DsApEVQiPjo/expires/1794227701732/srcIp/4.242.196.67/urls/185.180.203.114/clientType/36/srcAg/CHROME/mid/17067390551927/get/CPeOgf7c8AMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBgX23WSzIceOw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19501916/avatar?change_time=1785092186" group-title="📺 VK Live",PriZraK_Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd93.okcdn.ru/hls/21006363986684.m3u8/sig/xBwDVymxsAc/expires/1794227705397/srcIp/4.242.196.67/urls/178.237.23.117/clientType/36/srcAg/CHROME/mid/17272975542268/21006363986684_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31457995/avatar?change_time=1772638699" group-title="📺 VK Live",Дикарка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd176.okcdn.ru/cmaf/18790949522033/sig/ISHdtn3xWSc/expires/1794227707979/srcIp/4.242.196.67/urls/185.226.55.82/clientType/36/srcAg/CHROME/mid/16274373822321/get/CPGOleLS2QMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBiJoGhGi1JXw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31238183/avatar?change_time=1771088991" group-title="📺 VK Live",ZOOOM_TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd247.okcdn.ru/cmaf/19056342796885/sig/Sz41R0xmLcE/expires/1794227710439/srcIp/4.242.196.67/urls/185.180.203.118/clientType/36/srcAg/CHROME/mid/16482170849109/get/CNWOwe_Y3wMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCCto8thW0EQBw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/17876823/avatar?change_time=1771943963" group-title="📺 VK Live",ВСЕВДОМ ТОВАРЫ ДЛЯ ДОМА
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd139.okcdn.ru/hls/19296612911852.m3u8/sig/dDgxvsoM5t4/expires/1794227712891/srcIp/4.242.196.67/urls/176.112.172.74/clientType/36/srcAg/CHROME/mid/17447275153388/19296612911852_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19576820/avatar?change_time=1781136995" group-title="📺 VK Live",Egoist091
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd256.okcdn.ru/hls/19207550732982.m3u8/sig/p_MNbnUI-nQ/expires/1794227714614/srcIp/4.242.196.67/urls/95.163.35.101/clientType/36/srcAg/CHROME/mid/17386429564854/19207550732982_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/37757875/avatar?change_time=1790418405" group-title="📺 VK Live",Из архива Далеков
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd195.okcdn.ru/cmaf/20788131400325/sig/N_bL6Gu4zJA/expires/1794227717079/srcIp/4.242.196.67/urls/95.163.35.74/clientType/36/srcAg/CHROME/mid/17043000739717/get/CIWPhZCC8AMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBglev0DWEmE1g/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/37283562/avatar?change_time=1789302625" group-title="📺 VK Live",Юська TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd163.okcdn.ru/cmaf/18936298212051/sig/qGRWRJjLvDs/expires/1794227718964/srcIp/4.242.196.67/urls/178.237.29.17/clientType/36/srcAg/CHROME/mid/16495881963475/get/CNOPvfmL4AMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBj7_Q0AJpssZg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20819948/avatar?change_time=1747840088" group-title="📺 VK Live",ю юрич 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd111.okcdn.ru/cmaf/20171902356153/sig/0sc8emwtYQk/expires/1794227721369/srcIp/4.242.196.67/urls/185.226.55.79/clientType/36/srcAg/CHROME/mid/17613249529785/get/CLmP7bvOgAQQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAQI9u2gGdDHg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/35442288/avatar?change_time=1785501183" group-title="📺 VK Live",Енотька0707
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd177.okcdn.ru/cmaf/20309717813896/sig/fuYWGPoikyc/expires/1794227723931/srcIp/4.242.196.67/urls/185.226.55.77/clientType/36/srcAg/CHROME/mid/17167484536712/get/CIiPxe7R8wMQ6AcYBTIICgYItAsQtgY6BAjE2AJaBggDEAIoF2ICCBgOjF8Pz4Ph-A/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/35855408/avatar?change_time=1793367989" group-title="📺 VK Live",so_plenty
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd197.okcdn.ru/hls/19114089122547.m3u8/sig/6NRFy9fHPiE/expires/1794227725924/srcIp/4.242.196.67/urls/95.163.35.97/clientType/36/srcAg/CHROME/mid/16590592493555/19114089122547_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29741657/avatar?change_time=1762180176" group-title="📺 VK Live",Люська Ведьма
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd181.okcdn.ru/cmaf/19929651546793/sig/3hQ3g_29L6o/expires/1794227727828/srcIp/4.242.196.67/urls/176.112.172.107/clientType/36/srcAg/CHROME/mid/16850133206953/get/CKmP0dGz6gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCBYnR-9G3H3Qw/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36096233/avatar?change_time=1786956395" group-title="📺 VK Live",Cartoons VHS-ка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd158.okcdn.ru/cmaf/20465396288086/sig/5DeEEmlqQs4/expires/1794227730301/srcIp/4.242.196.67/urls/185.226.55.80/clientType/36/srcAg/CHROME/mid/17551457470294/get/CNaOjaPo_gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCDawBjkiGJhzg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18269874/avatar?change_time=1739819240" group-title="📺 VK Live",RedFох
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd132.okcdn.ru/cmaf/19130126764589/sig/IYdVAaK9m5U/expires/1794227732229/srcIp/4.242.196.67/urls/176.112.172.108/clientType/36/srcAg/CHROME/mid/17185509492525/get/CK2OwYGV9AMQ6AcYBTIICgYIgAoQ0AU6BAjE2AJaBggDEAIoF2ICCBgEzBE19rAPhQ/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18290547/avatar?change_time=1726158637" group-title="📺 VK Live",TopMoment LiVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd278.okcdn.ru/hls/21313305578142.m3u8/sig/Z2e0SE14vdM/expires/1794227734693/srcIp/4.242.196.67/urls/185.180.203.65/clientType/36/srcAg/CHROME/mid/17369860294558/21313305578142_fullhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20292590/avatar?change_time=1775040346" group-title="📺 VK Live",ROMEO Video
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd196.okcdn.ru/cmaf/19328283708021/sig/uVKFIunEQxo/expires/1794227736572/srcIp/4.242.196.67/urls/178.237.23.121/clientType/36/srcAg/CHROME/mid/16522832398197/get/CPWOuazw4AMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAD_F1g6jLscg/track.m3u8
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19835383/avatar?change_time=1742177362" group-title="📺 VK Live",VHS KACCETA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vsd178.okcdn.ru/cmaf/20385833028136/sig/fyiGE34J46k/expires/1794227739024/srcIp/4.242.196.67/urls/176.112.172.74/clientType/36/srcAg/CHROME/mid/17538740602664/get/CKiOnfO4_gMQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCAR34RG2ubagQ/track.m3u8

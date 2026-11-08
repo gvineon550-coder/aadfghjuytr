@@ -2,8 +2,8 @@ name: VK Live Auto-Update
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # Запуск каждые 4 часа
-  workflow_dispatch:      # Кнопка ручного запуска
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 jobs:
   update-vk:
@@ -24,11 +24,15 @@ jobs:
 
       - name: Run VK Updater
         run: python vk_updater.py
+        env:
+          FORCE_COLOR: '1'
+          PYTHONUNBUFFERED: '1'
 
       - name: Commit and Push changes
         run: |
           git config --global user.name 'VK Auto-Bot'
           git config --global user.email 'bot@github.com'
-          git add vk_live.m3u
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto: Update VK Live links [skip ci]"
+          # Добавляем и плейлист, и файл кэша
+          git add vk_live.m3u rutube_cache.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto: Update VK & Rutube links [skip ci]"
           git push

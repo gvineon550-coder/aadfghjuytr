@@ -79,7 +79,7 @@ def get_streams_from_category(category_id):
             name = name.replace(",", " ")
             channel_url = f"https://live.vkvideo.ru/{blog_url}"
             logo = blog.get("owner", {}).get("avatarUrl") or blog.get("coverUrl") or ""
-            result.append({"name": name, "url": channel_url, "logo": logo})
+            result.append({"name": name, "url": channel_url, "logo": logo, "group": "📺 VK Live"})
         return result
     except Exception as e:
         print(f"\n{C_RED}Ошибка API VK категории {category_id}: {e}{C_RESET}")
@@ -125,7 +125,7 @@ def get_stream_info(vk_url):
         return None
 
 def main():
-    print(f"{C_CYAN}{C_BOLD}=== VK & Rutube (Smart Cache) ==={C_RESET}")
+    print(f"{C_CYAN}{C_BOLD}=== VK & Rutube (Smart Cache & Groups) ==={C_RESET}")
     if not os.path.exists(CONFIG_FILE):
         print(f"{C_RED}Файл vk_config.json не найден!{C_RESET}")
         return
@@ -136,11 +136,22 @@ def main():
     rutube_cache = load_cache()
     all_channels = []
     
+    # 1. VK Live (по категориям)
     for cat_id in config.get("categories", []):
         print(f"{C_CYAN}[*] Загрузка VK категории: {cat_id}{C_RESET}")
         all_channels.extend(get_streams_from_category(cat_id))
         
+    # 2. Ручные каналы
     for ch in config.get("channels", []):
+        # Если группа не задана, определяем автоматически
+        if "group" not in ch or not ch["group"]:
+            url = ch['url']
+            if "rutube.ru" in url:
+                ch["group"] = "📼 Rutube"
+            elif "vk.com" in url or "vkvideo.ru" in url:
+                ch["group"] = "🎬 VK Video"
+            else:
+                ch["group"] = "📦 Разное"
         all_channels.append(ch)
 
     if not all_channels:
@@ -156,14 +167,12 @@ def main():
         url = ch['url']
         info = None
         
-        # 🧠 УМНЫЙ КЭШ: Если это Rutube и ссылка уже есть в кэше — берем оттуда
+        # 🧠 Кэш для Rutube
         if "rutube.ru" in url and url in rutube_cache:
             info = rutube_cache[url]
         else:
-            # Иначе парсим через yt-dlp
             info = get_stream_info(url)
             if info and "rutube.ru" in url:
-                # Если спарсили Rutube — сохраняем в кэш навсегда
                 rutube_cache[url] = info
         
         if info:
@@ -174,9 +183,12 @@ def main():
                 final_name = info.get("title") or final_name
             
             final_name = final_name[:60].replace(",", " ")
+            group_name = ch.get("group", "📦 Разное")
 
             logo_attr = f' tvg-logo="{final_logo}"' if final_logo else ""
-            lines.append(f'#EXTINF:-1{logo_attr} group-title="📺 VK & Rutube",{final_name}')
+            lines.append(f'#EXTINF:-1{logo_attr} group-title="{group_name}",{final_name}')
+            
+            # Стелс для плеера
             lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
             
             if "rutube.ru" in url:
@@ -189,7 +201,6 @@ def main():
             lines.append(info["url"])
             progress.update(True, final_name)
         else:
-            # Если Rutube-ссылка не спарсилась (удалена), убираем её из кэша
             if "rutube.ru" in url and url in rutube_cache:
                 del rutube_cache[url]
             progress.update(False, ch["name"])
@@ -198,9 +209,18 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write("\n".join(lines) + "\n")
         
-    # Сохраняем обновленный кэш
     save_cache(rutube_cache)
+    
+    # Считаем статистику по группам для красивого вывода
+    groups = {}
+    for line in lines:
+        if "group-title=" in line:
+            g = line.split('group-title="')[1].split('"')[0]
+            groups[g] = groups.get(g, 0) + 1
+            
     print(f"{C_GREEN}{C_BOLD}✅ Готово! Успешно добавлено: {progress.success} из {len(all_channels)}{C_RESET}")
+    for g, count in groups.items():
+        print(f"  {g}: {count} каналов")
 
 if __name__ == "__main__":
     main()

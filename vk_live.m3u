@@ -1,41 +1,41 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://sun9-70.userapi.com/impg/U_c5x8tMt7i3gRsUEC6402nMt9tGkMZBT4Nn-g/W_NnJBLcGUw.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=0734c480b5b7e9dde1f8dc7c71583f4c&type=video_thumb" group-title="🎬 VK Video",Опасная Территория 2026-11-08 16:08
+#EXTINF:-1 tvg-logo="https://sun9-70.userapi.com/impg/U_c5x8tMt7i3gRsUEC6402nMt9tGkMZBT4Nn-g/W_NnJBLcGUw.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=0734c480b5b7e9dde1f8dc7c71583f4c&type=video_thumb" group-title="🎬 VK Video",Опасная Территория 2026-11-08 16:16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://vkvsd171.okcdn.ru/cmaf/8375809870407/sig/51mGPXLdTWg/expires/1794240515831/srcIp/172.184.239.214/urls/185.226.55.91/clientType/13/srcAg/CHROME/mid/11476322626375/get/CMfWiNGAzgIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCB-N5gETg99KA/track.m3u8
-#EXTINF:-1 tvg-logo="https://sun9-8.userapi.com/impg/qpDV0y5o2R-Vgz3DsH28MsnvQcO6DKeitmsopQ/tcLZNs-qS7I.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=d3d520fb7359deb7361bcca633307fc6&type=video_thumb" group-title="🎬 VK Video",Шутки в сторону 2026-11-08 16:08
+https://vkvsd230.okcdn.ru/cmaf/8375809870407/sig/dUe0wHYP9UU/expires/1794240970932/srcIp/172.206.39.205/urls/185.226.55.91/clientType/13/srcAg/CHROME/mid/11476322626375/get/CMfWiNGAzgIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCB-N5gETg99KA/track.m3u8
+#EXTINF:-1 tvg-logo="https://sun9-8.userapi.com/impg/qpDV0y5o2R-Vgz3DsH28MsnvQcO6DKeitmsopQ/tcLZNs-qS7I.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=d3d520fb7359deb7361bcca633307fc6&type=video_thumb" group-title="🎬 VK Video",Шутки в сторону 2026-11-08 16:16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://vkvsd250.okcdn.ru/cmaf/9911484680704/sig/tta5lyPy9dQ/expires/1794240518489/srcIp/172.184.239.214/urls/176.112.172.71/clientType/13/srcAg/CHROME/mid/12955145284352/get/CIDW1NaF-QIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC_-zKjvi1sUg/track.m3u8
+https://vkvsd59.okcdn.ru/cmaf/9911484680704/sig/WsmyN5_1jW4/expires/1794240973518/srcIp/172.206.39.205/urls/178.237.29.15/clientType/13/srcAg/CHROME/mid/12955145284352/get/CIDW1NaF-QIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC_-zKjvi1sUg/track.m3u8
 #EXTINF:-1 tvg-logo="http://pic.rtbcdn.ru/video/6b/6b/6b6be08b028b7698add5ded5887bda22.jpg" group-title="📼 Rutube",Прямой эфир Звезда
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rutube.ru/
 #EXTVLCOPT:http-origin=https://rutube.ru
-http://river-3-349.rtbcdn.ru/stream/genetta-323.m9.rutube.ru/tUS0qmZ7rX84AeqVW-JK9g/1794758926/5ab908fccfac5bb43ef2b1e4182256b0/1080p_stream.m3u8
+http://river-3-3120.rtbcdn.ru/stream/genetta-323.m9.rutube.ru/RT51tIyk5Nut3lE0enP_Hw/1794759377/5ab908fccfac5bb43ef2b1e4182256b0/1080p_stream.m3u8
 #EXTINF:-1 tvg-logo="http://pic.rtbcdn.ru/video/2025-09-21/24/95/2495f5c3038d85c003c2c5a69f874407.jpg" group-title="📼 Rutube",Прямой эфир Первый канал
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rutube.ru/
 #EXTVLCOPT:http-origin=https://rutube.ru
-http://river-3-317.rtbcdn.ru/stream/genetta-311.m9.rutube.ru/ZX8XKL_EVdMY2yzs_4Iq1g/1794758931/c58f502c7bb34a8fcdd976b221fca292/720p_stream.m3u8
+http://river-3-366.rtbcdn.ru/stream/genetta-311.m9.rutube.ru/6qxGSqpD5jtaQXLOQf19Ag/1794759380/c58f502c7bb34a8fcdd976b221fca292/720p_stream.m3u8
 #EXTINF:-1 tvg-logo="http://pic.rtbcdn.ru/video/2026-08-14/d7/e9/d7e9c01ffa07f4dbdade91c7a8743a23.jpg" group-title="📼 Rutube",Прямой эфир Россия 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rutube.ru/
 #EXTVLCOPT:http-origin=https://rutube.ru
-http://river-3-317.rtbcdn.ru/stream/genetta-410.ntv.rutube.ru/m2xDoxnpSz2fgxmD0A3vpg/1794758937/2742a3c42be661ea732705f80adb7bdd/1080p_stream.m3u8
+http://river-3-373.rtbcdn.ru/stream/genetta-410.ntv.rutube.ru/GGeoEM9hRu_9MZkPZbC8tA/1794759384/2742a3c42be661ea732705f80adb7bdd/1080p_stream.m3u8
 #EXTINF:-1 tvg-logo="http://pic.rtbcdn.ru/video/2026-07-07/c2/88/c288e13763f73c9bcb732be8f9c50a04.jpg" group-title="📼 Rutube",Прямой эфир EPIC MEDIA Love
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rutube.ru/
 #EXTVLCOPT:http-origin=https://rutube.ru
-http://river-3-357.rtbcdn.ru/stream/genetta-319.m9.rutube.ru/ble9LCPWO4JJ20BBS219cQ/1794758951/21f3993ed8291b70208aa06c982c731f/720p_stream.m3u8
+http://river-3-368.rtbcdn.ru/stream/genetta-319.m9.rutube.ru/Y5bDlskt-DfuQgVYZ_Dtjg/1794759400/21f3993ed8291b70208aa06c982c731f/720p_stream.m3u8
 #EXTINF:-1 tvg-logo="http://pic.rtbcdn.ru/video/2025-03-25/75/f6/75f62fef88b9efbdbc55810553515d53.jpg" group-title="📼 Rutube",Киножелезо. Фильмы и сериалы в эфире
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rutube.ru/
 #EXTVLCOPT:http-origin=https://rutube.ru
-http://river-3-357.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/LJ94qLriMkOH8b7KThwSAg/1794758955/4965b7b928c4a143d708ab424be01d37/1080p_stream.m3u8
+http://river-3-367.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/d0M_eGwVE2KT6v32fnRy6Q/1794759403/4965b7b928c4a143d708ab424be01d37/1080p_stream.m3u8
 #EXTINF:-1 tvg-logo="http://pic.rtbcdn.ru/video/2026-10-01/ef/87/ef87463ec5f8ecd3179dee870ca6230b.jpg" group-title="📼 Rutube",ВСЕЛЕННАЯ DC | КРУГЛОСУТОЧНЫЙ ПРЯМОЙ ЭФИР
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rutube.ru/
 #EXTVLCOPT:http-origin=https://rutube.ru
-http://river-3-316.rtbcdn.ru/stream/genetta-402.ntv.rutube.ru/KBO2L5V2WKdGy3w3hMSYCw/1794758989/31cd70d4054fbbde3b169d9a6972515c/1080p_stream.m3u8
+http://river-3-3112.rtbcdn.ru/stream/genetta-402.ntv.rutube.ru/nYbAmD-59JtrZCxpJ5Km7g/1794759450/31cd70d4054fbbde3b169d9a6972515c/1080p_stream.m3u8

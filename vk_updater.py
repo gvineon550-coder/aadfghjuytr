@@ -125,7 +125,7 @@ def get_stream_info(vk_url):
         return None
 
 def main():
-    print(f"{C_CYAN}{C_BOLD}=== VK & Rutube (Smart Cache & Groups) ==={C_RESET}")
+    print(f"{C_CYAN}{C_BOLD}=== VK & Rutube (Smart Groups & Full Cache) ==={C_RESET}")
     if not os.path.exists(CONFIG_FILE):
         print(f"{C_RED}Файл vk_config.json не найден!{C_RESET}")
         return
@@ -143,15 +143,11 @@ def main():
         
     # 2. Ручные каналы
     for ch in config.get("channels", []):
-        # Если группа не задана, определяем автоматически
         if "group" not in ch or not ch["group"]:
             url = ch['url']
-            if "rutube.ru" in url:
-                ch["group"] = "📼 Rutube"
-            elif "vk.com" in url or "vkvideo.ru" in url:
-                ch["group"] = "🎬 VK Video"
-            else:
-                ch["group"] = "📦 Разное"
+            if "rutube.ru" in url: ch["group"] = "📼 Rutube"
+            elif "vk.com" in url or "vkvideo.ru" in url: ch["group"] = "🎬 VK Video"
+            else: ch["group"] = "📦 Разное"
         all_channels.append(ch)
 
     if not all_channels:
@@ -167,13 +163,15 @@ def main():
         url = ch['url']
         info = None
         
-        # 🧠 Кэш для Rutube
-        if "rutube.ru" in url and url in rutube_cache:
+        # 🧠 Кэш для ВСЕХ ссылок Rutube
+        is_rutube = "rutube.ru" in url
+        
+        if is_rutube and url in rutube_cache:
             info = rutube_cache[url]
         else:
             info = get_stream_info(url)
-            if info and "rutube.ru" in url:
-                rutube_cache[url] = info
+            if info and is_rutube:
+                rutube_cache[url] = info  # Сохраняем в кэш
         
         if info:
             final_logo = ch.get("logo") or info.get("thumbnail") or ""
@@ -201,8 +199,6 @@ def main():
             lines.append(info["url"])
             progress.update(True, final_name)
         else:
-            if "rutube.ru" in url and url in rutube_cache:
-                del rutube_cache[url]
             progress.update(False, ch["name"])
             
     print("\n")
@@ -211,7 +207,6 @@ def main():
         
     save_cache(rutube_cache)
     
-    # Считаем статистику по группам для красивого вывода
     groups = {}
     for line in lines:
         if "group-title=" in line:

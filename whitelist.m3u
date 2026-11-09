@@ -1072,3 +1072,38 @@ https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://live20.bozztv.com/akamaissh101/ssh101/scripachmovie/playlist.m3u8
 
+#EXTINF:-1 tvg-id="OSN.ru" tvg-name="ОСН" tvg-logo="https://img.icons8.com/color/512/news.png" group-title="Rutube",ОСН
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/1f550a23c44ec7f287324b0b3e4f5a29/index.m3u8?s=bLDed3xmSIIzVI1Kn4jkXQ&e=2094189166&scheme=https
+
+#EXTINF:-1 tvg-id="Action.ru" tvg-name="Лучшие экшен фильмы" tvg-logo="https://img.icons8.com/color/512/movie.png" group-title="Rutube",Лучшие экшен фильмы
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/1786622e52a6864eb3fd66b83733fef5/index.m3u8?s=LnjdTGEU7d0Vc1zqPGISag&e=2094189287&scheme=https
+
+#EXTINF:-1 tvg-id="Fantastic.ru" tvg-name="Лучшие фантастические фильмы" tvg-logo="https://img.icons8.com/color/512/rocket.png" group-title="Rutube",Лучшие фантастические фильмы
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/54de765aeea96a73d23a24b4e2cab07d/index.m3u8?s=nShLxh7PU0_v3XBUAH35Xg&e=2094189352&scheme=https
+
+#EXTINF:-1 tvg-id="DC.ru" tvg-name="Вселенная DC" tvg-logo="https://img.icons8.com/color/512/dc.png" group-title="Rutube",Вселенная DC
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/31cd70d4054fbbde3b169d9a6972515c/index.m3u8?s=z0wrpy4gFj0OinGRw7w_Bg&e=2094189454&scheme=https
+
+#EXTINF:-1 tvg-id="StarWars.ru" tvg-name="Вселенная звёздных войн" tvg-logo="https://img.icons8.com/color/512/star-wars.png" group-title="Rutube",Вселенная звёздных войн
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/dcd36c7833f9431e6e6c902515c6c3ac/index.m3u8?s=qC0SzymcnCyD5QFYRePGkw&e=2094189631&scheme=https
+
+#EXTINF:-1 tvg-id="Drama.ru" tvg-name="Лучшие драматические фильмы" tvg-logo="https://img.icons8.com/color/512/drama.png" group-title="Rutube",Лучшие драматические фильмы
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/680dfe110840cf882437082b948578d6/index.m3u8?s=HoROw50MvSiW06xoyGoDqg&e=2094189725&scheme=https
+
+#EXTINF:-1 tvg-id="Comedy.ru" tvg-name="Лучшие комедийные фильмы" tvg-logo="https://img.icons8.com/color/512/comedy.png" group-title="Rutube",Лучшие комедийные фильмы
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/7758ac4d77fac95e187144ee2c8b368d/index.m3u8?s=svERTAUEOUEwOJEmdK7kDA&e=2094189770&scheme=https
+
+#EXTINF:-1 tvg-id="RENTV.ru" tvg-name="РЕН ТВ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/russia/ren-tv-ru.png" group-title="Rutube",РЕН ТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/67938d3536450ae8d10f12acee7ffde6/index.m3u8?s=ceZLVGJTnUIiVyLHZ21c6g&e=2094189858&scheme=https
+
+#EXTINF:-1 tvg-id="AppleTVPlus.us" tvg-name="Apple TV+ Live" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/usa/apple-tv-plus-us.png" group-title="Rutube",Apple TV+ Live
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/74bb437ef478a52f42198c50d4241dc7/index.m3u8?s=5xqsCBVWp_IcXOUtDYIPIg&e=2094190170&scheme=https

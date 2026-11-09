@@ -1,48 +1,25 @@
 import json
-import yt_dlp
-import requests
 import os
-import sys
 import uuid
 
-CONFIG_FILE = "vk_config.json"
-OUTPUT_FILE = "vk_live.m3u"
+import requests
+import yt_dlp
 
-# 🎨 Цвета для логов
-C_GREEN = '\033[92m'
-C_RED = '\033[91m'
-C_YELLOW = '\033[93m'
-C_CYAN = '\033[96m'
-C_BOLD = '\033[1m'
-C_RESET = '\033[0m'
+CONFIG = "vk_config.json"
+OUTPUT = "vk_live.m3u"
+NETLIFY = "https://incomparable-hamster-974986.netlify.app/vk-stream/"
 
-class Progress:
-    def __init__(self, total):
-        self.total = total
-        self.done = 0
-        self.success = 0
-        self.failed = 0
 
-    def update(self, success, name=""):
-        self.done += 1
-        if success: self.success += 1
-        else: self.failed += 1
-        self.render(success, name)
-
-    def render(self, success, name):
-        pct = int((self.done / self.total) * 100) if self.total > 0 else 100
-        bar_len = 30
-        filled = int(bar_len * self.done / self.total) if self.total > 0 else bar_len
-        bar = "█" * filled + "░" * (bar_len - filled)
-        status_icon = f"{C_GREEN}✅{C_RESET}" if success else f"{C_RED}❌{C_RESET}"
-        short_name = (name[:25] + '..') if len(name) > 25 else name
-        sys.stdout.write(f"\r{C_CYAN}[{bar}]{C_RESET} {pct}% ({self.done}/{self.total}) | {C_GREEN}Успех: {self.success}{C_RESET} | {C_RED}Офлайн: {self.failed}{C_RESET} | {status_icon} {short_name:<25}")
-        sys.stdout.flush()
-
-def get_streams_from_category(category_id):
-    url = f"https://api.live.vkvideo.ru/v1/catalog/public_video_streams/category/{category_id}/stream/?limit=100"
+def get_category_channels(cat_id):
+    """Только имена и логотипы из VK категории. Ссылки на потоки НЕ парсим."""
+    url = (
+        f"https://api.live.vkvideo.ru/v1/catalog/"
+        f"public_video_streams/category/{cat_id}/stream/?limit=100"
+    )
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "Origin": "https://live.vkvideo.ru",
         "Referer": "https://live.vkvideo.ru/",
@@ -50,126 +27,120 @@ def get_streams_from_category(category_id):
         "X-From-Id": str(uuid.uuid4()),
     }
     try:
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        streams = data.get("data", {}).get("streamBlogs", [])
+        r = requests.get(url, headers=headers, timeout=15)
+        r.raise_for_status()
+        blogs = r.json().get("data", {}).get("streamBlogs", [])
         result = []
-        for s in streams:
-            blog = s.get("blog", {})
-            blog_url = blog.get("blogUrl")
-            if not blog_url: continue
-            raw_name = blog.get("title") or blog.get("owner", {}).get("displayName") or blog_url
-            name = raw_name[:40] + "..." if len(raw_name) > 40 else raw_name
-            name = name.replace(",", " ")
-            channel_url = f"https://live.vkvideo.ru/{blog_url}"
-            logo = blog.get("owner", {}).get("avatarUrl") or blog.get("coverUrl") or ""
-            result.append({"name": name, "url": channel_url, "logo": logo, "group": "📺 VK Live"})
+        for s in blogs:
+            b = s.get("blog", {})
+            if not b.get("blogUrl"):
+                continue
+            name = (
+                b.get("title")
+                or b.get("owner", {}).get("displayName")
+                or b["blogUrl"]
+            )
+            logo = (
+                b.get("owner", {}).get("avatarUrl")
+                or b.get("coverUrl")
+                or ""
+            )
+            result.append({
+                "name": name.replace(",", " ").strip()[:60],
+                "blog_url": b["blogUrl"],
+                "logo": logo,
+            })
         return result
     except Exception as e:
-        print(f"\n{C_RED}Ошибка API VK категории {category_id}: {e}{C_RESET}")
+        print(f"API error {cat_id}: {e}")
         return []
 
-def get_stream_info(vk_url):
+
+def resolve_manual(url):
+    """Ручные каналы VK Video — парсим через yt-dlp (их всего пара)."""
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Referer': 'https://vk.com/',
-        'Origin': 'https://vk.com',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                      'AppleWebKit/537.36 (KHTML, like Gecko) '
+                      'Chrome/120.0.0.0 Safari/537.36'
     }
-    
-    ydl_opts = {
-        'quiet': True, 'no_warnings': True,
+    opts = {
+        'quiet': True,
+        'no_warnings': True,
         'format': 'best[protocol^=m3u8]/best',
         'skip_download': True,
-        'http_headers': headers
+        'http_headers': headers,
     }
     try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(vk_url, download=False)
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(url, download=False)
             stream_url = None
-            for fmt in info.get('formats', []):
-                if fmt.get('protocol') == 'm3u8' and fmt.get('url'):
-                    stream_url = fmt['url']
+            for f in info.get('formats', []):
+                if f.get('protocol') == 'm3u8' and f.get('url'):
+                    stream_url = f['url']
                     break
-            if not stream_url: stream_url = info.get('url')
-            
+            if not stream_url:
+                stream_url = info.get('url')
             if stream_url:
                 return {
                     "url": stream_url,
                     "title": info.get('title') or "",
-                    "thumbnail": info.get('thumbnail') or ""
+                    "thumbnail": info.get('thumbnail') or "",
                 }
     except Exception:
-        return None
+        pass
+    return None
+
 
 def main():
-    print(f"{C_CYAN}{C_BOLD}=== VK Live Auto-Update ==={C_RESET}")
-    if not os.path.exists(CONFIG_FILE):
-        print(f"{C_RED}Файл vk_config.json не найден!{C_RESET}")
-        return
-        
-    with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-        config = json.load(f)
-
-    all_channels = []
-    
-    for cat_id in config.get("categories", []):
-        print(f"{C_CYAN}[*] Загрузка VK категории: {cat_id}{C_RESET}")
-        all_channels.extend(get_streams_from_category(cat_id))
-        
-    for ch in config.get("channels", []):
-        if "group" not in ch or not ch["group"]:
-            ch["group"] = "🎬 VK Video"
-        all_channels.append(ch)
-
-    if not all_channels:
-        print(f"{C_YELLOW}[!] Каналы не найдены.{C_RESET}")
+    if not os.path.exists(CONFIG):
+        print(f"{CONFIG} not found")
         return
 
-    print(f"\n{C_CYAN}[*] Всего каналов: {len(all_channels)}. Начинаем проверку...{C_RESET}\n")
-    
+    with open(CONFIG, 'r', encoding='utf-8') as f:
+        cfg = json.load(f)
+
     lines = ["#EXTM3U"]
-    progress = Progress(len(all_channels))
-    
-    for ch in all_channels:
-        url = ch['url']
-        info = get_stream_info(url)
-        
-        if info:
-            final_logo = ch.get("logo") or info.get("thumbnail") or ""
-            final_name = ch["name"]
-            
-            if final_name.startswith("Эфир") or final_name.startswith("VK"):
-                final_name = info.get("title") or final_name
-            
-            final_name = final_name[:60].replace(",", " ")
-            group_name = ch.get("group", "📦 Разное")
 
-            logo_attr = f' tvg-logo="{final_logo}"' if final_logo else ""
-            lines.append(f'#EXTINF:-1{logo_attr} group-title="{group_name}",{final_name}')
-            
-            lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-            lines.append("#EXTVLCOPT:http-referrer=https://vk.com/")
-            lines.append("#EXTVLCOPT:http-origin=https://vk.com")
-                
+    # 1. VK Live категории — просто ссылки на Netlify (без парсинга!)
+    for cat in cfg.get("categories", []):
+        channels = get_category_channels(cat)
+        print(f"Category {cat}: {len(channels)} channels")
+        for ch in channels:
+            lines.append(
+                f'#EXTINF:-1 tvg-logo="{ch["logo"]}" '
+                f'group-title="📺 VK Live",{ch["name"]}'
+            )
+            lines.append(f'{NETLIFY}{ch["blog_url"]}')
+
+    # 2. Ручные VK Video каналы — парсим через yt-dlp
+    for ch in cfg.get("channels", []):
+        info = resolve_manual(ch["url"])
+        if info:
+            name = info.get("title") or ch["name"]
+            name = name.replace(",", " ").strip()[:60]
+            logo = ch.get("logo") or info.get("thumbnail") or ""
+            group = ch.get("group") or "🎬 VK Video"
+            lines.append(
+                f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}'
+            )
+            lines.append(
+                '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; '
+                'Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/120.0.0.0 Safari/537.36'
+            )
+            lines.append('#EXTVLCOPT:http-referrer=https://vk.com/')
+            lines.append('#EXTVLCOPT:http-origin=https://vk.com')
             lines.append(info["url"])
-            progress.update(True, final_name)
+            print(f"Manual: {name} OK")
         else:
-            progress.update(False, ch["name"])
-            
-    print("\n")
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            print(f"Manual: {ch['name']} FAILED")
+
+    with open(OUTPUT, 'w', encoding='utf-8') as f:
         f.write("\n".join(lines) + "\n")
-    
-    groups = {}
-    for line in lines:
-        if "group-title=" in line:
-            g = line.split('group-title="')[1].split('"')[0]
-            groups[g] = groups.get(g, 0) + 1
-            
-    print(f"{C_GREEN}{C_BOLD}✅ Готово! Успешно добавлено: {progress.success} из {len(all_channels)}{C_RESET}")
-    for g, count in groups.items():
-        print(f"  {g}: {count} каналов")
+
+    total = sum(1 for line in lines if line.startswith("#EXTINF"))
+    print(f"Total channels: {total}")
+
 
 if __name__ == "__main__":
     main()

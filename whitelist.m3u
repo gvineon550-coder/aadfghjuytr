@@ -768,9 +768,6 @@ https://bl.rutube.ru/livestream/f27b804a6f805cb66ff83d4930bd17ff/index.m3u8?s=mE
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=6U2H53WuJxFduCItVrD7Qg&e=2090673740&scheme=https
 
-#EXTINF:-1 tvg-id="NTVSvoyaigra.ru" tvg-logo="https://dictant.rgo.ru/sites/default/files/styles/fullscreen/public/logo3.png" group-title="📡 Федеральные",НТВ Своя игра
-https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8
-
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="📡 Федеральные",НТВ HD [cdn-dvr.ntv.ru]
 #EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
 https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
@@ -1072,7 +1069,7 @@ https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://live20.bozztv.com/akamaissh101/ssh101/scripachmovie/playlist.m3u8
 
-#EXTINF:-1 tvg-id="OSN.ru" tvg-name="ОСН" tvg-logo="https://img.icons8.com/color/512/news.png" group-title="Rutube",ОСН
+#EXTINF:-1 tvg-id="OSN.ru" tvg-name="ОСН" tvg-logo="https://www.osnmedia.ru/static/img/logo.png" group-title="Rutube",ОСН
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/1f550a23c44ec7f287324b0b3e4f5a29/index.m3u8?s=bLDed3xmSIIzVI1Kn4jkXQ&e=2094189166&scheme=https
 
@@ -1088,10 +1085,6 @@ https://bl.rutube.ru/livestream/54de765aeea96a73d23a24b4e2cab07d/index.m3u8?s=nS
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/31cd70d4054fbbde3b169d9a6972515c/index.m3u8?s=z0wrpy4gFj0OinGRw7w_Bg&e=2094189454&scheme=https
 
-#EXTINF:-1 tvg-id="StarWars.ru" tvg-name="Вселенная звёздных войн" tvg-logo="https://img.icons8.com/color/512/star-wars.png" group-title="Rutube",Вселенная звёздных войн
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/dcd36c7833f9431e6e6c902515c6c3ac/index.m3u8?s=qC0SzymcnCyD5QFYRePGkw&e=2094189631&scheme=https
-
 #EXTINF:-1 tvg-id="Drama.ru" tvg-name="Лучшие драматические фильмы" tvg-logo="https://img.icons8.com/color/512/drama.png" group-title="Rutube",Лучшие драматические фильмы
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/680dfe110840cf882437082b948578d6/index.m3u8?s=HoROw50MvSiW06xoyGoDqg&e=2094189725&scheme=https
@@ -1104,6 +1097,10 @@ https://bl.rutube.ru/livestream/7758ac4d77fac95e187144ee2c8b368d/index.m3u8?s=sv
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/67938d3536450ae8d10f12acee7ffde6/index.m3u8?s=ceZLVGJTnUIiVyLHZ21c6g&e=2094189858&scheme=https
 
-#EXTINF:-1 tvg-id="AppleTVPlus.us" tvg-name="Apple TV+ Live" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/usa/apple-tv-plus-us.png" group-title="Rutube",Apple TV+ Live
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/russia/ntv-ru.png" group-title="Rutube",НТВ
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/74bb437ef478a52f42198c50d4241dc7/index.m3u8?s=5xqsCBVWp_IcXOUtDYIPIg&e=2094190170&scheme=https
+https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=mQ_JHv-zDpu2VaB_xSAKDA&e=2094190924&scheme=https
+
+#EXTINF:-1 tvg-id="MuzTV.ru" tvg-name="Муз ТВ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/MUZ_TV_LOGO.png/512px-MUZ_TV_LOGO.png" group-title="Rutube",Муз ТВ
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bl.rutube.ru/livestream/df6fe73494a26f74da51573fd97b9baa/index.m3u8?s=R08--a41oChJU0b0OcjW2Q&e=2094191013&scheme=https

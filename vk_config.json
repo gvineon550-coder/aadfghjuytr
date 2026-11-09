@@ -1,17 +1,19 @@
-{
+Э{
   "categories": [
     "23c1873d-c51b-498a-a336-843a852fbd85"
   ],
   "channels": [
     {
       "name": "Эфир VK Video 1",
-      "url": "https://vkvideo.ru/video-217672812_456239544",
-      "logo": ""
+      "url": "https://vk.com/video-217672812_456239544",
+      "logo": "",
+      "group": "🎬 VK Video"
     },
     {
       "name": "Эфир VK Video 2",
-      "url": "https://vkvideo.ru/video-217672812_456239671",
-      "logo": ""
+      "url": "https://vk.com/video-217672812_456239671",
+      "logo": "",
+      "group": "🎬 VK Video"
     }
   ]
 }

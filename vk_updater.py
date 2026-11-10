@@ -1,6 +1,5 @@
 import json
 import os
-import sys
 import uuid
 
 import yt_dlp
@@ -10,14 +9,16 @@ CONFIG = "vk_config.json"
 OUTPUT = "vk_live.m3u"
 NETLIFY = "https://incomparable-hamster-974986.netlify.app/vk-stream/"
 
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+      "AppleWebKit/537.36 (KHTML, like Gecko) "
+      "Chrome/120.0.0.0 Safari/537.36")
+
 
 def get_category_channels(cat_id):
     url = (f"https://api.live.vkvideo.ru/v1/catalog/"
            f"public_video_streams/category/{cat_id}/stream/?limit=100")
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/120.0.0.0 Safari/537.36",
+        "User-Agent": UA,
         "Accept": "application/json, text/plain, */*",
         "Origin": "https://live.vkvideo.ru",
         "Referer": "https://live.vkvideo.ru/",
@@ -31,14 +32,15 @@ def get_category_channels(cat_id):
         result = []
         for s in blogs:
             b = s.get("blog", {})
-            if not b.get("blogUrl"):
+            blog_url = b.get("blogUrl")
+            if not blog_url:
                 continue
             name = (b.get("title") or b.get("owner", {}).get("displayName")
-                    or b["blogUrl"])
+                    or blog_url)
             logo = b.get("owner", {}).get("avatarUrl") or b.get("coverUrl") or ""
             result.append({
                 "name": name.replace(",", " ").strip()[:60],
-                "blog_url": b["blogUrl"],
+                "blog_url": blog_url,
                 "logo": logo,
             })
         return result
@@ -48,9 +50,7 @@ def get_category_channels(cat_id):
 
 
 def resolve_manual(url):
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                             "AppleWebKit/537.36 (KHTML, like Gecko) "
-                             "Chrome/120.0.0.0 Safari/537.36"}
+    headers = {"User-Agent": UA}
     opts = {
         'quiet': True, 'no_warnings': True,
         'format': 'best[protocol^=m3u8]/best',
@@ -79,14 +79,14 @@ def resolve_manual(url):
 def main():
     if not os.path.exists(CONFIG):
         print(f"{CONFIG} not found")
-        sys.exit(1)
+        return
 
     with open(CONFIG, "r", encoding="utf-8") as f:
         cfg = json.load(f)
 
     lines = ["#EXTM3U"]
 
-    # 1. VK Live категории → ссылки на Netlify
+    # 1. VK Live
     for cat in cfg.get("categories", []):
         channels = get_category_channels(cat)
         print(f"Category {cat}: {len(channels)} channels")
@@ -95,6 +95,9 @@ def main():
                 f'#EXTINF:-1 tvg-logo="{ch["logo"]}" '
                 f'group-title="📺 VK Live",{ch["name"]}'
             )
+            lines.append(f'#EXTVLCOPT:http-user-agent={UA}')
+            lines.append('#EXTVLCOPT:http-referrer=https://vk.com/')
+            lines.append('#EXTVLCOPT:http-origin=https://vk.com')
             lines.append(f'{NETLIFY}{ch["blog_url"]}')
 
     # 2. Ручные VK Video
@@ -107,11 +110,7 @@ def main():
             lines.append(
                 f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}'
             )
-            lines.append(
-                '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; '
-                'Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                'Chrome/120.0.0.0 Safari/537.36'
-            )
+            lines.append(f'#EXTVLCOPT:http-user-agent={UA}')
             lines.append('#EXTVLCOPT:http-referrer=https://vk.com/')
             lines.append('#EXTVLCOPT:http-origin=https://vk.com')
             lines.append(info["url"])
@@ -123,7 +122,7 @@ def main():
         f.write("\n".join(lines) + "\n")
 
     total = sum(1 for l in lines if l.startswith("#EXTINF"))
-    print(f"Total: {total} channels")
+    print(f"✅ Total: {total} channels")
 
 
 if __name__ == "__main__":

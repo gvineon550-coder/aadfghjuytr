@@ -4,46 +4,46 @@
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/movietoper
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18457974/avatar?change_time=1779539058" group-title="📺 VK Live",TimeToHorror
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18142699/avatar?change_time=1768673379" group-title="📺 VK Live",Video_Prokat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/timetohorror
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23770117/avatar?change_time=1785613080" group-title="📺 VK Live",Blockbusters Time
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/blockbusterstime
+https://incomparable-hamster-974986.netlify.app/vk-stream/video_prokat
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18520297/avatar?change_time=1742525161" group-title="📺 VK Live",lampovoeTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/lampovoetv
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31939511/avatar?change_time=1789400003" group-title="📺 VK Live",Котёнок_ГАВ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/gav
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23770117/avatar?change_time=1785613080" group-title="📺 VK Live",Blockbusters Time
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/blockbusterstime
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/15503490/avatar?change_time=1782598562" group-title="📺 VK Live",Тоха Киноман
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/kinomania_stream
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20428041/avatar?change_time=1766171277" group-title="📺 VK Live",Kinowalk_tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/kinowalk
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30679453/avatar?change_time=1768060945" group-title="📺 VK Live",Назад в СССР
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18680619/avatar?change_time=1706432987" group-title="📺 VK Live",grislytoe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/backtotheussr
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18725544/avatar?change_time=1764060712" group-title="📺 VK Live",КОМЕДИИ 24/7
+https://incomparable-hamster-974986.netlify.app/vk-stream/grislytoe
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20044657/avatar?change_time=1786772184" group-title="📺 VK Live",IGROComp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/cmexye4ku
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18457965/avatar?change_time=1758374144" group-title="📺 VK Live",TimeToMovie
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/timetomovie
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18921611/avatar?change_time=1734455657" group-title="📺 VK Live",kinolampa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/kinolampa
+https://incomparable-hamster-974986.netlify.app/vk-stream/igrocomp
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18907130/avatar?change_time=1734455298" group-title="📺 VK Live",lampoTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
@@ -54,261 +54,271 @@ https://incomparable-hamster-974986.netlify.app/vk-stream/lampotv
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/w001f-stream
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19574708/avatar?change_time=1784876669" group-title="📺 VK Live",KinoMix Юрич
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/yurich_kinomix
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/28795341/avatar?change_time=1793891198" group-title="📺 VK Live",PrizraK_PlaY_
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/vampiro1965
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18680619/avatar?change_time=1706432987" group-title="📺 VK Live",grislytoe
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18725544/avatar?change_time=1764060712" group-title="📺 VK Live",КОМЕДИИ 24/7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/grislytoe
+https://incomparable-hamster-974986.netlify.app/vk-stream/cmexye4ku
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18921611/avatar?change_time=1734455657" group-title="📺 VK Live",kinolampa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/kinolampa
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30679453/avatar?change_time=1768060945" group-title="📺 VK Live",Назад в СССР
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/backtotheussr
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18457974/avatar?change_time=1779539058" group-title="📺 VK Live",TimeToHorror
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/timetohorror
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20495921/avatar?change_time=1742225886" group-title="📺 VK Live",Мы из 90-х
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/miiz90x
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29400017/avatar?change_time=1759873029" group-title="📺 VK Live",neposredstvennoYayca
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/neposredstvennoyayca
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19371765/avatar?change_time=1785097645" group-title="📺 VK Live",ScripachTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/scripachtv
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20044657/avatar?change_time=1786772184" group-title="📺 VK Live",IGROComp
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18457965/avatar?change_time=1758374144" group-title="📺 VK Live",TimeToMovie
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/igrocomp
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18142699/avatar?change_time=1768673379" group-title="📺 VK Live",Video_Prokat
+https://incomparable-hamster-974986.netlify.app/vk-stream/timetomovie
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19154240/avatar?change_time=1720968476" group-title="📺 VK Live",VHS Forever
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/video_prokat
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31540211/avatar?change_time=1784732588" group-title="📺 VK Live",NEZABUDKA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/nezabudka
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20745126/avatar?change_time=1746520742" group-title="📺 VK Live",Эквилибриум69
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/equilibrium
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/6256103/avatar?change_time=1685722753" group-title="📺 VK Live",Wfliq
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/wfliq
+https://incomparable-hamster-974986.netlify.app/vk-stream/vhs-forever
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30346500/avatar?change_time=1767118302" group-title="📺 VK Live",SerialTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/serialtv
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23442796/avatar?change_time=1749539489" group-title="📺 VK Live",Канал Disney Онлайн
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19574708/avatar?change_time=1784876669" group-title="📺 VK Live",KinoMix Юрич
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/kanaldisneyonline
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36947316/avatar?change_time=1788473723" group-title="📺 VK Live",ДиТи Тv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/mychennal1234
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34295925/avatar?change_time=1782718839" group-title="📺 VK Live",Фильмоскоп
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/filmscope
+https://incomparable-hamster-974986.netlify.app/vk-stream/yurich_kinomix
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/12235240/avatar?change_time=1686298823" group-title="📺 VK Live",swat2k
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/swat2k
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18851066/avatar?change_time=1785145168" group-title="📺 VK Live",SeleCaoTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/selecaotv
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/12719933/avatar?change_time=1699038708" group-title="📺 VK Live",Kycman
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/kycman
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36706302/avatar?change_time=1790187164" group-title="📺 VK Live",Kurt ТV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/kurttv_
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19135223/avatar?change_time=1747327533" group-title="📺 VK Live",Пᛊየᛒьᵻӥ የጸሏ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/perviryad
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19821377/avatar?change_time=1774252252" group-title="📺 VK Live",1st_witch
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/witch
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30954905/avatar?change_time=1774273186" group-title="📺 VK Live",batia063
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36706302/avatar?change_time=1790187164" group-title="📺 VK Live",Kurt ТV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/mir763
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19919850/avatar?change_time=1734802999" group-title="📺 VK Live",FRXNKL1N
+https://incomparable-hamster-974986.netlify.app/vk-stream/kurttv_
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34295925/avatar?change_time=1782718839" group-title="📺 VK Live",Фильмоскоп
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/frxnkl1n
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20737705/avatar?change_time=1746958066" group-title="📺 VK Live",Video Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/video_channel
-#EXTINF:-1 tvg-logo="" group-title="📺 VK Live",Tosy Games#1470820
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/channel34726215
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20555010/avatar?change_time=1742524384" group-title="📺 VK Live",serial4u
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/serial4u
+https://incomparable-hamster-974986.netlify.app/vk-stream/filmscope
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20058707/avatar?change_time=1763931374" group-title="📺 VK Live",Cat Game Watching
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/catgame
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18570097/avatar?change_time=1699807247" group-title="📺 VK Live",СКИФ.
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/skif
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/32408253/avatar?change_time=1777883408" group-title="📺 VK Live",ВрррЕДЬМА
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/miakuzbass
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/35855408/avatar?change_time=1793367989" group-title="📺 VK Live",so_plenty
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/so_plenty
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18468506/avatar?change_time=1739028962" group-title="📺 VK Live",Kira_freak1993
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/kirafreak
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29969797/avatar?change_time=1790439050" group-title="📺 VK Live",Per asрera ad astra
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/woo
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19655866/avatar?change_time=1740316206" group-title="📺 VK Live",Jon_Ricci
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/jonricci
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29545720/avatar?change_time=1760619525" group-title="📺 VK Live",фильмы для вас
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/maldrvsetv
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18376109/avatar?change_time=1692882320" group-title="📺 VK Live",ВИДЕОКАССЕТА
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/vhs90e
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36774366/avatar?change_time=1790956523" group-title="📺 VK Live",VHS store
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/channel36774366
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18418848/avatar?change_time=1767910806" group-title="📺 VK Live",BAT1K
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/batikoverlord
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18569310/avatar?change_time=1699733855" group-title="📺 VK Live",ОсторожноМодерн2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/ostorozhnomodern2
 #EXTINF:-1 tvg-logo="" group-title="📺 VK Live",Tosy Games#1470820
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/channel34726215
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31939511/avatar?change_time=1789400003" group-title="📺 VK Live",Котёнок_ГАВ
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/12719933/avatar?change_time=1699038708" group-title="📺 VK Live",Kycman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/gav
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38307885/avatar?change_time=1791744363" group-title="📺 VK Live",Сериаломанка
+https://incomparable-hamster-974986.netlify.app/vk-stream/kycman
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38593382/avatar?change_time=1792643663" group-title="📺 VK Live",Макс Cool
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/serialomanka
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31696924/avatar?change_time=1783843693" group-title="📺 VK Live",ПАРАНОРМАЛЬНЫЙ АРХИВ
+https://incomparable-hamster-974986.netlify.app/vk-stream/tvandgames
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19135223/avatar?change_time=1747327533" group-title="📺 VK Live",Пᛊየᛒьᵻӥ የጸሏ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/paranormal404
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18282683/avatar?change_time=1689589959" group-title="📺 VK Live",TopMoment TV
+https://incomparable-hamster-974986.netlify.app/vk-stream/perviryad
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20737705/avatar?change_time=1746958066" group-title="📺 VK Live",Video Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/topmoment
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19851602/avatar?change_time=1789484768" group-title="📺 VK Live",AnimeForFun
+https://incomparable-hamster-974986.netlify.app/vk-stream/video_channel
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20310353/avatar?change_time=1794185455" group-title="📺 VK Live",Тоха Стрим
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/animeforfun
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23803295/avatar?change_time=1773146184" group-title="📺 VK Live",Cinema Time
+https://incomparable-hamster-974986.netlify.app/vk-stream/toxa_stream
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18310414/avatar?change_time=1794072209" group-title="📺 VK Live",PTl4KA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/cinematime
+https://incomparable-hamster-974986.netlify.app/vk-stream/pti4ka
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/6256103/avatar?change_time=1685722753" group-title="📺 VK Live",Wfliq
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/wfliq
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36774366/avatar?change_time=1790956523" group-title="📺 VK Live",VHS store
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/channel36774366
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19919850/avatar?change_time=1734802999" group-title="📺 VK Live",FRXNKL1N
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/frxnkl1n
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20555010/avatar?change_time=1742524384" group-title="📺 VK Live",serial4u
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/serial4u
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18468506/avatar?change_time=1739028962" group-title="📺 VK Live",Kira_freak1993
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/kirafreak
+#EXTINF:-1 tvg-logo="" group-title="📺 VK Live",Tosy Games#1470820
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/channel34726215
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18570097/avatar?change_time=1699807247" group-title="📺 VK Live",СКИФ.
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/skif
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/35855408/avatar?change_time=1793367989" group-title="📺 VK Live",so_plenty
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/so_plenty
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/9113464/avatar?change_time=1738948477" group-title="📺 VK Live",LifeZ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/zhekos
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/32408253/avatar?change_time=1777883408" group-title="📺 VK Live",ВрррЕДЬМА
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/miakuzbass
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18851066/avatar?change_time=1785145168" group-title="📺 VK Live",SeleCaoTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/selecaotv
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/8005502/avatar?change_time=1685723243" group-title="📺 VK Live",KOTOFEI4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/kotofei4
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/24138247/avatar?change_time=1751965521" group-title="📺 VK Live",Апостол Павел
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18282683/avatar?change_time=1689589959" group-title="📺 VK Live",TopMoment TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/apostolpavel
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19331921/avatar?change_time=1724219022" group-title="📺 VK Live",sever_tv
+https://incomparable-hamster-974986.netlify.app/vk-stream/topmoment
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18569310/avatar?change_time=1699733855" group-title="📺 VK Live",ОсторожноМодерн2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/severtv
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19940394/avatar?change_time=1734982742" group-title="📺 VK Live",Фильмы сериалы трансляции
+https://incomparable-hamster-974986.netlify.app/vk-stream/ostorozhnomodern2
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31696924/avatar?change_time=1783843693" group-title="📺 VK Live",ПАРАНОРМАЛЬНЫЙ АРХИВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/id582512126
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38059681/avatar?change_time=1791557790" group-title="📺 VK Live",KuJJ3aBoD
+https://incomparable-hamster-974986.netlify.app/vk-stream/paranormal404
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18376109/avatar?change_time=1692882320" group-title="📺 VK Live",ВИДЕОКАССЕТА
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/kujj3abod
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31126216/avatar?change_time=1794167083" group-title="📺 VK Live",5x5
+https://incomparable-hamster-974986.netlify.app/vk-stream/vhs90e
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18272994/avatar?change_time=1782030545" group-title="📺 VK Live",Амбергейт
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/5x5
+https://incomparable-hamster-974986.netlify.app/vk-stream/ambergate
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20478706/avatar?change_time=1750202905" group-title="📺 VK Live",МирКино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/ncd
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19851602/avatar?change_time=1789484768" group-title="📺 VK Live",AnimeForFun
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/animeforfun
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29969797/avatar?change_time=1790439050" group-title="📺 VK Live",Per asрera ad astra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/woo
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29545720/avatar?change_time=1760619525" group-title="📺 VK Live",фильмы для вас
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/maldrvsetv
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29780311/avatar?change_time=1763029611" group-title="📺 VK Live",MилаШ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/milah
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23442796/avatar?change_time=1749539489" group-title="📺 VK Live",Канал Disney Онлайн
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/kanaldisneyonline
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19397267/avatar?change_time=1763534733" group-title="📺 VK Live",Alex.Films
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/alex.films
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/24138247/avatar?change_time=1751965521" group-title="📺 VK Live",Апостол Павел
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/apostolpavel
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19154193/avatar?change_time=1790415538" group-title="📺 VK Live",FoxKids-Remastered
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/foxkids_remastered
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19574708/avatar?change_time=1784876669" group-title="📺 VK Live",KinoMix Юрич
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/yurich_kinomix
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19655866/avatar?change_time=1740316206" group-title="📺 VK Live",Jon_Ricci
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/jonricci
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18290547/avatar?change_time=1726158637" group-title="📺 VK Live",TopMoment LiVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/topmomentlive
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/34036642/avatar?change_time=1780923320" group-title="📺 VK Live",Кладовая Фильмов
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
@@ -319,71 +329,101 @@ https://incomparable-hamster-974986.netlify.app/vk-stream/skladfilm
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/moviebytes
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19854228/avatar?change_time=1733871363" group-title="📺 VK Live",PartizaNka_tv
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18108323/avatar?change_time=1782416640" group-title="📺 VK Live",Moto2J
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/partizanka_tv
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38593382/avatar?change_time=1792643663" group-title="📺 VK Live",Макс Cool
+https://incomparable-hamster-974986.netlify.app/vk-stream/moto2jtankigo
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/36096233/avatar?change_time=1786956395" group-title="📺 VK Live",Cartoons VHS-ка
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/tvandgames
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29780311/avatar?change_time=1763029611" group-title="📺 VK Live",MилаШ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/milah
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20478706/avatar?change_time=1750202905" group-title="📺 VK Live",МирКино
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/ncd
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/32242814/avatar?change_time=1779490604" group-title="📺 VK Live",deil91
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/deil911
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/24684747/avatar?change_time=1792765060" group-title="📺 VK Live",VHS кино
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/and7610
+https://incomparable-hamster-974986.netlify.app/vk-stream/myvhs
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31900002/avatar?change_time=1774202071" group-title="📺 VK Live",vlkvjunior
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/vlkv.junior
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20155232/avatar?change_time=1737128041" group-title="📺 VK Live",RebornW1n_
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19331921/avatar?change_time=1724219022" group-title="📺 VK Live",sever_tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/rebornw1n
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31084968/avatar?change_time=1770118303" group-title="📺 VK Live",VideoArsenal
+https://incomparable-hamster-974986.netlify.app/vk-stream/severtv
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/23803295/avatar?change_time=1773146184" group-title="📺 VK Live",Cinema Time
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/videoarsenal
+https://incomparable-hamster-974986.netlify.app/vk-stream/cinematime
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38307885/avatar?change_time=1791744363" group-title="📺 VK Live",Сериаломанка
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/serialomanka
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18418848/avatar?change_time=1767910806" group-title="📺 VK Live",BAT1K
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/batikoverlord
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/6092499/avatar?change_time=1771203049" group-title="📺 VK Live",NightShiftVK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/nightshift
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19655029/avatar?change_time=1792486667" group-title="📺 VK Live",Goldbepg
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20155232/avatar?change_time=1737128041" group-title="📺 VK Live",RebornW1n_
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/goldbepg
-#EXTINF:-1 tvg-logo="" group-title="📺 VK Live",VBaal
+https://incomparable-hamster-974986.netlify.app/vk-stream/rebornw1n
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20819948/avatar?change_time=1747840088" group-title="📺 VK Live",ю юрич
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/vbaal
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18290547/avatar?change_time=1726158637" group-title="📺 VK Live",TopMoment LiVE
+https://incomparable-hamster-974986.netlify.app/vk-stream/dak3767
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19124468/avatar?change_time=1777517605" group-title="📺 VK Live",JTX Online
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/topmomentlive
+https://incomparable-hamster-974986.netlify.app/vk-stream/jtxonline
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/16123819/avatar?change_time=1744393606" group-title="📺 VK Live",Solo ink
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/soloink
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30675219/avatar?change_time=1768059434" group-title="📺 VK Live",ГРОЗА.
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/groza42
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/32837029/avatar?change_time=1777572550" group-title="📺 VK Live",DJ Хромм
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/7wykts1raejibc4d
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18094792/avatar?change_time=1684589816" group-title="📺 VK Live",priest_kod
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/priest_kod
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/27525968/avatar?change_time=1790617056" group-title="📺 VK Live",Энкелия
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/enkeli_7
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20695498/avatar?change_time=1745431057" group-title="📺 VK Live",BuiynTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/buyn
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18732704/avatar?change_time=1793780383" group-title="📺 VK Live",Астарта LIVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/astarta
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31701150/avatar?change_time=1780060494" group-title="📺 VK Live",RelaxTV_Live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/relaxtv_live
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18203881/avatar?change_time=1779283826" group-title="📺 VK Live",КустовыеЭксперты
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
@@ -394,118 +434,78 @@ https://incomparable-hamster-974986.netlify.app/vk-stream/strannik1177
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/saint_wood
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19573960/avatar?change_time=1728634064" group-title="📺 VK Live",У КРАЯ БЕЗДНЫ
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/17876823/avatar?change_time=1771943963" group-title="📺 VK Live",ВСЕВДОМ ТОВАРЫ ДЛЯ ДОМА
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/ddator
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/37757875/avatar?change_time=1790418405" group-title="📺 VK Live",Из архива Далеков
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/archive_of_daleks
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19124468/avatar?change_time=1777517605" group-title="📺 VK Live",JTX Online
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/jtxonline
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18867759/avatar?change_time=1711882693" group-title="📺 VK Live",SeleCaoTV1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/selecaotv1
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/32837029/avatar?change_time=1777572550" group-title="📺 VK Live",DJ Хромм
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/7wykts1raejibc4d
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/38766249/avatar?change_time=1793160864" group-title="📺 VK Live",Cinematique
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/cinematique
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/37440020/avatar?change_time=1789599871" group-title="📺 VK Live",SCORPIO05SAMIRGAMER
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/scorpio05samir
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19835383/avatar?change_time=1742177362" group-title="📺 VK Live",VHS KACCETA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/vhs_kasseta
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19378033/avatar?change_time=1725213231" group-title="📺 VK Live",СкуФФ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/pahan
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19859640/avatar?change_time=1780925413" group-title="📺 VK Live",Доброта Рулит
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/dobrota
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20292590/avatar?change_time=1775040346" group-title="📺 VK Live",ROMEO Video
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/romeovideo
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30675219/avatar?change_time=1768059434" group-title="📺 VK Live",ГРОЗА.
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/groza42
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/30717897/avatar?change_time=1778475141" group-title="📺 VK Live",ФИЛЬМЫ у Максима
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/mmaxim0vich
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19154193/avatar?change_time=1790415538" group-title="📺 VK Live",FoxKids-Remastered
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/foxkids_remastered
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18716382/avatar?change_time=1737140673" group-title="📺 VK Live",dj Zour
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/zsmedia
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20695498/avatar?change_time=1745431057" group-title="📺 VK Live",BuiynTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/buyn
-#EXTINF:-1 tvg-logo="" group-title="📺 VK Live",Пение мантр | Новосибирск
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/channel33575429
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31701150/avatar?change_time=1780060494" group-title="📺 VK Live",RelaxTV_Live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/relaxtv_live
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20819948/avatar?change_time=1747840088" group-title="📺 VK Live",ю юрич
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://vk.com/
-#EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/dak3767
+https://incomparable-hamster-974986.netlify.app/vk-stream/vsevdom
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/20442925/avatar?change_time=1776105312" group-title="📺 VK Live",Х-TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
 https://incomparable-hamster-974986.netlify.app/vk-stream/durkalive
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19574708/avatar?change_time=1784876669" group-title="📺 VK Live",KinoMix Юрич
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/24684747/avatar?change_time=1792765060" group-title="📺 VK Live",VHS кино
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://incomparable-hamster-974986.netlify.app/vk-stream/yurich_kinomix
-#EXTINF:-1 tvg-logo="https://sun9-70.userapi.com/impg/U_c5x8tMt7i3gRsUEC6402nMt9tGkMZBT4Nn-g/W_NnJBLcGUw.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=0734c480b5b7e9dde1f8dc7c71583f4c&type=video_thumb" group-title="🎬 VK Video",Опасная Территория 2026-11-10 22:37
+https://incomparable-hamster-974986.netlify.app/vk-stream/and7610
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/13196768/avatar?change_time=1685096894" group-title="📺 VK Live",SeDoj_DedyJI9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://vkvsd230.okcdn.ru/hls/8375809870407.m3u8/sig/MpULSaT2mN4/expires/1794436629258/srcIp/172.203.94.181/urls/178.237.23.44/clientType/13/srcAg/CHROME/mid/11476322626375/8375809870407_high/index.m3u8
-#EXTINF:-1 tvg-logo="https://sun9-8.userapi.com/impg/qpDV0y5o2R-Vgz3DsH28MsnvQcO6DKeitmsopQ/tcLZNs-qS7I.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=d3d520fb7359deb7361bcca633307fc6&type=video_thumb" group-title="🎬 VK Video",Шутки в сторону 2026-11-10 22:37
+https://incomparable-hamster-974986.netlify.app/vk-stream/sedoj_dedyji9
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/29564603/avatar?change_time=1760798642" group-title="📺 VK Live",Um!70-80-90
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://vk.com/
 #EXTVLCOPT:http-origin=https://vk.com
-https://vkvsd273.okcdn.ru/cmaf/9911484680704/sig/pd1TEr5dhko/expires/1794436631966/srcIp/172.203.94.181/urls/176.112.172.71/clientType/13/srcAg/CHROME/mid/12955145284352/get/CIDW1NaF-QIQ6AcYBjIICgYIgA8QuAg6BAjE2AJaBggDEAIoF2ICCCC_-zKjvi1sUg/track.m3u8
+https://incomparable-hamster-974986.netlify.app/vk-stream/umelyiretro
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/31238183/avatar?change_time=1771088991" group-title="📺 VK Live",ZOOOM_TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/zooom_tv
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/37757875/avatar?change_time=1790418405" group-title="📺 VK Live",Из архива Далеков
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/archive_of_daleks
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19835383/avatar?change_time=1742177362" group-title="📺 VK Live",VHS KACCETA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/vhs_kasseta
+#EXTINF:-1 tvg-logo="" group-title="📺 VK Live",VBaal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/vbaal
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19573960/avatar?change_time=1728634064" group-title="📺 VK Live",У КРАЯ БЕЗДНЫ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/ddator
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18867759/avatar?change_time=1711882693" group-title="📺 VK Live",SeleCaoTV1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/selecaotv1
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/18716382/avatar?change_time=1737140673" group-title="📺 VK Live",dj Zour
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/zsmedia
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19794166/avatar?change_time=1732735869" group-title="📺 VK Live",ОсторожноМодерн
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://incomparable-hamster-974986.netlify.app/vk-stream/ostorozhnomodern
+#EXTINF:-1 tvg-logo="https://sun9-70.userapi.com/impg/U_c5x8tMt7i3gRsUEC6402nMt9tGkMZBT4Nn-g/W_NnJBLcGUw.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=0734c480b5b7e9dde1f8dc7c71583f4c&type=video_thumb" group-title="🎬 VK Video",Опасная Территория 2026-11-11 03:21
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://vkvsd263.okcdn.ru/hls/8375809870407.m3u8/sig/QN6zNeU-q08/expires/1794453662490/srcIp/172.174.190.224/urls/178.237.23.44/clientType/13/srcAg/CHROME/mid/11476322626375/8375809870407_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://sun9-8.userapi.com/impg/qpDV0y5o2R-Vgz3DsH28MsnvQcO6DKeitmsopQ/tcLZNs-qS7I.jpg?size=800x450&quality=95&keep_aspect_ratio=1&background=000000&sign=d3d520fb7359deb7361bcca633307fc6&type=video_thumb" group-title="🎬 VK Video",Шутки в сторону 2026-11-11 03:21
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://vk.com/
+#EXTVLCOPT:http-origin=https://vk.com
+https://vkvsd59.okcdn.ru/hls/9911484680704.m3u8/sig/pfv-GIema6s/expires/1794453665031/srcIp/172.174.190.224/urls/178.237.29.15/clientType/13/srcAg/CHROME/mid/12955145284352/9911484680704_high/index.m3u8

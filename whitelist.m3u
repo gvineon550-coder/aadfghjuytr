@@ -648,18 +648,6 @@ https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=TT
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/2619fc295c16585ef018041d88f14db0/index.m3u8?s=oKHai8bZHsJDY-Gt6vRkeA&e=2090412162&scheme=https
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/geowild.jpg" group-title="Rutube",Уайлд
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/c11af26c0ab831ce6c37a4888056479b/index.m3u8?s=JWJzne3-IPKrqZ_CyE2rZQ&e=2090412236&scheme=https
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/animal_planet.png" group-title="Rutube",анимал планет
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/4004c8f6817b9ae1bd0d418905ae2b02/index.m3u8?s=lTFEM-ng6U9uCMBA0ySKSA&e=2090412305&scheme=https
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/id_ixtra.jpeg" group-title="Rutube",Айди Иксра
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/a91d58870b9a0d23b2309d020ac4b354/index.m3u8?s=SWt-lFqXrgPTHcgEKeY9Sw&e=2090412421&scheme=https
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/prospect.jpeg" group-title="Rutube",Невский Проспект
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/1217bd14907ff59c5c64bcc4cbe1af41/index.m3u8?s=bUoO6Ss_ysH7lmN3kWTmUQ&e=2090412526&scheme=https
@@ -759,14 +747,6 @@ https://bl.rutube.ru/livestream/680dfe110840cf882437082b948578d6/index.m3u8?s=wh
 #EXTINF:-1 tvg-id="Кино и сериалы без перерывов 24/7" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/image_search_1790675481333.jpg" group-title="Rutube",Кино и сериалы без перерывов 24/7
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=MFjsK34lCOzPV3b2Y0ViMA&e=2090673583&scheme=https
-
-#EXTINF:-1 tvg-id="FX Life" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/image_search_1790677525543.jpg" group-title="Rutube",FX Life
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/f27b804a6f805cb66ff83d4930bd17ff/index.m3u8?s=mEu4IRGJ4s0kbnmc_pAykA&e=2090673660&scheme=https
-
-#EXTINF:-1 tvg-id="FX" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/%D1%84%D0%BE%D0%BA%D1%81.png" group-title="Rutube",FX
-#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
-https://bl.rutube.ru/livestream/bcf8e82a331067e567f765d65ed52b21/index.m3u8?s=6U2H53WuJxFduCItVrD7Qg&e=2090673740&scheme=https
 
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="📡 Федеральные",НТВ HD [cdn-dvr.ntv.ru]
 #EXTVLCOPT:http-user-agent=HlsWinkPlayer/3.0.2 (Linux; Android 11; Wink) ExoPlayerLib/2.18.1
